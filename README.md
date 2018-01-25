@@ -1,6 +1,6 @@
 # 光東株式会社｜2018年度新卒採用サイト README
 
-<img src="./dest/recruit/shinsotsu/assets/img/ogp.png" height="300">
+<img src="./dest/assets/img/ogp.png" height="300">
 
 URL:
 
