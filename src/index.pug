@@ -1,0 +1,294 @@
+extend _includes/_layout
+append variables
+  //- Required
+  - var pageTitle= "光東株式会社 採用サイト";
+  - var pageDescription= "光東株式会社の採用サイトです。社会とのつながり、社員、歴史や事業内容、求める人物象、募集要項、制度、キャリアプランなどをご紹介しています。";
+  - var pageKeywords= "光東株式会社,採用サイト";
+  //- Optional
+  - var pageOgpTitle= "光東株式会社 採用サイト";
+  //- - var pageOgpImage= site.ogpImage
+  - var pageOgpType= "website";
+  //- Not modified
+  - var pageUrl= "index.html";
+
+block meta
+  +meta('')
+
+block header
+  +header('')
+
+block content
+  //- contents
+
+  //- mv
+  .top-Mv_Wrapper.js-Mv
+    .top-Mv
+      .top-Mv_Inner
+        img#js-Bg_Img01(src='./assets/img/top/mv.png', alt='背景1')
+        img#js-Bg_Img02(src='./assets/img/top/mv02.png', alt='背景2')
+        img#js-Bg_Img03(src='./assets/img/top/mv03.png', alt='背景3')
+    .top-Mv_Inner_Scroll
+      span.txt SCROLL
+      span.bar
+
+    //- サークル全体のラッパー
+    .top-Circle_Bg.Border
+    .top-Circle_Bg.Fff
+    .top-Circle_Wrapper#js-Circle_Wrapper
+      .top-Circle
+        .top-Circle_Chart#js-Circle_Chart
+          //- 円
+          .top-Circle_Mask.left
+            //- 円
+            .top-Circle_MaskInner
+              .top-Circle_Body
+          //- 円
+          .top-Circle_Mask.right
+            //- 円
+            .top-Circle_MaskInner
+              .top-Circle_Body
+          .top-Circle_Contents
+            .top-Circle_ContentsTop
+              span.crpt KOTO CORPORATION
+              span.rcrt RECRUITING 2019
+            .top-Circle_ContentsHead
+              h2 インフラづくり<br>への貢献
+            .top-Circle_ContentsBottom
+               p 建設産業用機械・車両<br class="show_SP">の総合レンタル・販売・整備企業
+            .top-Circle_ContentsDots#js-Circle_Dots
+              span
+              span
+              span
+
+  //- Description
+  .top-Description_Wrapper
+    .top-Description
+      .top-Description_Inner
+        p.wow.fadeInUp(data-wow-delay='0.2s') 光東株式会社は、建設産業用機械・車両の総合<br class="show_SP">レンタル・販売・整備企業です。
+        p.wow.fadeInUp(data-wow-delay='0.4s') 建設産業用機械・車両は、社会インフラをつくり、維持・発展させるために使われる機械です。<br class="hidden_SP">レンタル・販売・整備を通じてお客様の課題を解決し、間接的にインフラづくりを支えています。
+        p.wow.fadeInUp(data-wow-delay='0.6s') 山口県から事業をスタートし、今後は、国内はもとより、海外も視野に入れた更なる事業の発展を見込んでいます。<br class="hidden_SP">「社会のインフラを支える」そんな大きな志を持った仲間を求めています。
+
+  //- About
+  .top-About_Wrapper
+    h2
+      span.wow.fadeInUp(data-wow-delay='0.7s') ABOUT
+      span.wow.fadeInUp(data-wow-delay='0.8s') KOTO<br class="show_SP">
+      span.wow.fadeInUp(data-wow-delay='0.9s') CORPORATION
+    .top-About
+      .top-About_Inner
+        .top-About_Contents
+          .top-About_Contents_InnerBg
+          .top-About_Contents_Inner
+            h3.top.wow.fadeInUp(data-wow-delay='0.2s')
+              span.highlight 光東
+              span と
+              span.highlight 社会
+              span との繋がり
+            p.top.wow.fadeInUp(data-wow-delay='0.3s') 光東株式会社は、建設産業用機械・車両の総合レンタル・販売・整備企業です。「社会のインフラを支える」そんな大きな志を持った仲間を求めています。
+            a.top.wow.fadeInUp(href='about/index.html',data-wow-delay='0.4s') READ MORE
+
+      .top-About_Contents_Detail_All_Wrapper
+        .top-About_Contents_Detail_Wrapper.top.wow.fadeInUp(data-wow-delay='0.2s')
+          .top-About_Contents_Detail_Inner
+            .top-About_Contents_Circle_Wrapper
+              img.pc(src='./assets/img/top/top-about01.png', alt='生活インフラ')
+              img.sp(src='./assets/img/top/top-about01_sp.png', alt='生活インフラ')
+            .top-About_Contents_Txt_Wrapper
+              h4
+                span.highlight 生活
+                span インフラ
+              p 住まい、教育施設、商業施設、公共施設
+        .top-About_Contents_Detail_Wrapper.middle.wow.fadeInUp(data-wow-delay='0.3s')
+          .top-About_Contents_Detail_Inner
+            .top-About_Contents_Circle_Wrapper
+              img.pc(src='./assets/img/top/top-about02.png', alt='産業インフラ')
+              img.sp(src='./assets/img/top/top-about02_sp.png', alt='産業インフラ')
+            .top-About_Contents_Txt_Wrapper
+              h4
+                span.highlight 産業
+                span インフラ
+              p オフィス、店舗、工場、研究所、物流倉庫
+        .top-About_Contents_Detail_Wrapper.bottom.wow.fadeInUp(data-wow-delay='0.4s')
+          .top-About_Contents_Detail_Inner
+            .top-About_Contents_Circle_Wrapper
+              img.pc(src='./assets/img/top/top-about03.png', alt='交通インフラ')
+              img.sp(src='./assets/img/top/top-about03_sp.png', alt='交通インフラ')
+            .top-About_Contents_Txt_Wrapper
+              h4
+                span.highlight 交通
+                span インフラ
+              p 道路、トンネル、橋、鉄道、空港、港湾
+
+  //- Project
+  .top-Project_Wrapper
+    .top-Project
+      .top-Project_Inner
+        .top-Project_Title
+          h3.top.wow.fadeInUp(data-wow-delay='0.2s') PROJECT
+          p.sub-Title.top.wow.fadeInUp(data-wow-delay='0.3s') プロジェクト紹介
+          p.txt.top.wow.fadeInUp(data-wow-delay='0.4s') クライアントにも登場いただき光東のプロジェクトをご紹介します。
+        .top-Project_Link_Wrapper
+          a.top-Project_Link_Inner.top.wow.fadeInUp(href='project/01.html', data-wow-delay='0.2s')
+            .top-Project_Link_Box
+              .top-Project_Link_Box_Inner
+                img(src='./assets/img/top/top-project_link01.png', alt='プロジェクト01')
+                .top-Project_Link_Box_Txt
+                  .top-Project_Link_Box_Label
+                    span PROJECT 01
+                  h4 これからの建設業界の在り方。<br class="hidden_SP">改革の「最前線」となる プロジェクト。
+                  p 営業所長 × 鹿島建設（クライアント）
+          //- coming soon 終わったら非表示にする
+          .top-Project_Link_Inner.top-Project_Coming_Soon.top.wow.fadeInUp(data-wow-delay='0.4s')
+            .top-Project_Coming_Soon_Txt
+              p.sub PROJECT 02
+              p.main COMING SOON
+          //- coming soon 終わったら表示にする
+          //- a.top-Project_Link_Inner.wow.fadeInUp(data-wow-delay='0.4s')(href='project/02.html')
+          //-   .top-Project_Link_Box
+          //-     .top-Project_Link_Box_Inner
+          //-       img(src='./assets/img/top/top-project_link01.png', alt='プロジェクト02')
+          //-       .top-Project_Link_Box_Txt
+          //-         .top-Project_Link_Box_Label
+          //-           span PROJECT 02
+          //-         h4 これからの建設業界の在り方。<br class="hidden_SP">改革の「最前線」となる プロジェクト。
+          //-         p ここにプロジェクト名が入ります
+
+    .top-Project_Bg
+      .top-Project_Bg_Inner
+
+  //- Member
+  .top-Member_Wrapper
+    .top-Member
+      .top-Member_Inner
+
+        .top-Member_Mv_Wrapper
+          .top-Member_Mv
+            .top-Member_Mv_Inner
+            .top-Member_Contents_InnerBg
+              .top-Member_Contents_Txt
+                h4.title.wow.fadeInUp(data-wow-delay='0.2s') MEMBER
+                p.sub-Title.wow.fadeInUp(data-wow-delay='0.3s') 社員紹介
+                p.description.wow.fadeInUp(data-wow-delay='0.4s') 新卒社員、中途社員、高卒社員など、多彩なキャリアを持つ光東の社員をご紹介します。
+
+          .top-Member_Link_All_Wrapper
+
+            .top-Member_Link_Wrapper.wow.fadeInUp(data-wow-delay='0.4s')
+              a.top-Member_Link_Inner(href='member/01.html')
+                .top-Member_Link_Box
+                  .top-Member_Link_Box_Inner
+                    .top-Member_Link_Box_Img_Inner
+                      img(src='./assets/img/top/top-member_01.png', alt='小川 裕己')
+                      p 「光東」をもっと知ってほしい。お客様と、親密な関係を築くために足を運ぶ。
+                    .top-Member_Link_Box_Txt
+                      p.name-E #{member_oga_e}
+                      h4.name #{member_oga}
+                      p.position #{member_oga_dep}
+                      p.year #{member_oga_join}
+            .top-Member_Link_Wrapper.wow.fadeInUp(data-wow-delay='0.5s')
+              a.top-Member_Link_Inner(href='member/02.html')
+                .top-Member_Link_Box
+                  .top-Member_Link_Box_Inner
+                    .top-Member_Link_Box_Img_Inner
+                      img(src='./assets/img/top/top-member_02.png', alt='中山 正太')
+                      p リース業界の独自性。お客様の期待を超えるということ。 
+                    .top-Member_Link_Box_Txt
+                      p.name-E #{member_naka_e}
+                      h4.name #{member_naka}
+                      p.position #{member_naka_dep}
+                      p.year #{member_naka_join}
+            .top-Member_Link_Wrapper.wow.fadeInUp(data-wow-delay='0.6s')
+              a.top-Member_Link_Inner(href='member/03.html')
+                .top-Member_Link_Box
+                  .top-Member_Link_Box_Inner
+                    .top-Member_Link_Box_Img_Inner
+                      img(src='./assets/img/top/top-member_03.png', alt='福山 順之')
+                      p 楽しく働くことで「ひらめき」を生む。自ら作っていく「営業」という仕事。
+                    .top-Member_Link_Box_Txt
+                      p.name-E #{member_fuku_e}
+                      h4.name #{member_fuku}
+                      p.position #{member_fuku_dep}
+                      p.year #{member_fuku_join}
+            .top-Member_Link_Wrapper.wow.fadeInUp(data-wow-delay='0.7s')
+              a.top-Member_Link_Inner(href='member/04.html')
+                .top-Member_Link_Box
+                  .top-Member_Link_Box_Inner
+                    .top-Member_Link_Box_Img_Inner
+                      img(src='./assets/img/top/top-member_04.png', alt='山本 浩之')
+                      p 建設現場で「絶対必要なもの」を整備する。社会とのつながりを意識する。
+                    .top-Member_Link_Box_Txt
+                      p.name-E #{member_yama_e}
+                      h4.name #{member_yama}
+                      p.position #{member_yama_dep}
+                      p.year #{member_yama_join}
+            .top-Member_Link_Wrapper.wow.fadeInUp(data-wow-delay='0.8s')
+              a.top-Member_Link_Inner(href='member/05.html')
+                .top-Member_Link_Box
+                  .top-Member_Link_Box_Inner
+                    .top-Member_Link_Box_Img_Inner
+                      img(src='./assets/img/top/top-member_05.png', alt='伊東 敏和')
+                      p 積極的に機械に触れてみる。工場にとって「欠かせない人」になりたい。
+                    .top-Member_Link_Box_Txt
+                      p.name-E #{member_ito_e}
+                      h4.name #{member_ito}
+                      p.position #{member_ito_dep}
+                      p.year #{member_ito_join}
+            .top-Member_Link_Wrapper.wow.fadeInUp(data-wow-delay='0.9s')
+              a.top-Member_Link_Inner(href='member/06.html')
+                .top-Member_Link_Box
+                  .top-Member_Link_Box_Inner
+                    .top-Member_Link_Box_Img_Inner
+                      img(src='./assets/img/top/top-member_06.png', alt='倉田 忠明')
+                      p 整備できる幅を広げながら、「誰にも負けない分野」を作りたい。
+                    .top-Member_Link_Box_Txt
+                      p.name-E #{member_kura_e}
+                      h4.name #{member_kura}
+                      p.position #{member_kura_dep}
+                      p.year #{member_kura_join}
+
+  //- Link
+  .top-Link_Wrapper
+    .top-Link
+      .top-Link_Inner
+        a.top-Link_Box_Wrapper(href='company/business.html')
+          .top-Link_Box.left
+          .top-Link_Box_Title
+            h3.wow.fadeInUp(data-wow-delay='0.2s') COMPANY
+            p.wow.fadeInUp(data-wow-delay='0.4s') #{company}
+            span
+        a.top-Link_Box_Wrapper(href='recruitment/index.html')
+          .top-Link_Box.right
+          .top-Link_Box_Title
+            h3.wow.fadeInUp(data-wow-delay='0.2s') RECRUITMENT
+            p.wow.fadeInUp(data-wow-delay='0.4s') #{info}
+            span
+
+  //- Link_Btn
+  .top-Link_Btn_Wrapper
+    .top-Link_Btn
+      .top-Link_Btn_Inner
+        a.wow.fadeInUp(href='personality/index.html', data-wow-delay='0.2s') #{personality}
+        a.wow.fadeInUp(href='welfare/index.html', data-wow-delay='0.4s') #{ｗelfare}
+        a.wow.fadeInUp(href='career/index.html', data-wow-delay='0.6s') #{career}
+
+  //- /contents
+
+  //- loading
+  .top-Loading_Wrapper#js-Loading_Bg
+    .top-Loading_Circle_Wrapper
+      .top-Loading_Circle_Mask
+      .pie.spinner
+      .pie.filler
+      .top-Loading_Txt
+        p.blue#js-Title-Loading_Top KOTO CORPORATION
+        p.green#js-Title-Loading_Btm RECRUITING 2019
+    .top-Loading_Now_Txt
+      p NOW LOADING
+
+block footer
+  +footer('')
+
+block nav
+  +nav('')
+
+block script
+  +script('')

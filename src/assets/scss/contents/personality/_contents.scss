@@ -1,0 +1,384 @@
+.personality-Contents_Wrapper {
+  padding-left: 60px;
+  padding-right: 60px;
+
+  .personality-Contents {
+    background-color: $Bg_Off_White;
+    border-radius: 12px;
+
+    .personality-Contents_Inner {
+      // a
+    }
+  }
+}
+
+
+.personality-Contents_Detail_Wrapper {
+  padding: 50px 0 70px;
+
+  .personality-Contents_Detail {
+    display: flex;
+    margin: 0 auto;
+    padding: 70px 0;
+    width: 1200px;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #e0e3e6;
+    }
+
+    .personality-Contents_Detail_Left {
+      width: 29%;
+      .personality-Contents_Circle {
+        position: relative;
+
+        background-color: $Green;
+        border-radius: 100%;
+        color: #ffffff;
+        height: 286px;
+        width: 286px;
+
+        .personality-Contents_Circle_Txt {
+          position: absolute;
+          top: 47%;
+          left: 50%;
+
+          text-align: center;
+          transform: translate(-50%, -50%);
+          width: 100%;
+
+          .number {
+            font-size: 20px;
+            margin-bottom: 10px;
+          }
+
+          .title {
+            font-size: 32px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+    .personality-Contents_Detail_Right {
+      width: 71%;
+
+      p {
+        color: $Navy;
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 2;
+      }
+    }
+  }
+}
+
+@include max-screen(1400px) {
+  .personality-Contents_Wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    .personality-Contents {
+      background-color: $Bg_Off_White;
+      border-radius: 12px;
+
+      .personality-Contents_Inner {
+        // a
+      }
+    }
+  }
+
+
+  .personality-Contents_Detail_Wrapper {
+    padding: 50px 0 70px;
+
+    .personality-Contents_Detail {
+      display: flex;
+      margin: 0 auto;
+      padding: 70px 0;
+      width: 1000px;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid #e0e3e6;
+      }
+
+      .personality-Contents_Detail_Left {
+        margin-right: 20px;
+        width: 25%;
+        .personality-Contents_Circle {
+          position: relative;
+
+          background-color: $Green;
+          border-radius: 100%;
+          color: #ffffff;
+          height: 250px;
+          width: 250px;
+
+          .personality-Contents_Circle_Txt {
+            position: absolute;
+            top: 47%;
+            left: 50%;
+
+            text-align: center;
+            transform: translate(-50%, -50%);
+            width: 100%;
+
+            .number {
+              font-size: 20px;
+              margin-bottom: 10px;
+            }
+
+            .title {
+              font-size: 32px;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+      .personality-Contents_Detail_Right {
+        width: 75%;
+
+        p {
+          color: $Navy;
+          font-size: 15px;
+          letter-spacing: 1px;
+          line-height: 2;
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($CONTENT_WIDTH) {
+  .personality-Contents_Wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    .personality-Contents {
+      background-color: $Bg_Off_White;
+      border-radius: 12px;
+
+      .personality-Contents_Inner {
+        // a
+      }
+    }
+  }
+
+
+  .personality-Contents_Detail_Wrapper {
+    padding: 50px 30px 70px;
+
+    .personality-Contents_Detail {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 70px 0;
+      width: 800px;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid #e0e3e6;
+      }
+
+      .personality-Contents_Detail_Left {
+        margin-right: 20px;
+        width: 25%;
+        .personality-Contents_Circle {
+          position: relative;
+
+          background-color: $Green;
+          border-radius: 100%;
+          color: #ffffff;
+          height: 200px;
+          width: 200px;
+
+          .personality-Contents_Circle_Txt {
+            position: absolute;
+            top: 47%;
+            left: 50%;
+
+            text-align: center;
+            transform: translate(-50%, -50%);
+            width: 100%;
+
+            .number {
+              font-size: 18px;
+              margin-bottom: 10px;
+            }
+
+            .title {
+              font-size: 24px;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+      .personality-Contents_Detail_Right {
+        width: 75%;
+
+        p {
+          color: $Navy;
+          font-size: 14px;
+          letter-spacing: 1px;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .personality-Contents_Wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .personality-Contents {
+      background-color: $Bg_Off_White;
+      border-radius: 12px;
+
+      .personality-Contents_Inner {
+        // a
+      }
+    }
+  }
+
+
+  .personality-Contents_Detail_Wrapper {
+    padding: 50px 30px 70px;
+
+    .personality-Contents_Detail {
+      display: block;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 70px 0;
+      width: 100%;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid #e0e3e6;
+      }
+
+      .personality-Contents_Detail_Left {
+        margin-right: 20px;
+        width: 100%;
+        .personality-Contents_Circle {
+          position: relative;
+
+          background-color: $Green;
+          border-radius: 100%;
+          color: #ffffff;
+          height: 200px;
+          width: 200px;
+          margin: 0 auto;
+
+          .personality-Contents_Circle_Txt {
+            position: absolute;
+            top: 47%;
+            left: 50%;
+
+            text-align: center;
+            transform: translate(-50%, -50%);
+            width: 100%;
+
+            .number {
+              font-size: 18px;
+              margin-bottom: 10px;
+            }
+
+            .title {
+              font-size: 24px;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+      .personality-Contents_Detail_Right {
+        width: 100%;
+
+        p {
+          color: $Navy;
+          font-size: 14px;
+          letter-spacing: 1px;
+          line-height: 1.5;
+          padding-top: 27px;
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .personality-Contents_Wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .personality-Contents {
+      background-color: $Bg_Off_White;
+      border-radius: 0px;
+
+      .personality-Contents_Inner {
+        // a
+      }
+    }
+  }
+
+
+  .personality-Contents_Detail_Wrapper {
+    padding: 0 15px;
+
+    .personality-Contents_Detail {
+      display: block;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 32px 0;
+      width: 100%;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid #e0e3e6;
+      }
+
+      .personality-Contents_Detail_Left {
+        margin-right: 20px;
+        width: 100%;
+        .personality-Contents_Circle {
+          position: relative;
+
+          background-color: $Green;
+          border-radius: 100%;
+          color: #ffffff;
+          height: 171px;
+          width: 171px;
+          margin: 0 auto;
+
+          .personality-Contents_Circle_Txt {
+            position: absolute;
+            top: 47%;
+            left: 50%;
+
+            text-align: center;
+            transform: translate(-50%, -50%);
+            width: 100%;
+
+            .number {
+              font-size: 16px;
+              margin-bottom: 10px;
+            }
+
+            .title {
+              font-size: 20px;
+              font-weight: 600;
+              letter-spacing: 2px;
+            }
+          }
+        }
+      }
+      .personality-Contents_Detail_Right {
+        width: 100%;
+
+        p {
+          color: $Navy;
+          font-size: 13px;
+          letter-spacing: 1px;
+          line-height: 1.5;
+          padding-top: 22px;
+        }
+      }
+    }
+  }
+}

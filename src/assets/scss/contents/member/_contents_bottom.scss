@@ -1,0 +1,636 @@
+.member-Contents_Btm_Wrapper {
+  margin-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  .member-Contents_Btm {
+    background-color: $Bg_Off_White;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding-bottom: 100px;
+    padding-top: 400px;
+
+    .member-Contents_Btm_Inner {
+      margin: 0 auto;
+      max-width: 1200px;
+      width: 100%;
+    }
+  }
+}
+
+.member-Contents_Btm_Img_Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .member-Contents_Detail {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 16.6%;
+
+    .img-Wrapper {
+      position: relative;
+
+      border-radius: 100%;
+      height: 150px;
+      margin: 0 auto 25px;
+      overflow: hidden;
+      width: 150px;
+
+      &:before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        color: rgba(#ffffff, 0);
+        content: "WATCH NOW";
+        display: block;
+        font-size: 14px;
+        letter-spacing: 1px;
+        transform: translate(-50%, -50%);
+        transition: 0.5s;
+        width: 100%;
+        z-index: 2;
+      }
+
+      &:after {
+        position: absolute;
+        top: 0;
+
+        background-color: rgba(#2cc46c, 0);
+        content: "";
+        display: block;
+        height: 100%;
+        transition: 0.4s;
+        width: 100%;
+      }
+
+      img {
+        transition: 0.3s;
+        width: 100%;
+      }
+    }
+
+    .name-E {
+      color: $Green;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 3px;
+    }
+
+    .name {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .dep {
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+
+    .join-Date {
+      font-size: 13px;
+    }
+
+    &:hover {
+      .img-Wrapper {
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+    &.oga {
+      .img-Wrapper_oga {
+        &:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+
+          color: rgba(#ffffff, 1);
+          content: "WATCH NOW";
+          display: block;
+          font-size: 14px;
+          letter-spacing: 1px;
+          transform: translate(-50%, -50%);
+          transition: 0.5s;
+          width: 100%;
+          z-index: 2;
+        }
+
+        img {
+          transform: scale(1.1);
+        }
+
+        &:after {
+          position: absolute;
+          top: 0;
+
+          background-color: rgba(#2cc46c, 0.6);
+          content: "";
+          display: block;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    &.naka {
+      .img-Wrapper_naka {
+        &:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+
+          color: rgba(#ffffff, 1);
+          content: "WATCH NOW";
+          display: block;
+          font-size: 14px;
+          letter-spacing: 1px;
+          transform: translate(-50%, -50%);
+          transition: 0.5s;
+          width: 100%;
+          z-index: 2;
+        }
+
+        img {
+          transform: scale(1.1);
+        }
+
+        &:after {
+          position: absolute;
+          top: 0;
+
+          background-color: rgba(#2cc46c, 0.6);
+          content: "";
+          display: block;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    &.fuku {
+      .img-Wrapper_fuku {
+        &:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+
+          color: rgba(#ffffff, 1);
+          content: "WATCH NOW";
+          display: block;
+          font-size: 14px;
+          letter-spacing: 1px;
+          transform: translate(-50%, -50%);
+          transition: 0.5s;
+          width: 100%;
+          z-index: 2;
+        }
+
+        img {
+          transform: scale(1.1);
+        }
+
+        &:after {
+          position: absolute;
+          top: 0;
+
+          background-color: rgba(#2cc46c, 0.6);
+          content: "";
+          display: block;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    &.yama {
+      .img-Wrapper_yama {
+        &:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+
+          color: rgba(#ffffff, 1);
+          content: "WATCH NOW";
+          display: block;
+          font-size: 14px;
+          letter-spacing: 1px;
+          transform: translate(-50%, -50%);
+          transition: 0.5s;
+          width: 100%;
+          z-index: 2;
+        }
+
+        img {
+          transform: scale(1.1);
+        }
+
+        &:after {
+          position: absolute;
+          top: 0;
+
+          background-color: rgba(#2cc46c, 0.6);
+          content: "";
+          display: block;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    &.ito {
+      .img-Wrapper_ito {
+        &:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+
+          color: rgba(#ffffff, 1);
+          content: "WATCH NOW";
+          display: block;
+          font-size: 14px;
+          letter-spacing: 1px;
+          transform: translate(-50%, -50%);
+          transition: 0.5s;
+          width: 100%;
+          z-index: 2;
+        }
+
+        img {
+          transform: scale(1.1);
+        }
+
+        &:after {
+          position: absolute;
+          top: 0;
+
+          background-color: rgba(#2cc46c, 0.6);
+          content: "";
+          display: block;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    &.kura {
+      .img-Wrapper_kura {
+        &:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+
+          color: rgba(#ffffff, 1);
+          content: "WATCH NOW";
+          display: block;
+          font-size: 14px;
+          letter-spacing: 1px;
+          transform: translate(-50%, -50%);
+          transition: 0.5s;
+          width: 100%;
+          z-index: 2;
+        }
+
+        img {
+          transform: scale(1.1);
+        }
+
+        &:after {
+          position: absolute;
+          top: 0;
+
+          background-color: rgba(#2cc46c, 0.6);
+          content: "";
+          display: block;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .member-Contents_Btm_Wrapper {
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .member-Contents_Btm {
+      background-color: $Bg_Off_White;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      padding-bottom: 40px;
+      padding-top: 340px;
+
+      .member-Contents_Btm_Inner {
+        margin: 0 auto;
+        max-width: 800px;
+        width: 100%;
+      }
+    }
+  }
+
+  .member-Contents_Btm_Img_Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .member-Contents_Detail {
+      display: block;
+      padding-bottom: 20px;
+      text-align: center;
+      text-decoration: none;
+      width: 33.33%;
+
+      .img-Wrapper {
+        position: relative;
+
+        border-radius: 100%;
+        height: 140px;
+        margin: 0 auto 25px;
+        overflow: hidden;
+        width: 140px;
+
+        &:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+
+          color: rgba(#ffffff, 0);
+          content: "WATCH NOW";
+          display: block;
+          font-size: 14px;
+          letter-spacing: 1px;
+          transform: translate(-50%, -50%);
+          transition: 0.5s;
+          width: 100%;
+          z-index: 2;
+        }
+
+        &:after {
+          position: absolute;
+          top: 0;
+
+          background-color: rgba(#2cc46c, 0);
+          content: "";
+          display: block;
+          height: 100%;
+          transition: 0.4s;
+          width: 100%;
+        }
+
+        img {
+          transition: 0.3s;
+          width: 100%;
+        }
+      }
+
+      .name-E {
+        color: $Green;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 3px;
+      }
+
+      .name {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+
+      .dep {
+        font-size: 12px;
+        margin-bottom: 2px;
+      }
+
+      .join-Date {
+        font-size: 12px;
+      }
+
+      &:hover {
+        .img-Wrapper {
+          img {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .member-Contents_Btm_Wrapper {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    .member-Contents_Btm {
+      background-color: $Bg_Off_White;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      padding-bottom: 40px;
+      padding-top: 420px;
+
+      .member-Contents_Btm_Inner {
+        margin: 0 auto;
+        max-width: 800px;
+        width: 100%;
+      }
+    }
+  }
+
+  .member-Contents_Btm_Img_Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .member-Contents_Detail {
+      display: block;
+      padding-bottom: 20px;
+      text-align: center;
+      text-decoration: none;
+      width: 50%;
+
+      .img-Wrapper {
+        position: relative;
+
+        border-radius: 100%;
+        height: 130px;
+        margin: 0 auto 25px;
+        overflow: hidden;
+        width: 130px;
+
+        &:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+
+          color: rgba(#ffffff, 0);
+          content: "WATCH NOW";
+          display: block;
+          font-size: 13px;
+          letter-spacing: 1px;
+          transform: translate(-50%, -50%);
+          transition: 0.5s;
+          width: 100%;
+          z-index: 2;
+        }
+
+        &:after {
+          position: absolute;
+          top: 0;
+
+          background-color: rgba(#2cc46c, 0);
+          content: "";
+          display: block;
+          height: 100%;
+          transition: 0.4s;
+          width: 100%;
+        }
+
+        img {
+          transition: 0.3s;
+          width: 100%;
+        }
+      }
+
+      .name-E {
+        color: $Green;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 3px;
+      }
+
+      .name {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+
+      .dep {
+        font-size: 12px;
+        margin-bottom: 2px;
+      }
+
+      .join-Date {
+        font-size: 12px;
+      }
+
+      &:hover {
+        .img-Wrapper {
+          img {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
+
+@include max-screen(400px) {
+  .member-Contents_Btm_Wrapper {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    .member-Contents_Btm {
+      background-color: $Bg_Off_White;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      padding-bottom: 40px;
+      padding-top: 450px;
+
+      .member-Contents_Btm_Inner {
+        margin: 0 auto;
+        max-width: 800px;
+        width: 100%;
+      }
+    }
+  }
+
+  .member-Contents_Btm_Img_Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .member-Contents_Detail {
+      display: block;
+      padding-bottom: 20px;
+      text-align: center;
+      text-decoration: none;
+      width: 50%;
+
+      .img-Wrapper {
+        position: relative;
+
+        border-radius: 100%;
+        height: 130px;
+        margin: 0 auto 25px;
+        overflow: hidden;
+        width: 130px;
+
+        &:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+
+          color: rgba(#ffffff, 0);
+          content: "WATCH NOW";
+          display: block;
+          font-size: 12px;
+          letter-spacing: 1px;
+          transform: translate(-50%, -50%);
+          transition: 0.5s;
+          width: 100%;
+          z-index: 2;
+        }
+
+        &:after {
+          position: absolute;
+          top: 0;
+
+          background-color: rgba(#2cc46c, 0);
+          content: "";
+          display: block;
+          height: 100%;
+          transition: 0.4s;
+          width: 100%;
+        }
+
+        img {
+          transition: 0.3s;
+          width: 100%;
+        }
+      }
+
+      .name-E {
+        color: $Green;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 3px;
+      }
+
+      .name {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+
+      .dep {
+        font-size: 12px;
+        margin-bottom: 2px;
+      }
+
+      .join-Date {
+        font-size: 12px;
+      }
+
+      &:hover {
+        .img-Wrapper {
+          img {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}

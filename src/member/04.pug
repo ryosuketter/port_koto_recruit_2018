@@ -1,0 +1,73 @@
+extend /_includes/_layout
+append variables
+  //- Required
+  - var pageTitle= member_yama + "｜光東株式会社 採用サイト";
+  - var pageDescription= "こちらは社員紹介のページです。光東株式会社の採用サイトです。社会とのつながり、社員、歴史や事業内容、求める人物象、募集要項、制度、キャリアプランなどをご紹介しています。";
+  - var pageKeywords= "光東株式会社,採用サイト," + member_yama;
+  //- Optional
+  - var pageOgpTitle= member_yama + "｜光東株式会社 採用サイト";
+  //- - var pageOgpImage= site.ogpImage
+  - var pageOgpType= "article";
+  //- Not modified
+  - var pageUrl= "member/04.html";
+
+  - var classname = "yama"
+
+block content
+  //- contents
+
+  //- mv
+  .member-Mv_Wrapper.js-Mv
+    .member-Mv
+      .member-Mv_Inner.yama
+    .member-Mv_Profile_Wrapper
+      .member-Mv_Profile
+        p.number MEMBER 04
+        h2 建設現場で「絶対必要なもの」を整備する。<br>社会とのつながりを意識する。
+        .member-Mv_Profile_Detail_Wrapper
+          .member-Mv_Profile_Detail_Left
+            p.name-E #{member_yama_e}
+            p.name #{member_yama}
+          .member-Mv_Profile_Detail_Right
+            p.dep #{member_yama_dep}
+            p.join-Date #{member_yama_join}
+
+  //- contents TOP
+  .member-Contents_Wrapper
+    .member-Contents
+      .member-Contents_Inner
+
+        .member-Contents_1img_Wrapper
+          .member-Contents_1img
+            .member-Contents_1img_Inner
+              .member-Contents_1img_Img_Wrapper
+                img(src='../assets/img/member/yamamoto/member-img01.png', alt='山本浩之')
+              .member-Contents_1img_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') 「整備の基本」は<br>入社してから身につける。
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 私はクレーンなどの建設機械整備を行っています。クレーンは、建物の建設において「絶対必要なもの」です。そういった建設機械に触れていると「社会とのつながり」や「社会への影響」を感じますね。建設機械の整備では、一つ間違えば人の命を落とす危険性があります。そのため「確実な作業」が求められます。言い換えると「確認を怠らない」ということが大切です。また、建設現場で機械トラブルが発生すれば、急遽駆けつけるようなこともあります。現場独特の緊張感というものもありますが、時に先輩の助言を借りながら、工事の期限に遅延しないようサポートをしています。できなかったことができるようになっていく面白さを日々感じています。 
+
+        .member-Contents_2imgs_Wrapper
+          .member-Contents_2imgs
+            .member-Contents_2imgs_Inner
+              .member-Contents_2imgs_Top_Left_Wrapper
+                img.member-Contents_2img_Pc(src='../assets/img/member/yamamoto/member-img02.png', alt='山本浩之')
+                img.member-Contents_2img_Sp(src='../assets/img/member/yamamoto/member-img02_sp.png', alt='山本浩之')
+              .member-Contents_2imgs_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') 知識を身につけ、何を聞かれても<br>すぐ答えられるようになる。 
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 整備の仕事は周りを見て、細かいことにも気づける人が向いているように思います。また、言われたことをきちんと覚えていられる人でないとレベルアップしていけないですよね。メーカーの講習に参加することもありますが、講習だけでは覚えられない「経験」が求められます。ただ、何となくの「勘」ではなく、きちんと説明するための知識が必要です。私も先輩方のように、何を聞かれてもすぐ答えられるようになりたいと思っています。光東の先輩は優しい方が多いように感じます。仕事で大変なことがあっても人間関係は良好なので、悩みは少ないです。休みの日にも釣りに行ったり、フットサルをしたり、一緒に過ごす機会があります。 
+              .member-Contents_2imgs_Btm_Right_Wrapper
+                img(src='../assets/img/member/yamamoto/member-img03.png', alt='山本浩之')
+
+  //- contents MIDDLE
+  .member-Contents_Mv_Wrapper
+    .member-Contents_Mv.yama
+      .member-Contents_Mv_Inner
+        .member-Contents_Txt_Wrapper
+          h3.wow.fadeInUp(data-wow-delay='0.2s') いろんな機械に触りたい。それが光東に入社した理由。 
+          p.wow.fadeInUp(data-wow-delay='0.4s') 工業高校時代に、ガス溶接資格やフォークリフトの資格を取得しましたが、「整備の基本」は入社してから身につけたことも多いです。数をこなす中で、先輩や上司に道具の名前や使い方を教わってきました。例えば、古いボルトなどは締め方を間違えると折れてしまうこともあります。現在は3級整備士と建設機械技能士の資格を保有していますが、将来的には大型免許や検査員資格を取得したいです。ショベルカーやローラーだけでなく、フォークリフトなどの検査もできるようになりたいと思っています。光東に入社したのは、いろんな機械に触れたいと思ったからです。「あの人に任せておけば確実に直してもらえる」そう言われるように、日々経験を積んでいます。 
+
+  //- contents BOTTOM
+  include /_includes/_underlayer/_member/_link
+  //- /contents

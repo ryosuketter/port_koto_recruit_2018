@@ -1,0 +1,297 @@
+.member-Mv_Wrapper {
+  position: relative;
+
+  margin-bottom: 180px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  .member-Mv {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+
+    .member-Mv_Inner {
+      height: 70vh;
+
+      &.oga {
+        background: url("../img/member/ogawa/member-mv.png")top 0 center /cover no-repeat;
+      }
+      &.naka {
+        background: url("../img/member/nakayama/member-mv.png")top 0 center /cover no-repeat;
+      }
+      &.fuku {
+        background: url("../img/member/fukuyama/member-mv.png")top 0 center /cover no-repeat;
+      }
+      &.yama {
+        background: url("../img/member/yamamoto/member-mv.png")top 0 center /cover no-repeat;
+      }
+      &.ito {
+        background: url("../img/member/ito/member-mv.png")top 0 center /cover no-repeat;
+      }
+      &.kura {
+        background: url("../img/member/kurata/member-mv.png")top 0 center /cover no-repeat;
+      }
+    }
+  }
+}
+
+.member-Mv_Profile_Wrapper {
+  position: absolute;
+  bottom: -80px;
+  left: 8%;
+
+  animation: "underlayer_Mv_Fade_In_Member" 1s 0.5s;
+  animation-fill-mode: both;
+  background-color: $Green;
+  border-radius: 8px;
+
+  .member-Mv_Profile {
+    color: #ffffff;
+    padding: 65px 50px 60px;
+
+    .number {
+      animation: "underlayer_Mv_Fade_In" 1s 0.7s;
+      animation-fill-mode: both;
+      font-size: 14px;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      animation: "underlayer_Mv_Fade_In" 1s 0.9s;
+      animation-fill-mode: both;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 1.5;
+      padding-top: 20px;
+    }
+
+    .member-Mv_Profile_Detail_Wrapper {
+      align-items: center;
+      animation: "underlayer_Mv_Fade_In" 1s 1.1s;
+      animation-fill-mode: both;
+      display: flex;
+      padding-top: 40px;
+
+      .member-Mv_Profile_Detail_Left {
+        .name-E {
+          font-size: 12px;
+          letter-spacing: 1px;
+        }
+        .name {
+          font-size: 22px;
+          font-weight: 600;
+        }
+      }
+
+      .member-Mv_Profile_Detail_Right {
+        border-left: 1px solid #7bdea5;
+        margin-left: 30px;
+        padding-left: 30px;
+
+        .dep {
+          font-size: 14px;
+          line-height: 1.8;
+        }
+        .join-Date {
+          font-size: 14px;
+          line-height: 1.8;
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .member-Mv_Wrapper {
+    position: relative;
+
+    margin-bottom: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .member-Mv {
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      overflow: hidden;
+
+      .member-Mv_Inner {
+        height: 70vh;
+
+        &.oga {
+          background: url("../img/member/ogawa/member-mv.png")top 0 center /cover no-repeat;
+        }
+      }
+    }
+  }
+
+  .member-Mv_Profile_Wrapper {
+    position: absolute;
+    top: 90%;
+    bottom: auto;
+    left: 50%;
+
+    animation: "underlayer_Mv_Fade_In_Member_Sp" 1s 0.6s;
+    animation-fill-mode: both;
+    background-color: $Green;
+    border-radius: 8px;
+    transform: translateX(-50%);
+    width: 80%;
+
+    .member-Mv_Profile {
+      color: #ffffff;
+      padding: 65px 50px 60px;
+
+      .number {
+        animation: "underlayer_Mv_Fade_In" 1s 0.8s;
+        animation-fill-mode: both;
+        font-size: 14px;
+        letter-spacing: 2px;
+      }
+
+      h2 {
+        animation: "underlayer_Mv_Fade_In" 1s 1.0s;
+        animation-fill-mode: both;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding-top: 10px;
+      }
+
+      .member-Mv_Profile_Detail_Wrapper {
+        align-items: center;
+        animation: "underlayer_Mv_Fade_In" 1s 1.2s;
+        animation-fill-mode: both;
+        display: flex;
+        padding-top: 30px;
+
+        .member-Mv_Profile_Detail_Left {
+          .name-E {
+            font-size: 12px;
+            letter-spacing: 1px;
+          }
+          .name {
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+
+        .member-Mv_Profile_Detail_Right {
+          border-left: 1px solid #7bdea5;
+          margin-left: 30px;
+          padding-left: 30px;
+
+          .dep {
+            font-size: 14px;
+            line-height: 1.8;
+          }
+          .join-Date {
+            font-size: 14px;
+            line-height: 1.8;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .member-Mv_Wrapper {
+    position: relative;
+
+    margin-bottom: 195px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 59px;
+
+    .member-Mv {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      overflow: hidden;
+
+      .member-Mv_Inner {
+        height: 350px;
+
+        &.oga {
+          background: url("../img/member/ogawa/member-mv_sp.png")top 0 center /cover no-repeat;
+        }
+        &.naka {
+          background: url("../img/member/nakayama/member-mv_sp.png")top 0 center /cover no-repeat;
+        }
+        &.fuku {
+          background: url("../img/member/fukuyama/member-mv_sp.png")top 0 center /cover no-repeat;
+        }
+        &.yama {
+          background: url("../img/member/yamamoto/member-mv_sp.png")top 0 center /cover no-repeat;
+        }
+        &.ito {
+          background: url("../img/member/ito/member-mv_sp.png")top 0 center /cover no-repeat;
+        }
+        &.kura {
+          background: url("../img/member/kurata/member-mv_sp.png")top 0 center /cover no-repeat;
+        }
+      }
+    }
+  }
+
+  .member-Mv_Profile_Wrapper {
+    position: absolute;
+    top: 90%;
+    bottom: auto;
+    left: 50%;
+
+    background-color: $Green;
+    border-radius: 4px;
+    max-width: 500px;
+    transform: translateX(-50%);
+    width: 94%;
+
+    .member-Mv_Profile {
+      color: #ffffff;
+      padding: 38px 23px 36px;
+
+      .number {
+        font-size: 12px;
+        letter-spacing: 2px;
+      }
+
+      h2 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.6;
+        padding-top: 10px;
+      }
+
+      .member-Mv_Profile_Detail_Wrapper {
+        align-items: center;
+        display: flex;
+        padding-top: 12px;
+
+        .member-Mv_Profile_Detail_Left {
+          .name-E {
+            font-size: 11px;
+            letter-spacing: 0;
+          }
+          .name {
+            font-size: 16px;
+            font-weight: 600;
+          }
+        }
+
+        .member-Mv_Profile_Detail_Right {
+          border-left: 1px solid #7bdea5;
+          margin-left: 15px;
+          padding-left: 15px;
+
+          .dep {
+            font-size: 12px;
+            line-height: 1.8;
+          }
+          .join-Date {
+            font-size: 12px;
+            line-height: 1.8;
+          }
+        }
+      }
+    }
+  }
+}

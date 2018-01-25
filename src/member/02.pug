@@ -1,0 +1,73 @@
+extend /_includes/_layout
+append variables
+  //- Required
+  - var pageTitle= member_naka + "｜光東株式会社 採用サイト";
+  - var pageDescription= "こちらは社員紹介のページです。光東株式会社の採用サイトです。社会とのつながり、社員、歴史や事業内容、求める人物象、募集要項、制度、キャリアプランなどをご紹介しています。";
+  - var pageKeywords= "光東株式会社,採用サイト," + member_naka;
+  //- Optional
+  - var pageOgpTitle= member_naka + "｜光東株式会社 採用サイト";
+  //- - var pageOgpImage= site.ogpImage
+  - var pageOgpType= "article";
+  //- Not modified
+  - var pageUrl= "member/02.html";
+
+  - var classname = "naka"
+
+block content
+  //- contents
+
+  //- mv
+  .member-Mv_Wrapper.js-Mv
+    .member-Mv
+      .member-Mv_Inner.naka
+    .member-Mv_Profile_Wrapper
+      .member-Mv_Profile
+        p.number MEMBER 02
+        h2 リース業界の独自性。 <br>お客様の期待を超えるということ。 
+        .member-Mv_Profile_Detail_Wrapper
+          .member-Mv_Profile_Detail_Left
+            p.name-E #{member_naka_e}
+            p.name #{member_naka}
+          .member-Mv_Profile_Detail_Right
+            p.dep #{member_naka_dep}
+            p.join-Date #{member_naka_join}
+
+  //- contents TOP
+  .member-Contents_Wrapper
+    .member-Contents
+      .member-Contents_Inner
+
+        .member-Contents_1img_Wrapper
+          .member-Contents_1img
+            .member-Contents_1img_Inner
+              .member-Contents_1img_Img_Wrapper
+                img(src='../assets/img/member/nakayama/member-img01.png', alt='中山正太')
+              .member-Contents_1img_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') 瞬時の判断が求められる。<br>フロントとしてのこだわり。
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 私は現在、事務所のフロント業務を担当しています。フロントの仕事は、お客様からかかってくる電話での問い合わせに対応し、注文を受けたり段取りをしたりすることです。「いつ、どのような機材が必要なのか」「それをどのように手配するのか」を調整します。電話での対応は、瞬時に判断が求められることも多く、お客様先に行くのとは違った難しさがあります。顔が見えない分明るく対応したり、お客様の声の調子から「どう対応するべきか」を考えたり、自分なりのこだわりを大切にしています。他にも、徳佐営業所は、年配のお客様が多いので仕事の話だけでなく、天気の話など「関係のない話」を織り交ぜながら関係構築を行っています。 
+
+        .member-Contents_2imgs_Wrapper
+          .member-Contents_2imgs
+            .member-Contents_2imgs_Inner
+              .member-Contents_2imgs_Top_Left_Wrapper
+                img.member-Contents_2img_Pc(src='../assets/img/member/nakayama/member-img02.png', alt='中山正太')
+                img.member-Contents_2img_Sp(src='../assets/img/member/nakayama/member-img02_sp.png', alt='中山正太')
+              .member-Contents_2imgs_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') お客様がいる面白さ。リース・<br>レンタル業界だからできること。
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 私が光東を選んだのは、リース・レンタル業界の山口県内トップ企業だからです。学生時代、飛行機の研究をしていて機械に触れることも多かったのですが、ただ機械をいじるだけでなく「その先にお客様がいる面白さ」を感じていました。機械に触れながらも自らがお客様と直接話せるというのは、リース・レンタル業界独自の魅力です。以前、お客様から「貸して欲しい」と言われた機材よりももっと良い商品を提案したことがありました。その機材は自社では取扱がなかったため、他社から借りてお客様に貸すというダブルレンタルという形でご用意したのですが、非常に評判が良く、結果的に自社としてもその機材を購入することになりました。今後も他社製品も含めて、お客様への提案の幅を広げていければと思います。 
+              .member-Contents_2imgs_Btm_Right_Wrapper
+                img(src='../assets/img/member/nakayama/member-img03.png', alt='中山正太')
+
+  //- contents MIDDLE
+  .member-Contents_Mv_Wrapper
+    .member-Contents_Mv.naka
+      .member-Contents_Mv_Inner
+        .member-Contents_Txt_Wrapper
+          h3.wow.fadeInUp(data-wow-delay='0.2s') 「やりたいこと」で会社を選ぶ。 
+          p.wow.fadeInUp(data-wow-delay='0.4s') 光東には、「やりたいこと」を持っている人が合っているように思います。意欲的な人にはいろいろチャレンジもさせてくれますし、とても勉強になるのではないでしょうか。どういう人と働くかは、会社選びをする上で非常に重要なことだと思います。就職活動においても「表面的なこと」に捉われず「自分のやりたいこと」や「入社してからどんなことができるのか」を意識した方がいいですね。それをきちんと見越して就職しないと、入社後に成果を残すのは難しくなります。また、学生の皆さんには、学生時代しかできないことをやってもらいたいと思います。私は学生時代にドイツに行っていたのですが、そういった経験があると、きっと社会人になってから「頑張れる源」になります。 
+
+  //- contents BOTTOM
+  include /_includes/_underlayer/_member/_link
+  //- /contents

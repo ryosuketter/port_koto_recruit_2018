@@ -1,0 +1,163 @@
+.company-Corp_Wrapper {
+  padding-left: 60px;
+  padding-right: 60px;
+
+  .company-Corp {
+    background-color: $Bg_Off_White;
+
+    .company-Corp_Inner {
+      padding-top: 110px;
+      padding-bottom: 53px;
+    }
+  }
+}
+
+.company-Corp_Txt {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+
+  .company-Corp_Title {
+    margin-bottom: 40px;
+
+    span {
+      font-size: 16px;
+      color: $Blue;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    h3 {
+      font-size: 36px;
+      color: $Navy;
+      font-weight: 600;
+      padding-top: 13px;
+    }
+
+  }
+  .company-Corp_Body {
+
+    p {
+      margin-bottom: 35px;
+      font-size: 15px;
+      line-height: 2.2;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.company-Key_Img_Wrapper {
+  background: url("../img/company/business/key-img.png")top 0 center /cover no-repeat;
+  height: 740px;
+  width: 100%;
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .company-Corp_Wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .company-Corp {
+      background-color: $Bg_Off_White;
+
+      .company-Corp_Inner {
+        padding: 80px 5% 50px;
+      }
+    }
+  }
+
+  .company-Corp_Txt {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    .company-Corp_Title {
+      margin-bottom: 30px;
+
+      span {
+        font-size: 14px;
+        color: $Blue;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+
+      h3 {
+        font-size: 32px;
+        color: $Navy;
+        font-weight: 600;
+        padding-top: 10px;
+      }
+
+    }
+    .company-Corp_Body {
+
+      p {
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 2;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .company-Key_Img_Wrapper {
+    background: url("../img/company/business/key-img.png")top 0 center /cover no-repeat;
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .company-Corp_Wrapper {
+    padding-left: 00px;
+    padding-right: 00px;
+
+    .company-Corp {
+      background-color: $Bg_Off_White;
+
+      .company-Corp_Inner {
+        padding: 35px 30px 16px;
+      }
+    }
+  }
+
+  .company-Corp_Txt {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    .company-Corp_Title {
+      margin-bottom: 17px;
+
+      span {
+        font-size: 12px;
+        color: $Blue;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+
+      h3 {
+        font-size: 24px;
+        color: $Navy;
+        font-weight: 600;
+        padding-top: 0;
+      }
+
+    }
+    .company-Corp_Body {
+
+      p {
+        margin-bottom: 17px;
+        font-size: 13px;
+        line-height: 1.8;
+        letter-spacing: 0.8px;
+      }
+    }
+  }
+
+  .company-Key_Img_Wrapper {
+    background: url("../img/company/business/key-img.png")top 0 center /cover no-repeat;
+    height: 223px;
+    width: 100%;
+  }
+}

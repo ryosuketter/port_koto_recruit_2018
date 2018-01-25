@@ -1,0 +1,79 @@
+//- nav
+mixin nav(path)
+  .st-Nav_Wrapper_Bg#js-Nav_Bg
+  .st-Nav_Wrapper.js-Nav
+    .st-Nav
+      .st-Nav_Inner
+        .st-Nav_Left
+        .st-Nav_Right
+          .st-Nav_Right_Body
+            .st-Nav_Right_Contents
+              .title.js-Nav_Ac
+                p ABOUT
+              .contents
+                ul
+                  li
+                    a(href=path + 'about/index.html') 社会との繋がり
+              .st-Nav_Right_Toggle
+                span
+                span
+            .st-Nav_Right_Contents
+              .title.js-Nav_Ac
+                p PROJECT
+              .contents
+                ul
+                  li
+                    a(href=path + 'project/01.html') これからの建設業界の在り方。
+                  //- li
+                  //-   a(href=path + 'project/02.html') これからの建設業界の在り方。
+              .st-Nav_Right_Toggle
+                span
+                span
+            .st-Nav_Right_Contents
+              .title.js-Nav_Ac
+                p MEMBER
+              .contents
+                ul
+                  li
+                    a(href=path + 'member/05.html') #{member_ito}
+                  li
+                    a(href=path + 'member/04.html') #{member_yama}
+                  li
+                    a(href=path + 'member/01.html') #{member_oga}
+                  li
+                    a(href=path + 'member/06.html') #{member_kura}
+                  li
+                    a(href=path + 'member/02.html') #{member_naka}
+                  li
+                    a(href=path + 'member/03.html') #{member_fuku}
+              .st-Nav_Right_Toggle
+                span
+                span
+            .st-Nav_Right_Contents
+              .title.js-Nav_Ac
+                p OTHER
+              .contents
+                ul
+                  li
+                    a(href=path + 'company/business.html') #{company}
+                  li
+                    a(href=path + 'recruitment/index.html') #{info}
+                  li
+                    a(href=path + 'personality/index.html') #{personality}
+                  li
+                    a(href=path + 'welfare/index.html') #{ｗelfare}
+                  li
+                    a(href=path + 'career/index.html') #{career}
+              .st-Nav_Right_Toggle
+                span
+                span
+          .st-Nav_Right_Footer
+            .st-Nav_Right_Footer_Inner
+              .st-Nav_Right_Footer_Address
+                p.highlight 本社所在地
+                p 〒744-0002   山口県下松市東海岸通1番7号
+                p TEL  0833-41-6300
+              .st-Nav_Right_Footer_Link
+                a(href='http://www.koto-corp.co.jp/' target="_blank").link 公式サイトへ
+
+//- nav

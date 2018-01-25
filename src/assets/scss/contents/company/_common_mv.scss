@@ -1,0 +1,199 @@
+.company-Mv_Wrapper {
+  margin-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  .company-Mv {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+
+    .company-Mv_Inner {
+      position: relative;
+
+      height: 580px;
+
+      &.company-Mv_History {
+        background: url("../img/company/mv.png")top 0 center /cover no-repeat;
+      }
+      &.company-Mv_Strategy {
+        background: url("../img/company/mv.png")top 0 center /cover no-repeat;
+      }
+      &.company-Mv_Business {
+        background: url("../img/company/mv.png")top 0 center /cover no-repeat;
+      }
+    }
+  }
+}
+
+.company-Txt_Wrapper {
+  .company-Txt {
+    .company-Txt_Inner {
+      position: absolute;
+      top: 53%;
+      left: 50%;
+
+      color: #ffffff;
+      margin-bottom: 20px;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      width: 614px;
+
+      h2 {
+        animation: "underlayer_Mv_Fade_In" 1s 0.5s;
+        animation-fill-mode: both;
+        font-size: 58px;
+        letter-spacing: 1px;
+      }
+
+      p {
+        animation: "underlayer_Mv_Fade_In" 1s 0.7s;
+        animation-fill-mode: both;
+        font-size: 20px;
+        letter-spacing: 1px;
+      }
+
+      .company-Txt_Sub_Inner {
+        padding-top: 40px;
+        p {
+          animation: "underlayer_Mv_Fade_In" 1s 0.9s;
+          animation-fill-mode: both;
+          font-size: 15px;
+          line-height: 2;
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .company-Mv_Wrapper {
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .company-Mv {
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      overflow: hidden;
+
+      .company-Mv_Inner {
+        position: relative;
+
+        height: 400px;
+
+        &.company-Mv_History {
+          background: url("../img/company/mv.png")top 0 center /cover no-repeat;
+        }
+        &.company-Mv_Strategy {
+          background: url("../img/company/mv.png")top 0 center /cover no-repeat;
+        }
+        &.company-Mv_Business {
+          background: url("../img/company/mv.png")top 0 center /cover no-repeat;
+        }
+      }
+    }
+  }
+
+  .company-Txt_Wrapper {
+    .company-Txt {
+      .company-Txt_Inner {
+        position: absolute;
+        top: 53%;
+        left: 50%;
+
+        color: #ffffff;
+        margin-bottom: 20px;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 500px;
+
+        h2 {
+          font-size: 40px;
+          letter-spacing: 1px;
+        }
+
+        p {
+          font-size: 18px;
+          letter-spacing: 1px;
+        }
+
+        .company-Txt_Sub_Inner {
+          padding-top: 40px;
+          p {
+            font-size: 16px;
+            line-height: 2;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .company-Mv_Wrapper {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 59px;
+
+    .company-Mv {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      overflow: hidden;
+
+      .company-Mv_Inner {
+        position: relative;
+
+        height: 256px;
+
+        &.company-Mv_History {
+          background: url("../img/company/mv.png")top 0 center /cover no-repeat;
+        }
+        &.company-Mv_Strategy {
+          background: url("../img/company/mv.png")top 0 center /cover no-repeat;
+        }
+        &.company-Mv_Business {
+          background: url("../img/company/mv.png")top 0 center /cover no-repeat;
+        }
+      }
+    }
+  }
+
+  .company-Txt_Wrapper {
+    .company-Txt {
+      .company-Txt_Inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        color: #ffffff;
+        margin-bottom: 0;
+        padding: 0 15px;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+        h2 {
+          font-size: 26px;
+          letter-spacing: 1px;
+        }
+
+        p {
+          font-size: 12px;
+          letter-spacing: 1px;
+        }
+
+        .company-Txt_Sub_Inner {
+          padding-top: 20px;
+          width: 100%;
+          p {
+            font-size: 12px;
+            line-height: 1.6;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+extend /_includes/_layout
+append variables
+  //- Required
+  - var pageTitle= member_oga + "｜光東株式会社 採用サイト";
+  - var pageDescription= "こちらは社員紹介のページです。光東株式会社の採用サイトです。社会とのつながり、社員、歴史や事業内容、求める人物象、募集要項、制度、キャリアプランなどをご紹介しています。";
+  - var pageKeywords= "光東株式会社,採用サイト," + member_oga;
+  //- Optional
+  - var pageOgpTitle= member_oga + "｜光東株式会社 採用サイト";
+  //- - var pageOgpImage= site.ogpImage
+  - var pageOgpType= "article";
+  //- Not modified
+  - var pageUrl= "member/01.html";
+
+  - var classname = "oga"
+
+block content
+  //- contents
+
+  //- mv
+  .member-Mv_Wrapper.js-Mv
+    .member-Mv
+      .member-Mv_Inner.oga
+    .member-Mv_Profile_Wrapper
+      .member-Mv_Profile
+        p.number MEMBER 01
+        h2 「光東」をもっと知ってほしい。 <br>お客様と、親密な関係を<br class="show_Sp">築くために足を運ぶ。
+        .member-Mv_Profile_Detail_Wrapper
+          .member-Mv_Profile_Detail_Left
+            p.name-E #{member_oga_e}
+            p.name #{member_oga}
+          .member-Mv_Profile_Detail_Right
+            p.dep #{member_oga_dep}
+            p.join-Date #{member_oga_join}
+
+  //- contents TOP
+  .member-Contents_Wrapper
+    .member-Contents
+      .member-Contents_Inner
+
+        .member-Contents_1img_Wrapper
+          .member-Contents_1img
+            .member-Contents_1img_Inner
+              .member-Contents_1img_Img_Wrapper
+                img(src='../assets/img/member/ogawa/member-img01.png', alt='小川裕己')
+              .member-Contents_1img_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') 「好き」を仕事にする。<br>建設機械のスケールの大きさ。 
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 私は昔から人と話をすることが好きで、大学時代のサークル活動では企画担当も務めていました。大学は愛媛の松山大学でしたが、出身である山口県が好きでこちらの企業に就職することにしました。子供の頃から大きな機械が好きで、道路を建設機械が走っていると思わず目をやってしまいます。その機械を使って「何ができるのか」「どうやって作るのか」などを考えてしまいますね。世の中にある他の多くの仕事では、機械に触ることはあまりないですが、光東の営業はお客様と話して必要な機械は何かを提案することが仕事です。直接作業することはありませんが、重機に乗ったりすることもあります。建設機械の魅力は、そのスケールの大きさではないでしょうか。
+
+        .member-Contents_2imgs_Wrapper
+          .member-Contents_2imgs
+            .member-Contents_2imgs_Inner
+              .member-Contents_2imgs_Top_Left_Wrapper
+                img.member-Contents_2img_Pc(src='../assets/img/member/ogawa/member-img02.png', alt='小川裕己')
+                img.member-Contents_2img_Sp(src='../assets/img/member/ogawa/member-img02_sp.png', alt='小川裕己')
+              .member-Contents_2imgs_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') 「好き」を仕事にする。<br>建設機械のスケールの大きさ。 
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 私は昔から人と話をすることが好きで、大学時代のサークル活動では企画担当も務めていました。大学は愛媛の松山大学でしたが、出身である山口県が好きでこちらの企業に就職することにしました。子供の頃から大きな機械が好きで、道路を建設機械が走っていると思わず目をやってしまいます。その機械を使って「何ができるのか」「どうやって作るのか」などを考えてしまいますね。世の中にある他の多くの仕事では、機械に触ることはあまりないですが、光東の営業はお客様と話して必要な機械は何かを提案することが仕事です。直接作業することはありませんが、重機に乗ったりすることもあります。建設機械の魅力は、そのスケールの大きさではないでしょうか。
+              .member-Contents_2imgs_Btm_Right_Wrapper
+                img(src='../assets/img/member/ogawa/member-img03.png', alt='小川裕己')
+
+  //- contents MIDDLE
+  .member-Contents_Mv_Wrapper
+    .member-Contents_Mv.oga
+      .member-Contents_Mv_Inner
+        .member-Contents_Txt_Wrapper
+          h3.wow.fadeInUp(data-wow-delay='0.2s') 光東の名前をもっと多くの人に知ってもらいたい。
+          p.wow.fadeInUp(data-wow-delay='0.4s') 光東の魅力をお客様に伝えるのが営業の仕事です。レンタルは金額だけで決まることはあまりなく、使用条件に合ったものを提案できるかが重要です。そのために親密な関係を築けるよう心がけています。現場にいるお客様の休み時間に合わせて進捗状況を聞きに行ったり、工事の進む方向性を確認したりするだけでなく、お客様と一緒にゴルフに行って関係構築することもあります。将来は光東の名前をもっと多くの人に知ってもらい、シェアを上げていきたいですね。世の中全体の工事の数は増えていて、その中で６～７割くらいの建設機械はレンタルです。建設機械は建物などを作るために必要なものですから、私たちはそれらを作るためのお手伝いをしているという誇りを大切にしています。 
+
+  //- contents BOTTOM
+  include /_includes/_underlayer/_member/_link
+
+  //- /contents

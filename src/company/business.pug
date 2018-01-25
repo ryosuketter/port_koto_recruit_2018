@@ -1,0 +1,352 @@
+extend /_includes/_layout
+append variables
+  //- Required
+  - var pageTitle= "事業内容｜光東株式会社 採用サイト";
+  - var pageDescription= "こちらは会社紹介のページです。光東株式会社の採用サイトです。社会とのつながり、社員、歴史や事業内容、求める人物象、募集要項、制度、キャリアプランなどをご紹介しています。";
+  - var pageKeywords= "光東株式会社,採用サイト,プロジェクト";
+  //- Optional
+  - var pageOgpTitle= "事業内容｜光東株式会社 採用サイト";
+  //- - var pageOgpImage= site.ogpImage
+  - var pageOgpType= "article";
+  //- Not modified
+  - var pageUrl= "company/business.html";
+  //- MVの中
+  - var classname = "Business"
+  - var title = "COMPANY"
+  - var title_sub = "事業内容"
+  - var description = "光東の事業内容、歴史、戦略についてご紹介いたします。"
+
+block content
+  include /_includes/_underlayer/_company/_mv
+  include /_includes/_underlayer/_company/_link
+
+  //- contents
+
+  //- ABOUT KOTO CORPORATION
+  .company-Corp_Wrapper
+    .company-Corp
+      .company-Corp_Inner
+        .company-Corp_Txt
+          .company-Corp_Title
+            span.wow.fadeInUp(data-wow-delay='1.5s') ABOUT KOTO CORPORATION
+            h3.wow.fadeInUp(data-wow-delay='1.5s') 光東株式会社について
+          .company-Corp_Body
+            p.wow.fadeInUp(data-wow-delay='1.5s') 光東株式会社は1948年(昭和23年)会社創立以来、常に「お客様のお役に立つ会社｣をめざして「お客様とともに」をモットーに歩んで参りました。自動車の整備と販売から始まった会社の事業は、70年の歩みの中でさらにさまざまな分野に拡がり、相関しながら拡大·充実して一歩一歩着実な歩を進めてきました。
+            p.wow.fadeInUp(data-wow-delay='1.2s') 現在光東株式会社は、商事部、リース部、整備部の３つの主要事業部門とそれらをサポートする形で教習センター、保険課、そして関連会社HondaCars光東によって展開されています。多様な商品構成でお客様の様々なニーズに応える商事部とリース部、高度なメンテナンス技術で技術的なサポートを提供する整備部、そして、更に進化してソフト面での安全をサポートする技能講習を開講する教習センター、リスクヘッジを提案する保険課、乗用車の販売と整備のHondaCars光東。
+            p.wow.fadeInUp(data-wow-delay='1.1s') それぞれの事業部門は、部門ごとに個別に活動するだけではなく、お互いに密接な連携を保ちつつ、「信頼」「満足｣「安心」「こだわり」をキーワードに密度の濃い業務に取り組んでいます。
+
+  //- Key Imgage
+  .company-Key_Img_Wrapper
+
+  //- ABOUT PROJECT
+  .company-Project_Wrapper
+    .company-Project
+      .company-Project_Inner
+
+        .company-Project_Title_Wrapper
+          span.wow.fadeInUp(data-wow-delay='0.2s') ABOUT PROJECT
+          h3.wow.fadeInUp(data-wow-delay='0.4s') 光東株式会社について
+
+        .company-Project_Contents_Wrapper.lease
+          .company-Project_Contents
+            .company-Project_Contents_Inner
+
+              .company-Project_Contents_Title.lease
+                .company-Project_Contents_Title_Inner
+                  h4.wow.fadeInUp(data-wow-delay='0.2s') リース部
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 豊富な取り扱い機種で多様なニーズに即応
+                .company-Project_Contents_Img
+                  img(src='../assets/img/company/business/project_lease.png', alt='リース')
+
+              .company-Project_Contents_Txt.lease
+                p.title.wow.fadeInUp(data-wow-delay='0.2s') 安全と安心のレンタル機械を提供
+                p.txt.wow.fadeInUp(data-wow-delay='0.2s') 多様化が進み、次々に新商品が開発される現在、お客様が独自に必要な物を全て揃えて維持管理することは非常に不経済です。リース部門では、必要な物を必要な数だけ必要な期間使用したいというお客様のご要望をリースという合理的システムで全面的にバックアップするために県内各地に営業所を開設し、コンピュータによる商品の集中管理によって、お客様からの注文に即応できるようにしています。
+                p.txt.wow.fadeInUp(data-wow-delay='0.2s') 取扱商品も高所作業車やトラック、ハウスなど大型の物から各種小物類まで幅広く取り揃え、どのようなニーズにも応えられるようにし、ご利用いただく商品は、整備部門で常に万全の整備をして出庫し、光東リースを利用してよかったとご満足いただけるようにしています。 また、全ての商品に「対人·対物賠償責任保険」をつけておりますので、万一の時の保証も万全です。
+
+        .company-Project_Contents_Wrapper.shoji
+          .company-Project_Contents
+            .company-Project_Contents_Inner
+
+              .company-Project_Contents_Title.shoji
+                .company-Project_Contents_Title_Inner
+                  h4.wow.fadeInUp(data-wow-delay='0.2s') 商事部
+                  p.wow.fadeInUp(data-wow-delay='0.4s') あらゆる建設土木機械·産業機械を提供
+                .company-Project_Contents_Img
+                  img(src='../assets/img/company/business/project_shoji.png', alt='リース')
+
+              .company-Project_Contents_Txt.shoji
+                p.title.wow.fadeInUp(data-wow-delay='0.2s') お客様とともにニーズを作る
+                p.txt.wow.fadeInUp(data-wow-delay='0.2s') お客様の必要とされるもの、それが商事部の取り扱商品です。
+                p.txt.wow.fadeInUp(data-wow-delay='0.2s') 油圧ショベルとクレーンの販売を中心に活動する光東の商事部にとって最も大切な営業基盤はお客様の信頼です。お客様のニーズにどのように応え続けていくか、種々雑多にある商品·メーカーの中から最もそのニーズに相応しい商品を探し、提案することが商事部の営業には求められています。
+                p.txt.wow.fadeInUp(data-wow-delay='0.2s') 商品だけではなく、ハードウエアを機能させるソフトウェアの分野まで踏み込んだ提案や、お客様のお役に立つ融資制度をはじめとする様々な制度等の情報提供、そして光東の持つ整備リース、保険等の機能をフルに活用した他の商社では提供できないサービス展開が光東商事部の営業活動を確固不動のものとし、より高いお客様の信頼を得ることになります。
+
+        .company-Project_Contents_Wrapper.maintenance
+          .company-Project_Contents
+            .company-Project_Contents_Inner
+
+              .company-Project_Contents_Title.maintenance
+                .company-Project_Contents_Title_Inner
+                  h4.wow.fadeInUp(data-wow-delay='0.2s') 整備部
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 車両·機械を安心して使用いただくため
+                .company-Project_Contents_Img
+                  img(src='../assets/img/company/business/project_maintenance.png', alt='リース')
+
+              .company-Project_Contents_Txt.maintenance
+                p.title.wow.fadeInUp(data-wow-delay='0.2s') ｢安心｣を満たす
+                p.txt.wow.fadeInUp(data-wow-delay='0.2s') 進歩の著しい車両や機械の性能を最大限に引き出し、その耐用年数をできるだけ延ばすためには、日常の整備が不可欠で、商事部門やリース部門で扱う品目が多岐にわたればわたるほど、整備部門に対するお客様のご要望は大きくなり、陸運局指定民間車検工場、車両系建設機械特定自主検査業者、各種メーカー指定工場としての信頼にも応えられるよう研究を積み重ね技術の向上に努めています。
+                p.txt.wow.fadeInUp(data-wow-delay='0.2s') また、公害などの環境に対する予防保全にも万全を期しています。遠隔地のお客様や故障機械を整備工場に持ち込めないお客様のために出張サービスカーをもってご用望の時期·場所において迅速に出張サービスも行っています。
+
+  //- ABOUT OFFICE
+  .company-Office_Wrapper
+    .company-Office
+      .company-Office_Inner
+
+        .company-Office_Inner_Bg_Up
+          .company-Office_Inner_Bg_Up_Title
+            h3.wow.fadeInUp(data-wow-delay='0.2s') OFFICE GUIDE
+            p.wow.fadeInUp(data-wow-delay='0.4s') 事業所のご案内
+
+        .company-Office_Inner_Bg_Down
+          .company-Office_Inner_Bg_Down_Inner
+
+            .company-Office_Dep_Wrapper
+              .company-Office_Dep_Column_Wrapper.pc-1-sp-half
+                .company-Office_Dep_Group_Wrapper.head-Office.wow.fadeInUp(data-wow-delay='0.2s')
+                  .title
+                    p 本社
+                  .place-Wrapper
+                    .place
+                      .number
+                        p 01
+                      .name
+                        p 本社
+                .company-Office_Dep_Group_Wrapper.various.wow.fadeInUp(data-wow-delay='0.3s')
+                  .title
+                    p リース・整備・商事部門
+                  .place-Wrapper
+                    .place
+                      .number
+                        p 02
+                      .name
+                        p 岩国営業所
+              .company-Office_Dep_Column_Wrapper.pc-1-sp-half
+                .company-Office_Dep_Group_Wrapper.maintenance.wow.fadeInUp(data-wow-delay='0.4s')
+                  .title
+                    p 整備部門
+                  .place-Wrapper
+                    .place
+                      .number
+                        p 03
+                      .name
+                        p 光営業所
+                    .place
+                      .number
+                        p 04
+                      .name
+                        p 徳山営業所
+                    .place
+                      .number
+                        p 05
+                      .name
+                        p 防府営業所
+                    .place
+                      .number
+                        p 06
+                      .name
+                        p 小野田営業所
+              .company-Office_Dep_Column_Wrapper.pc-3-sp-1
+                .company-Office_Dep_Group_Wrapper.lease.wow.fadeInUp(data-wow-delay='0.5s')
+                  .title
+                    p リース部門
+                  .place-Wrapper
+                    .place
+                      .number
+                        p 07
+                      .name
+                        p 下松機材センター
+                    .place
+                      .number
+                        p 08
+                      .name
+                        p 大竹営業所
+                    .place
+                      .number
+                        p 09
+                      .name
+                        p 南岩国営業所
+                    .place
+                      .number
+                        p 10
+                      .name
+                        p 柳井営業所
+                    .place
+                      .number
+                        p 11
+                      .name
+                        p 光営業所
+                    .place
+                      .number
+                        p 12
+                      .name
+                        p 徳山営業所
+                    .place
+                      .number
+                        p 13
+                      .name
+                        p 周南西営業所
+                    .place
+                      .number
+                        p 14
+                      .name
+                        p 防府営業所
+                    .place
+                      .number
+                        p 15
+                      .name
+                        p 山口営業所
+                    .place
+                      .number
+                        p 16
+                      .name
+                        p 徳佐営業所
+                    .place
+                      .number
+                        p 17
+                      .name
+                        p 三隅営業所
+                    .place
+                      .number
+                        p 18
+                      .name
+                        p 萩営業所
+                    .place
+                      .number
+                        p 19
+                      .name
+                        p 宇部川上営業所
+                    .place
+                      .number
+                        p 20
+                      .name
+                        p 小野田営業所
+                    .place
+                      .number
+                        p 21
+                      .name
+                        p 下関営業所
+                    .place
+                      .number
+                        p 22
+                      .name
+                        p 北九州営業所
+              .company-Office_Dep_Column_Wrapper.pc-1-sp-1
+                .company-Office_Dep_Group_Wrapper.training.wow.fadeInUp(data-wow-delay='0.2s')
+                  .title
+                    p 教習センター
+                  .place-Wrapper
+                    .place
+                      .number
+                        p 23
+                      .name
+                        p 教習センター
+              .company-Office_Dep_Column_Wrapper.pc-4-sp-1
+                .company-Office_Dep_Group_Wrapper.honda.wow.fadeInUp(data-wow-delay='0.4s')
+                  .title
+                    p 株式会社ホンダカーズ光東
+                  .place-Wrapper
+                    .place
+                      .number
+                        p 24
+                      .name
+                        p 本社
+                    .place
+                      .number
+                        p 25
+                      .name
+                        p 下松店
+                    .place
+                      .number
+                        p 26
+                      .name
+                        p 柳井店
+                    .place
+                      .number
+                        p 27
+                      .name
+                        p 光店
+                    .place
+                      .number
+                        p 28
+                      .name
+                        p 山口東店
+                    .place
+                      .number
+                        p 29
+                      .name
+                        p 長門店
+                    .place
+                      .number
+                        p 30
+                      .name
+                        p ホンダオートテラス下松
+
+  //- INFOMATION
+  .company-Info_Wrapper
+    .company-Info
+      .company-Info_Inner
+
+        .company-Info_Title_Wrapper
+          span.wow.fadeInUp(data-wow-delay='0.2s') INFOMATION
+          h3.wow.fadeInUp(data-wow-delay='0.4s') 企業情報
+
+        .company-Info_Table_Wrapper.wow.fadeInUp(data-wow-delay='0.6s')
+          .company-Info_Table
+            .company-Info_Table_Left
+              p 社名
+            .company-Info_Table_Right
+              p 光東株式会社
+          .company-Info_Table
+            .company-Info_Table_Left
+              p 設立
+            .company-Info_Table_Right
+              p 1948年(昭和23年)10月
+          .company-Info_Table
+            .company-Info_Table_Left
+              p 資本金
+            .company-Info_Table_Right
+              p 47,892,580円
+          .company-Info_Table
+            .company-Info_Table_Left
+              p 代表取締役
+            .company-Info_Table_Right
+              p 東 日出夫
+          .company-Info_Table
+            .company-Info_Table_Left
+              p 年間売上高
+            .company-Info_Table_Right
+              p 83億円（グループ全体）
+          .company-Info_Table
+            .company-Info_Table_Left
+              p 従業員数
+            .company-Info_Table_Right
+              p 全体350名（グループ全体）
+          .company-Info_Table
+            .company-Info_Table_Left
+              p 事業内容
+            .company-Info_Table_Right
+              p 各種自動車・建設産業用機械の整備、リース、販売及び輸出入、損害保険、生命保険取扱代理業、教習センター
+          .company-Info_Table
+            .company-Info_Table_Left
+              p 事業所
+            .company-Info_Table_Right
+              p 【営業本部】
+              p.spacing 〒744-0002 山口県下松市東海岸通1番7号
+              p.spacing TEL:0833-41-6300 FAX:0833-41-6310
+              p 【事業所】山口県内外 30箇所（グループ全体）
+          .company-Info_Table
+            .company-Info_Table_Left
+              p 取引先
+            .company-Info_Table_Right
+              p ゼネコン、建設会社、設備関連会社、輸送関連会社、建設機械関連会社、輸送機械関連会社
+
+  //- /contents

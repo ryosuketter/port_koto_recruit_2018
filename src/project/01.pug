@@ -1,0 +1,229 @@
+extend /_includes/_layout
+append variables
+  //- Required
+  - var pageTitle= "プロジェクト①｜光東株式会社 採用サイト";
+  - var pageDescription= "こちらはプロジェクト①のページです。光東株式会社の採用サイトです。社会とのつながり、社員、歴史や事業内容、求める人物象、募集要項、制度、キャリアプランなどをご紹介しています。";
+  - var pageKeywords= "光東株式会社,採用サイト,プロジェクト";
+  //- Optional
+  - var pageOgpTitle= "プロジェクト①｜光東株式会社 採用サイト";
+  //- - var pageOgpImage= site.ogpImage
+  - var pageOgpType= "article";
+  //- Not modified
+  - var pageUrl= "project/01.html";
+
+  - var classname = "01"
+  //- 左の人
+  - var name_e_left = "KATOU TOSHIHIRO"
+  - var name_left = "加藤 俊宏"
+  - var company_left = "光東株式会社"
+  - var position_left = "徳山営業所"
+  //- 右の人
+  - var name_e_right = "HANADA HIDEFUMI"
+  - var name_right = "花田 英史"
+  - var company_right = "鹿島建設株式会社"
+  - var position_right = "オートテクニカ小野田工場工事事務所"
+  //- 円の中
+  - var project = "PROJECT 01"
+  - var title1 = "これからの建設業界の在り方。"
+  - var title2 = "改革の「最前線」となる"
+  - var title3 = "プロジェクト。"
+  - var title_sub = "営業所長 × 鹿島建設（クライアント）"
+
+block content
+  include /_includes/_underlayer/_project/_mv
+
+  //- contents
+
+  .project-Description_Wrapper
+    .project-Description
+      .project-Description_Inner.wow.fadeInUp(data-wow-delay='0.2s')
+        p オートテクニカ小野田第一工場「Assy塗装棟新築工事」に伴う建設機械のレンタルプロジェクト。<br class="hidden_SP">これまでの信頼を活かしつつ、ワンランク上を目指すために何ができるのか。<br class="hidden_SP">徳山営業所の所長である加藤が、鹿島建設花田所長とともにプロジェクトを振り返る。<br class="hidden_SP">これからの建設業界はどうなるのか、そのために光東が求められる役割は何かについて語る。
+
+  .project-Contents_Wrapper
+    .project-Contents
+      .project-Contents_Inner
+
+        .project-Title_Wrapper
+          .project-Title
+            .project-Title_Inner.wow.fadeInUp(data-wow-delay='0.2s')
+              p プロジェクトのスタート。<br>鹿島建設からの期待。
+
+        .project-Body_Wrapper
+          .project-Body
+            .project-Body_Inner
+
+              .project-Img_Wrapper
+                img(src='../assets/img/project/01/project-img_01.png', alt='花田英史 対談の様子')
+
+              .project-Txt_Wrapper
+                .project-Txt
+                  .project-Txt_Inner
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p 今回のプロジェクトは鹿島建設さんが工事を受注されたということを聞き、営業をさせていただきました。我々は「社会貢献のためのお手伝いをしている」という認識のもと、工程に支障のない商品提供を意識しています。信頼関係を崩さないように「凡事徹底」ということを図りました。「安全第一」ということが最優先ですので。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p レンタル先の候補は他にもありましたが、古くからのつき合いを通して「信頼がある」ということは大きかったですね。長い期間一緒にやれているということは、それだけ「信頼関係がある」ということです。個別の依頼に対する「反応の速さ」など、担当者からの評価も非常に高かったですよ。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p レンタル業の難しい点は「教科書がない」ということです。建築物件に関しても「全く同じ物件」ができることはありませんから、前もって想像することも難しいわけです。工事の状況も都度変わるので、ヒアリングが重要だと思っています。
+
+        .project-Body_Wrapper.img-Left.adjust_PC
+          .project-Body
+            .project-Body_Inner
+
+              .project-Img_Wrapper
+                img(src='../assets/img/project/01/project-img_02.png', alt='現場写真')
+
+              .project-Txt_Wrapper
+                .project-Txt
+                  .project-Txt_Inner
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p 使いたいものがあった時に「どういうものが欲しいのか」説明に時間をかけずに把握してくれるということは重要です。「物量」つまり「必要なものが必要な量」用意できるのか、早く返答してくれることも重要です。無理ならば他に依頼をかける必要がありますからね。今回のプロジェクトでは、高所作業車がたくさん必要だったわけですが、どこまで調達できるのかということを早く正直に伝えてくれたことで他への手配も迅速に行うことができました。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p 我々だけではまかなえませんし、信頼関係を崩すわけにはいきません。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p あとは、過去のつき合いをもとにニーズを把握できているということも大きいですね。例えば「室内におけるトイレ」を必要としていたとします。以前それを使ったことがあれば、何も言わなくてもそれで見積が出てくるわけです。室外のトイレというのは衛生的にも、気温的にも、「快適」に使用することはできません。暑い時には中にクーラーを入れるなど、職場環境の改善がニーズとしてあったわけです。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p 般的な仮説トイレというのは、プラスチックでできた５０センチ四方くらいのものですが、花田所長の現場ではトイレだけでできた子供部屋くらいの建物を作り、ウォシュレット付のトイレを用意させていただいていますね。
+
+
+        .project-Title_Wrapper
+          .project-Title
+            .project-Title_Inner.wow.fadeInUp(data-wow-delay='0.2s')
+              p 「働き方改革」という大きなテーマを<br>「現場視点」で考える。
+
+        .project-Body_Wrapper
+          .project-Body
+            .project-Body_Inner
+
+              .project-Img_Wrapper
+                img(src='../assets/img/project/01/project-img_03.png', alt='加藤俊宏 対談の様子')
+
+              .project-Txt_Wrapper
+                .project-Txt
+                  .project-Txt_Inner
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p ここ数年でも山口県であれだけの作業台が収まったのは珍しいことで、非常に多くの学びがありました。安心や安全だけでなく「働く方の快適さ」というのは新たなテーマだったように思います。トイレ内の気温は夏４０度ほどに上がりますが、仮設トイレにエアコンをつけたのは初の試みでしたね。また、たくさんの機械を収めたこともあって、定期点検や機械の入れ替えも実施しました。当社の在庫を全て収めても足りないくらいだったので、配送とも連携して状況を把握し、在庫を集めていきました。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p 今回は搬入場所が「工場の一番奥」にあったということと当初２方向から搬入できたはずが１方向になってしまったという背景がありました。そのため全ての通路において鉄板を敷いたのです。鉄板を敷くと離合する（すれ違う）ことが可能になります。整然とするということは、常日頃から意識していることです。ただ、それに対してどこまでコストをかけるかというのが「違い」になって表れます。
+
+        .project-Body_Wrapper.img-Left
+          .project-Body
+            .project-Body_Inner
+
+              .project-Img_Wrapper
+                img(src='../assets/img/project/01/project-img_04.png', alt='仮設トイレにエアコンをつけている')
+
+              .project-Txt_Wrapper
+                .project-Txt
+                  .project-Txt_Inner
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p 印象的だったのは資材搬入の場所が整然としていたことですね。今回の現場は人が歩く通路や大きなトラックの導線が常時確保されていましたが、一般的にはごった返した感じが普通です。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p 仮設に対してはできるだけコストをかけたくないのが本音です。効率性や安全性を考慮した上で、それぞれの現場でどうするかを検討するわけです。今回のプロジェクトは「働き方改革」に対してどう取り組むかがテーマでした。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p 働き方の「選択肢」を増やすということですね。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p 建設業は通常土日休みではないですが、今回は月に2回土曜休みを入れた上で工程を組みました。女性が気持ちよく作業できる現場づくりを目指し、分煙やトイレ整備を進めたり、遅れてきても現場に入れるためのデジタルサイネージを導入して情報発信を行ったりしました。社員の残業を減らすなど、外国人や女性が働きやすい多様な環境づくりを目指しました。鹿島建設の目指す「働き方改革」の一歩先をいっているように思います。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p 鹿島建設さんには、協力会社も集う「YAMAの会」という協力会がありますね。１年に3回あってもう４０回ほどに上りますが、鹿島建設さんのルールがアナウンスされる協力会で、建設現場に関わる安心や安全とは別に、働き方に関する勉強会を実施されていたので、外国人労働者の雇入などについての知識を身につけました。真剣に働き方改革と向き合っていたように思います。
+
+
+  .project-Contents_One_Column_Wrapper
+    .project-Contents_One_Column
+      .project-Contents_One_Column_Inner
+
+        .project-Title_One_Column_Wrapper
+          .project-Title_One_Column
+            .project-Title_One_Column_Inner.wow.fadeInUp(data-wow-delay='0.2s')
+              p プロジェクトのスタート。<br>鹿島建設からの期待。
+
+        .project-Body_One_Column_Wrapper
+          .project-Body_One_Column
+            .project-Body_One_Column_Inner
+
+              .project-Img_One_Column_Wrapper
+                img(src='../assets/img/project/01/project-img_05.png', alt='サマースクールで小学生にポンプ車を運転してもらう様子')
+
+              .project-Txt_One_Column_Wrapper
+                .project-Txt_One_Column
+                  .project-Txt_One_Column_Inner
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p 光東さんとして「目指している姿」というものはありますか。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p 「働き方改革」という意味で言えば、給与体系の話もありますが、残業を増やしたり休みを取りやすくしたりするために人を増やす必要はあるように思います。そうすることで向上心を持って、スキルアップを図る余裕が生まれます。「こういう商品もありますよ」という提案ができるように、また、メーカー側にも商品の依頼を投げられるようになっていく必要があるのかなとも思っています。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p なるほど。建設業界全体という観点で言っても、私は展示会などを含めて「いかに労働力を確保していくのか」を考えています。若い人を増やすだけではなく、女性や外国人も含めた担い手の確保が必要です。女性の作業者の方は、現状１～２％程度です。今はこの数字を上げるのではなく「何が弊害なのか」を考えている段階です。時間なのか、清潔さなのか。光東さんには、さらに働きやすい環境を考えて「機械・人・IT」といった「ハードとソフトの融合」を実現してほしいと思っています。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p そうですね。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p 光東さんは、経営者との距離が近い会社です。「何かをやろう」という時の決断するスピードが違います。「先陣を切って提案をする」ということを期待したいですね。また、光東さんの場合は「運搬・配送」が強みですよね。このコストをかけず効率的にやるための提案を期待しています。もうワンランク上を目指していきたいですね（笑）
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p プレッシャーですね（笑）今回の鹿島建設さんの現場は、通常の現場よりも「先のこと」をされていました。そこにきちんとついていかなければいけないと思っています。そのために「安全・安心・省力」という観点を踏まえて「働き方改革」についても勉強していくことが求められます。あとは、若い方の建設業界に対するイメージも変えていきたいです。展示会なども含めて建設業への馴染みを「幼少期」に作っていきたいですね。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p サマースクールなどを通じて、小学生にポンプ車を運転してもらうと「面白い！」となりますからね。そういった活動を通して「将来は建設業界」にいきたいと思ってもらえたらいいと思います。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p 「支え続ける責任」それが私たちなりの「社会貢献」だと思っています。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p これからもよろしくお願いしますね（笑）
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 加藤
+                      p こちらこそよろしくお願いします。今日はありがとうございました。
+                    .commnet.wow.fadeInUp(data-wow-delay='0.2s')
+                      p.highlight 花田
+                      p ありがとうございました。
+
+  .project-Link_Wrapper
+    .project-Link
+      .project-Link_Inner
+        .project-Link_Img_Wrapper
+
+        .project-Link_Area_Wrapper
+          a.project-Link_Area_Left_Wrapper(href='01.html')
+            .project-Link_Area_Left
+              .project-Link_Area_Txt_Wrapper
+                p.sub-Title PROJECT 01
+                p.title これからの建設業界の在り方。<br>改革の「最前線」となるプロジェクト。
+                p.cross 営業所長 × 鹿島建設（クライアント）
+              .project-Link_Area_Left_Inner
+          .project-Link_Area_Right_Wrapper.project-Link_Coming_Soon
+            .project-Link_Coming_Soon_Txt
+              p.sub PROJECT 02
+              p.main COMING SOON
+          //- a.project-Link_Area_Right_Wrapper(href='02.html')
+          //-   .project-Link_Area_Right
+          //-     .project-Link_Area_Txt_Wrapper
+          //-       p.sub-Title PROJECT 02
+          //-       p.title これからの建設業界の在り方。<br>改革の「最前線」となるプロジェクト。
+          //-       p.cross 営業所長 × 鹿島建設（クライアント）
+          //-     .project-Link_Area_Right_Inner
+
+        .project-Link_Btn_Wrapper
+          .project-Link_Btn
+            a.project-Link_Btn_Inner(href='../member/01.html')
+              p.title MEMBER
+              p.sub-Title 社員紹介
+
+
+  //- /contents

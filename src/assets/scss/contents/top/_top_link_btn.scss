@@ -1,0 +1,110 @@
+.top-Link_Btn_Wrapper {
+  .top-Link_Btn {
+    .top-Link_Btn_Inner {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 100px;
+      padding-top: 100px;
+
+      a {
+        background-color: #ffffff;
+        border: 2px solid #dddfe4;
+        border-radius: 50px;
+        color: $Navy;
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 34px 0;
+        text-align: center;
+        text-decoration: none;
+        transition: 0.2s;
+        width: 360px;
+
+        &:not(:last-child) {
+          margin-right: 50px;
+        }
+
+        &:hover {
+          background-color: $Blue;
+          border: 2px solid $Blue;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .top-Link_Btn_Wrapper {
+    .top-Link_Btn {
+      .top-Link_Btn_Inner {
+        display: flex;
+        justify-content: center;
+        padding: 80px 15px;
+
+        a {
+          background-color: #ffffff;
+          border: 2px solid #dddfe4;
+          border-radius: 40px;
+          color: $Navy;
+          display: block;
+          font-size: 16px;
+          font-weight: 600;
+          padding: 22px 0;
+          text-align: center;
+          text-decoration: none;
+          transition: 0.2s;
+          width: 240px;
+
+          &:not(:last-child) {
+            margin-right: 50px;
+          }
+
+          &:hover {
+            background-color: $Blue;
+            border: 2px solid $Blue;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .top-Link_Btn_Wrapper {
+    .top-Link_Btn {
+      .top-Link_Btn_Inner {
+        display: flex;
+        justify-content: center;
+        padding: 42px 15px 40px;
+
+        a {
+          background-color: #ffffff;
+          border: 1px solid #dddfe4;
+          border-radius: 50px;
+          color: $Navy;
+          display: block;
+          font-size: 11px;
+          font-weight: 300;
+          padding: 12px 0;
+          text-align: center;
+          text-decoration: none;
+          transition: 0.2s;
+          width: 96px;
+          font-weight: 600;
+
+          &:not(:last-child) {
+            margin-right: 8px;
+          }
+
+          &:hover {
+            background-color: $Blue;
+            border: 1px solid $Blue;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+// ==========================================================================
+// settings
+// ==========================================================================
+@import "./settings/_variables.scss";
+@import "./settings/_zindex.scss";
+
+// ==========================================================================
+// tools
+// ==========================================================================
+@import "./tools/mixins/_mediaqueries.scss";
+@import "./tools/_keyframes.scss";
+@import "./tools/_line.scss";
+
+// ==========================================================================
+// base（基本normalize.css）
+// ==========================================================================
+@import "./base/_normalize.scss";
+
+// ==========================================================================
+// contents（よく使うコンポーネントと各カテゴリーごとにファイルをつくる）
+// ==========================================================================
+
+// TOP
+@import "./contents/top/_top_mv.scss";
+@import "./contents/top/_top_description.scss";
+@import "./contents/top/_top_about.scss";
+@import "./contents/top/_top_project.scss";
+@import "./contents/top/_top_member.scss";
+@import "./contents/top/_top_link.scss";
+@import "./contents/top/_top_link_btn.scss";
+@import "./contents/top/_top_loading.scss";
+
+//about
+@import "./contents/about/_mv.scss";
+@import "./contents/about/_contents.scss";
+@import "./contents/about/_contents_body.scss";
+
+// PROJECT
+@import "./contents/project/_project_mv.scss";
+@import "./contents/project/_project_description.scss";
+@import "./contents/project/_project_one_column.scss";
+@import "./contents/project/_project_two_columns.scss";
+@import "./contents/project/_project_link.scss";
+
+// MEMBER
+@import "./contents/member/_mv.scss";
+@import "./contents/member/_contents.scss";
+@import "./contents/member/_contents_middle.scss";
+@import "./contents/member/_contents_bottom.scss";
+
+
+// COMPANY
+@import "./contents/company/_common_mv.scss";
+@import "./contents/company/_common_link.scss";
+// COMPANY - HISTORY
+@import "./contents/company/history/_contents.scss";
+// COMPANY - BUSINESS
+@import "./contents/company/business/_corp.scss";
+@import "./contents/company/business/_project.scss";
+@import "./contents/company/business/_office.scss";
+@import "./contents/company/business/_info.scss";
+// COMPANY - STRATEGY
+@import "./contents/company/strategy/_contents.scss";
+
+// RECRUITMENT
+@import "./contents/recruitment/_contents.scss";
+
+// PERSONALITY
+@import "./contents/personality/_contents.scss";
+
+// WALFARE
+@import "./contents/welfare/_contents.scss";
+
+// CAREER
+@import "./contents/career/_contents.scss";
+
+
+// ==========================================================================
+// structures（共通部分の定義）
+// ==========================================================================
+@import "./structures/_footer.scss";
+@import "./structures/_header.scss";
+@import "./structures/_nav.scss";
+
+@import "./structures/underlayer/_mv.scss";
+@import "./structures/underlayer/_3buttons_link.scss";
+
+// ==========================================================================
+// vendor（DLして使うファイルとか）
+// ==========================================================================
+@import "./vendor/_font.scss";
+@import "./vendor/_animate.scss";
+@import "./vendor/_font-awesome.scss";

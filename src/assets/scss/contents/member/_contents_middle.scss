@@ -1,0 +1,97 @@
+.member-Contents_Mv_Wrapper {
+  .member-Contents_Mv {
+    position: relative;
+
+    height: 612px;
+
+    &.oga {
+      background: url("../img/member/ogawa/member-img04.png")top 0 center /cover no-repeat;
+    }
+    &.naka {
+      background: url("../img/member/nakayama/member-img04.png")top 0 center /cover no-repeat;
+    }
+    &.fuku {
+      background: url("../img/member/fukuyama/member-img04.png")top 0 center /cover no-repeat;
+    }
+    &.yama {
+      background: url("../img/member/yamamoto/member-img04.png")top 0 center /cover no-repeat;
+    }
+    &.ito {
+      background: url("../img/member/ito/member-img04.png")top 0 center /cover no-repeat;
+    }
+    &.kura {
+      background: url("../img/member/kurata/member-img04.png")top 0 center /cover no-repeat;
+    }
+
+    .member-Contents_Mv_Inner {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+
+      border-radius: 8px;
+      box-shadow: 2px 3.5px 4px rgba(15, 19, 45, 0.04);
+      max-width: 1200px;
+      transform: translateX(-50%);
+      width: 100%;
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .member-Contents_Mv_Wrapper {
+    .member-Contents_Mv {
+      position: relative;
+
+      height: 400px;
+
+      &.oga {
+        background: url("../img/member/ogawa/member-img04.png")top 0 center /cover no-repeat;
+      }
+
+      .member-Contents_Mv_Inner {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+
+        border-radius: 8px;
+        box-shadow: 2px 3.5px 4px rgba(15, 19, 45, 0.04);
+        max-width: 1220px;
+        transform: translateX(-50%);
+        width: 94%;
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .member-Contents_Mv_Wrapper {
+    .member-Contents_Mv {
+      position: relative;
+
+      height: 400px;
+
+      &.oga {
+        background: url("../img/member/ogawa/member-img04.png")top 0 center /cover no-repeat;
+      }
+      &.fuku {
+        background: url("../img/member/fukuyama/member-img04_sp.png")top 0 center /cover no-repeat;
+      }
+      &.kura {
+        background: url("../img/member/kurata/member-img04_sp.png")top 0 center /cover no-repeat;
+      }
+
+
+      .member-Contents_Mv_Inner {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+
+        border-radius: 8px;
+        box-shadow: 2px 3.5px 4px rgba(15, 19, 45, 0.04);
+        max-width: 420px;
+        transform: translateX(-50%);
+        width: 94%;
+      }
+    }
+  }
+}

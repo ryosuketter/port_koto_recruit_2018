@@ -1,0 +1,73 @@
+extend /_includes/_layout
+append variables
+  //- Required
+  - var pageTitle= member_fuku + "｜光東株式会社 採用サイト";
+  - var pageDescription= "こちらは社員紹介のページです。光東株式会社の採用サイトです。社会とのつながり、社員、歴史や事業内容、求める人物象、募集要項、制度、キャリアプランなどをご紹介しています。";
+  - var pageKeywords= "光東株式会社,採用サイト," + member_fuku;
+  //- Optional
+  - var pageOgpTitle= member_fuku + "｜光東株式会社 採用サイト";
+  //- - var pageOgpImage= site.ogpImage
+  - var pageOgpType= "article";
+  //- Not modified
+  - var pageUrl= "member/03.html";
+
+  - var classname = "fuku"
+
+block content
+  //- contents
+
+  //- mv
+  .member-Mv_Wrapper.js-Mv
+    .member-Mv
+      .member-Mv_Inner.fuku
+    .member-Mv_Profile_Wrapper
+      .member-Mv_Profile
+        p.number MEMBER 03
+        h2 楽しく働くことで「ひらめき」を生む。 <br>自ら作っていく「営業」という仕事。
+        .member-Mv_Profile_Detail_Wrapper
+          .member-Mv_Profile_Detail_Left
+            p.name-E #{member_fuku_e}
+            p.name #{member_fuku}
+          .member-Mv_Profile_Detail_Right
+            p.dep #{member_fuku_dep}
+            p.join-Date #{member_fuku_join}
+
+  //- contents TOP
+  .member-Contents_Wrapper
+    .member-Contents
+      .member-Contents_Inner
+
+        .member-Contents_1img_Wrapper
+          .member-Contents_1img
+            .member-Contents_1img_Inner
+              .member-Contents_1img_Img_Wrapper
+                img(src='../assets/img/member/fukuyama/member-img01.png', alt='福山順之')
+              .member-Contents_1img_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') やりたいことをやる。<br>たどり着いた営業職。 
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 「大人になったらトラックの運転手になりたい」昔からそう思っていました。高校を卒業した後、働きながら大型車両の運転免許を取得し、晴れてトラックの運転手になりました。しかし、今度は「建設機械に触れてみたい」という想いが芽生え、光東に入社しました。子供の頃から大きなショベルカーなどを自分で動かしてみたいと思っていたので突然ひらめいたというわけではないですが、トラックを運転するようになって「もっと大きなもの」を動かしたいと思ったわけですね。運転技術が活かせて建設機械に携われる「リース・レンタル配送」という仕事を経て、今はリース・レンタルの営業を担当しています。営業に変わったのが33歳の時でした。 
+
+        .member-Contents_2imgs_Wrapper
+          .member-Contents_2imgs
+            .member-Contents_2imgs_Inner
+              .member-Contents_2imgs_Top_Left_Wrapper
+                img.member-Contents_2img_Pc(src='../assets/img/member/fukuyama/member-img02.png', alt='福山順之')
+                img.member-Contents_2img_Sp(src='../assets/img/member/fukuyama/member-img02_sp.png', alt='福山順之')
+              .member-Contents_2imgs_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') 水面下で動き、点と点を<br>つなぎ合わせて勝利をつかむ。
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 営業は拘束時間的にも大変なイメージがあり「営業をやるなら３５歳くらいかな」と考えていました。子供の手が離れるが３５歳くらいかなと。ただ、３３歳の時に防府営業所の営業人員に空きが出て、「今しかない」と思い自ら手を挙げました。営業の仕事は「言われたことをやる」ではなく「自ら作っていく」ということです。大きい仕事を取れた時にはやりがいを感じます。一番印象的だったのは、高速道路の小郡ジャンクションの建設機械レンタルが決まった時ですね。約３年に渡る長期レンタルで重機の数も多かったので、クライアントが入札で勝ったと聞いた時は非常に嬉しかったです。お客様のニュアンスをくみ取りながら提案をしていきました。 
+              .member-Contents_2imgs_Btm_Right_Wrapper
+                img(src='../assets/img/member/fukuyama/member-img03.png', alt='福山順之')
+
+  //- contents MIDDLE
+  .member-Contents_Mv_Wrapper
+    .member-Contents_Mv.fuku
+      .member-Contents_Mv_Inner
+        .member-Contents_Txt_Wrapper
+          h3.wow.fadeInUp(data-wow-delay='0.2s') 楽しく、自分らしく仕事をすることの大切さ。 
+          p.wow.fadeInUp(data-wow-delay='0.4s') 私は、気構えせずに情報を聞きに行くタイプです。いつも自然体で、素の自分を出せるよう意識しています。そうしないと深く考え過ぎてしまったり、「前と違う」と言われてしまったりしてしまいます。また、楽しく仕事をすることで、いろんなアイデアが生まれてくるように思います。私は「日々挑戦」と思って仕事をしているので、失敗してしまうこともありますが、やらないうちからできないとは言いたくないですね。失敗は必ずあることで、同じ失敗をしないように考えることの方が大切です。仕事は始めてしまえば、周りも助けてくれます。気難しい人がいても、元気よく挨拶して「うるさいやつだ」と覚えてもらうことから関係構築していけばいいと思っています。  
+
+  //- contents BOTTOM
+  include /_includes/_underlayer/_member/_link
+  //- /contents

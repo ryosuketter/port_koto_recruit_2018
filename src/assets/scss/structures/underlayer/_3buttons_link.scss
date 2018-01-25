@@ -1,0 +1,163 @@
+.three-Btn_Link_Wrapper {
+  .three-Btn_Link {
+    .three-Btn_Link_Inner {
+      display: flex;
+      justify-content: center;
+      padding: 100px 60px;
+
+      .btn {
+        background-color: #ffffff;
+        border-radius: 50px;
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        width: 360px;
+
+        a {
+          border: 2px solid #dddfe4;
+          border-radius: 50px;
+          color: $Navy;
+          cursor: pointer;
+          display: block;
+          font-weight: 600;
+          height: 100%;
+          padding: 34px 0;
+          text-decoration: none;
+          transition: 0.2s;
+          width: 100%;
+        }
+
+        &:not(:last-child) {
+          margin-right: 50px;
+        }
+
+        &:hover {
+          a {
+            background-color: $Blue;
+            border: 2px solid $Blue;
+            color: #ffffff;
+          }
+        }
+
+        &.button_Personality {
+          .button-In_Personality {
+            background-color: $Blue;
+            border: 2px solid $Blue;
+            color: #ffffff;
+          }
+        }
+        &.button_Welfare {
+          .button-In_Welfare {
+            background-color: $Blue;
+            border: 2px solid $Blue;
+            color: #ffffff;
+          }
+        }
+        &.button_Career {
+          .button-In_Career {
+            background-color: $Blue;
+            border: 2px solid $Blue;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .three-Btn_Link_Wrapper {
+    .three-Btn_Link {
+      .three-Btn_Link_Inner {
+        display: flex;
+        justify-content: center;
+        padding: 80px 30px;
+
+        .btn {
+          background-color: #ffffff;
+          border-radius: 40px;
+          display: block;
+          font-size: 16px;
+          font-weight: 600;
+          text-align: center;
+          width: 240px;
+
+          a {
+            border: 2px solid #dddfe4;
+            border-radius: 40px;
+            color: $Navy;
+            cursor: pointer;
+            display: block;
+            height: 100%;
+            padding: 22px 0;
+            text-decoration: none;
+            transition: 0.2s;
+            width: 100%;
+          }
+
+          &:not(:last-child) {
+            margin-right: 50px;
+          }
+
+          &:hover {
+            a {
+              background-color: $Blue;
+              border: 2px solid $Blue;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .three-Btn_Link_Wrapper {
+    .three-Btn_Link {
+      .three-Btn_Link_Inner {
+        display: flex;
+        justify-content: center;
+        padding: 36px 15px;
+
+        .btn {
+          background-color: #ffffff;
+          border-radius: 50px;
+          display: block;
+          font-size: 11px;
+          font-weight: 300;
+          text-align: center;
+          text-decoration: none;
+          transition: 0.2s;
+          width: 96px;
+
+          a {
+            border: 1px solid #dddfe4;
+            border-radius: 50px;
+            color: $Navy;
+            cursor: pointer;
+            display: block;
+            height: 100%;
+            padding: 12px 0;
+            text-decoration: none;
+            transition: 0.2s;
+            width: 100%;
+          }
+
+          &:not(:last-child) {
+            margin-right: 8px;
+          }
+
+          &:hover {
+            a {
+              background-color: $Blue;
+              border: 2px solid $Blue;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

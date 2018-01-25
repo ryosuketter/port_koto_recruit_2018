@@ -1,0 +1,70 @@
+//- footer
+mixin footer(path)
+  footer.st-Footer_Wrapper
+    .st-Footer
+      .st-Footer_Inner
+        p 興味をもった方はまずは<br class="show_SP">エントリーをしてお会いしましょう。
+        a.entry-Btn(href='#') ENTRY
+      .st-Footer_Link_Wrapper
+        .st-Footer_Link
+          .st-Footer_Link_Inner
+            .st-Footer_Link_ToTop
+              a(href='#')
+                .st-Footer_Link_ToTop_Inner
+            .st-Footer_Link_Body_Wrapper
+              .st-Footer_Link_Body
+                .st-Footer_Link_Body_Inner
+                  .st-Footer_Link_Body_Left_Wrapper
+                    .st-Footer_Link_Body_Left
+                      .st-Footer_Link_Logo_Wrapper
+                        img(src=path + 'assets/img/footer/footer-logo.png', alt='ロゴ フッター')
+                      .st-Footer_Link_Address_Wrapper
+                        p.highlight 本社所在地
+                        p 〒744-0002   山口県下松市東海岸通1番7号
+                        p TEL  0833-41-6300
+                  .st-Footer_Link_Body_Right_Wrapper
+                    .st-Footer_Link_Body_Right
+                      .st-Footer_Link_Row_Wrapper
+                        p.highlight ABOUT
+                        ul
+                          li
+                            a(href=path + 'about/index.html') 社会との繋がり
+                      .st-Footer_Link_Row_Wrapper
+                        p.highlight PROJECT
+                        ul
+                          li
+                            a(href=path + 'project/01.html') 営業所長 × 鹿島建設
+                          //- li
+                          //-   a(href=path + 'project/02.html') 営業所長 × 鹿島建設
+                      .st-Footer_Link_Row_Wrapper
+                        p.highlight MEMBER
+                        ul
+                          li
+                            a(href=path + 'member/05.html') #{member_ito}
+                          li
+                            a(href=path + 'member/04.html') #{member_yama}
+                          li
+                            a(href=path + 'member/01.html') #{member_oga}
+                          li
+                            a(href=path + 'member/06.html') #{member_kura}
+                          li
+                            a(href=path + 'member/02.html') #{member_naka}
+                          li
+                            a(href=path + 'member/03.html') #{member_fuku}
+                      .st-Footer_Link_Body_Sub_Right
+                        ul
+                          li
+                            a(href=path + 'company/business.html') #{company}
+                          li
+                            a(href=path + 'recruitment/index.html') #{info}
+                          li
+                            a(href=path + 'personality/index.html') #{personality}
+                          li
+                            a(href=path + 'welfare/index.html') #{ｗelfare}
+                          li
+                            a(href=path + 'career/index.html') #{career}
+
+            .st-Footer_Link_Copy
+              p KOTO CORPORATION RECRUIT 2019  ALL RIGHTS RESERVED
+
+//- /footer

@@ -1,0 +1,59 @@
+extend /_includes/_layout
+append variables
+  //- Required
+  - var pageTitle= "求める人物象｜光東株式会社 採用サイト";
+  - var pageDescription= "こちらは会社紹介のページです。光東株式会社の採用サイトです。社会とのつながり、社員、歴史や事業内容、求める人物象、募集要項、制度、キャリアプランなどをご紹介しています。";
+  - var pageKeywords= "光東株式会社,採用サイト,求める人物象";
+  //- Optional
+  - var pageOgpTitle= "求める人物象｜光東株式会社 採用サイト";
+  //- - var pageOgpImage= site.ogpImage
+  - var pageOgpType= "article";
+  //- Not modified
+  - var pageUrl= "personality/index.html";
+  //- MVの中
+  - var classname = "Personality"
+  - var title = "求める人物像"
+  - var title_sub = ""
+  - var description = "光東がともに働きたいと思う人物像をご紹介いたします。"
+
+block content
+  include /_includes/_underlayer/_mv
+
+  //- contents
+  .personality-Contents_Wrapper
+    .personality-Contents
+      .personality-Contents_Inner
+
+        .personality-Contents_Detail_Wrapper
+          .personality-Contents_Detail
+            .personality-Contents_Detail_Left
+              .personality-Contents_Circle.wow.fadeInUp(data-wow-delay='1.0s')
+                .personality-Contents_Circle_Txt
+                  p.number 01
+                  p.title 信用·信頼
+            .personality-Contents_Detail_Right
+              p.wow.fadeInUp(data-wow-delay='1.1s') 光東は事業を通じて地域社会インフラを支えるという重要な社会的役割を担っていると考えています。その使命を果たす為には、お客様を通じて地域に根付く企業や人々の生活を支えるという強い責任感を持つと同時に、自らの全ての言動や行動に関して、お客様や地域の皆様に対する「信用·信頼」を第一に優先するということが最も重要であると考えています。
+              p.wow.fadeInUp(data-wow-delay='1.2s') 会社経営には売上や利益といった「業績」も重要な要素の一つですが、「信用·信頼」は一度失うと取り返しのつかない非常に大切なものです。光東では社員一人ひとりが常に自社の社会的使命を理解した上で、「信用·信頼」と「業績」の順番を決して間違えることなく、地域社会を支えているという誇りと使命感を持って、日々の仕事を遂行するよう心掛けており、そして地域で最も信用·信頼される会社を目指しています。新たに仲間に加わる方にも「信用·信頼」を第一優先する精神をもって頂き、一緒に光東で地域社会の未来を築いていきたいと考えています。
+          .personality-Contents_Detail
+            .personality-Contents_Detail_Left
+              .personality-Contents_Circle.wow.fadeInUp(data-wow-delay='0.2s')
+                .personality-Contents_Circle_Txt
+                  p.number 02
+                  p.title チームワーク
+            .personality-Contents_Detail_Right
+              p.wow.fadeInUp(data-wow-delay='0.3s') 光東は建設産業用機械・車両をレンタル又は販売し、そして商品をお客様にお届けし、更には定期的又は故障時には整備するという連続的なワンストップサービスを提供しています。そこではリース部、商事部、整備部の他、各部署のみんなが一体となったチームプレーによりお客様への最高のサービス提供を実現させており、それこそが光東の強みの一つと考えています。また、光東グループが全社的に密接に連携し、うまく歯車が嚙み合うことで、新たなアイディアが生まれ、より質の高いサービス提供や課題解決に繋がり、結果的に光東グループ全体の企業価値を押し上げています。
+              p.wow.fadeInUp(data-wow-delay='0.4s') このような強みや好循環を生み出す背景には、弊社の社是「和」があると考えています。その言葉の通り、相手を大切にし、思いやり、助け合い、協力し、仲良く活き活きと働くことが、社会人生活の最も大切な要素の一つであり、光東も最も大事にすべき会社の風土であると捉えています。
+              p.wow.fadeInUp(data-wow-delay='0.5s') 新たな仲間と共に、チームワークを大切に、常に社員全員の笑顔が作れる会社を目指しています。
+          .personality-Contents_Detail
+            .personality-Contents_Detail_Left
+              .personality-Contents_Circle.wow.fadeInUp(data-wow-delay='0.2s')
+                .personality-Contents_Circle_Txt
+                  p.number 03
+                  p.title チャレンジ精神
+            .personality-Contents_Detail_Right
+              p.wow.fadeInUp(data-wow-delay='0.3s') 企業を取り巻く社会や環境は刻々と変化し続けており、その中で企業を存続させ、社員の幸福を追求するためにはそれらの変化に柔軟に対応する環境適応能力が必須となります。光東でも過去、整備事業から始まり、販売、リース（レンタル）、保険、教習センター、ホンダ車ディーラー等と時代のニーズに合わせて業態を変化させながら、その歴史を歩んできました。
+              p.wow.fadeInUp(data-wow-delay='0.4s') 近年のAIやIoTといった技術革新により新たなビジネスや職業が創出される中、光東の置かれた企業環境も目まぐるしく変化しており、その変化のスピードに追い付き、進化するためには、過去に囚われない柔軟な思考を持ち、そして自ら前向きかつ積極的に行動を起こす必要があります。
+              p.wow.fadeInUp(data-wow-delay='0.5s') 新たな仲間と一緒にチャレンジ精神をもって、お客様のニーズを引き出し、そして新たな商品やサービスを創出させ、光東がお客様にとって必要とされる存在であり続けたいと考えています。
+
+  //- /contents
+  include /_includes/_underlayer/_3buttons_link.pug

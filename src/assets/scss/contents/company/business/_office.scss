@@ -1,0 +1,1136 @@
+.company-Office_Wrapper {
+  padding-left: 60px;
+  padding-right: 60px;
+
+  .company-Office {
+    border-radius: 16px;
+    overflow: hidden;
+
+    .company-Office_Inner {
+      background-color: $Bg_Off_White;
+    }
+  }
+}
+
+.company-Office_Inner_Bg_Up {
+  background: url("../img/company/business/office-bg.png")bottom 0 right 0 /cover no-repeat;
+  height: 618px;
+
+  .company-Office_Inner_Bg_Up_Title {
+    position: relative;
+    top: 14%;
+    left: 8%;
+    h3 {
+      color: $Blue;
+      font-size: 45px;
+    }
+    p {
+      color: $Navy;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+}
+
+.company-Office_Inner_Bg_Down {
+  margin: -20px auto 0;
+  max-width: 1200px;
+  padding-bottom: 100px;
+
+  .company-Office_Inner_Bg_Down_Inner {
+    width: 100%;
+    // height: 500px;
+  }
+}
+
+.company-Office_Dep_Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -25px;
+
+  .company-Office_Dep_Column_Wrapper {
+    padding-right: 25px;
+
+    .company-Office_Dep_Group_Wrapper {
+
+      .title {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 11px 0;
+        text-align: center;
+      }
+
+      .place-Wrapper {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .place {
+        border-bottom: 1px solid #e0e3e6;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 1%;
+        margin-left: 1%;
+
+        .number {
+          position: relative;
+
+          background-color: #ffffff;
+          border-radius: 40px;
+          font-size: 15px;
+          height: 40px;
+          width: 40px;
+          font-weight: 600;
+
+          p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+          }
+        }
+
+        .name {
+          color: $Navy;
+          font-size: 14px;
+          font-weight: 600;
+          padding-left: 10px;
+        }
+      }
+      &.head-Office {
+        .title {
+          background-color: #425cb4;
+        }
+        .place {
+          width: 100%;
+          .number {
+            color: #425cb4;
+          }
+        }
+      }
+      &.various {
+        .title {
+          background-color: #44a3df;
+        }
+        .place {
+          width: 100%;
+          .number {
+            color: #44a3df;
+          }
+        }
+      }
+      &.maintenance {
+        .title {
+          background-color: #9a66a9;
+        }
+        .place {
+          width: 100%;
+          .number {
+            color: #9a66a9;
+          }
+        }
+      }
+      &.lease {
+        .title {
+          background-color: #e9ae52;
+        }
+        .place {
+          width: 31%;
+          .number {
+            color: #e9ae52;
+          }
+        }
+      }
+      &.training {
+        .title {
+          background-color: #27af61;
+        }
+        .place {
+          width: 100%;
+          .number {
+            color: #27af61;
+          }
+        }
+      }
+      &.honda {
+        .title {
+          background-color: #e63c50;
+        }
+        .place {
+          width: 23%;
+          .number {
+            color: #e63c50;
+          }
+        }
+      }
+    }
+
+    &.pc-1-sp-half {
+      width: 20%;
+    }
+    &.pc-3-sp-1 {
+      width: 60%;
+    }
+    &.pc-1-sp-1 {
+      width: 20%;
+    }
+    &.pc-4-sp-1 {
+      width: 80%;
+    }
+  }
+}
+
+@include max-screen(1400px) {
+  .company-Office_Wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    .company-Office {
+      border-radius: 16px;
+      overflow: hidden;
+
+      .company-Office_Inner {
+        background-color: $Bg_Off_White;
+      }
+    }
+  }
+
+  .company-Office_Inner_Bg_Up {
+    background: url("../img/company/business/office-bg.png")bottom 0 right -100px /cover no-repeat;
+    height: 550px;
+
+    .company-Office_Inner_Bg_Up_Title {
+      position: relative;
+      top: 10%;
+      left: 6%;
+      h3 {
+        color: $Blue;
+        font-size: 45px;
+      }
+      p {
+        color: $Navy;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .company-Office_Inner_Bg_Down {
+    margin: -20px auto 0;
+    max-width: 1000px;
+    padding-bottom: 100px;
+
+    .company-Office_Inner_Bg_Down_Inner {
+      width: 100%;
+      // height: 500px;
+    }
+  }
+
+  .company-Office_Dep_Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -25px;
+
+    .company-Office_Dep_Column_Wrapper {
+      padding-right: 25px;
+
+      .company-Office_Dep_Group_Wrapper {
+
+        .title {
+          color: #ffffff;
+          font-size: 15px;
+          padding: 11px 0;
+          text-align: center;
+        }
+
+        .place-Wrapper {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        .place {
+          border-bottom: 1px solid #e0e3e6;
+          padding: 20px 0;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-right: 1%;
+          margin-left: 1%;
+
+          .number {
+            position: relative;
+
+            background-color: #ffffff;
+            border-radius: 40px;
+            font-size: 15px;
+            height: 40px;
+            width: 40px;
+
+            p {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+
+              transform: translate(-50%, -50%);
+            }
+          }
+
+          .name {
+            color: $Navy;
+            font-size: 14px;
+            font-weight: 600;
+            padding-left: 10px;
+          }
+        }
+        &.head-Office {
+          .title {
+            background-color: #425cb4;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #425cb4;
+            }
+          }
+        }
+        &.various {
+          .title {
+            background-color: #44a3df;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #44a3df;
+            }
+          }
+        }
+        &.maintenance {
+          .title {
+            background-color: #9a66a9;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #9a66a9;
+            }
+          }
+        }
+        &.lease {
+          .title {
+            background-color: #e9ae52;
+          }
+          .place {
+            width: 31%;
+            .number {
+              color: #e9ae52;
+            }
+          }
+        }
+        &.training {
+          .title {
+            background-color: #27af61;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #27af61;
+            }
+          }
+        }
+        &.honda {
+          .title {
+            background-color: #e63c50;
+          }
+          .place {
+            width: 23%;
+            .number {
+              color: #e63c50;
+            }
+            &:last-child {
+              width: 26%;
+            }
+          }
+        }
+      }
+
+      &.pc-1-sp-half {
+        width: 20%;
+      }
+      &.pc-3-sp-1 {
+        width: 60%;
+      }
+      &.pc-1-sp-1 {
+        width: 20%;
+      }
+      &.pc-4-sp-1 {
+        width: 80%;
+      }
+    }
+  }
+}
+
+@include max-screen($CONTENT_WIDTH) {
+  .company-Office_Wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    .company-Office {
+      border-radius: 16px;
+      overflow: hidden;
+
+      .company-Office_Inner {
+        background-color: $Bg_Off_White;
+      }
+    }
+  }
+
+  .company-Office_Inner_Bg_Up {
+    background: url("../img/company/business/office-bg.png")bottom 0 right -200px /cover no-repeat;
+    height: 500px;
+
+    .company-Office_Inner_Bg_Up_Title {
+      position: relative;
+      top: 8%;
+      left: 4%;
+      h3 {
+        color: $Blue;
+        font-size: 40px;
+      }
+      p {
+        color: $Navy;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .company-Office_Inner_Bg_Down {
+    margin: -20px auto 0;
+    max-width: 800px;
+    padding-bottom: 100px;
+
+    .company-Office_Inner_Bg_Down_Inner {
+      width: 100%;
+      // height: 500px;
+    }
+  }
+
+  .company-Office_Dep_Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -25px;
+
+    .company-Office_Dep_Column_Wrapper {
+      padding-right: 25px;
+
+      .company-Office_Dep_Group_Wrapper {
+
+        .title {
+          color: #ffffff;
+          font-size: 13px;
+          padding: 11px 0;
+          text-align: center;
+        }
+
+        .place-Wrapper {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        .place {
+          border-bottom: 1px solid #e0e3e6;
+          padding: 20px 0;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-right: 1%;
+          margin-left: 1%;
+
+          .number {
+            position: relative;
+
+            background-color: #ffffff;
+            border-radius: 24px;
+            font-size: 12px;
+            height: 24px;
+            width: 24px;
+
+            p {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+
+              transform: translate(-50%, -50%);
+            }
+          }
+
+          .name {
+            color: $Navy;
+            font-size: 12px;
+            font-weight: 600;
+            padding-left: 5px;
+          }
+        }
+        &.head-Office {
+          .title {
+            background-color: #425cb4;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #425cb4;
+            }
+          }
+        }
+        &.various {
+          .title {
+            background-color: #44a3df;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #44a3df;
+            }
+          }
+        }
+        &.maintenance {
+          .title {
+            background-color: #9a66a9;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #9a66a9;
+            }
+          }
+        }
+        &.lease {
+          .title {
+            background-color: #e9ae52;
+          }
+          .place {
+            width: 31%;
+            .number {
+              color: #e9ae52;
+            }
+          }
+        }
+        &.training {
+          .title {
+            background-color: #27af61;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #27af61;
+            }
+          }
+        }
+        &.honda {
+          .title {
+            background-color: #e63c50;
+          }
+          .place {
+            width: 23%;
+            .number {
+              color: #e63c50;
+            }
+          }
+        }
+      }
+
+      &.pc-1-sp-half {
+        width: 20%;
+      }
+      &.pc-3-sp-1 {
+        width: 60%;
+      }
+      &.pc-1-sp-1 {
+        width: 20%;
+      }
+      &.pc-4-sp-1 {
+        width: 80%;
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .company-Office_Wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .company-Office {
+      border-radius: 8px;
+      overflow: hidden;
+
+      .company-Office_Inner {
+        background-color: $Bg_Off_White;
+      }
+    }
+  }
+
+  .company-Office_Inner_Bg_Up {
+    background: url("../img/company/business/office-bg.png")bottom 0 right -150px /cover no-repeat;
+    height: 350px;
+
+    .company-Office_Inner_Bg_Up_Title {
+      position: relative;
+      top: 8%;
+      left: 4%;
+      h3 {
+        color: $Blue;
+        font-size: 30px;
+      }
+      p {
+        color: $Navy;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .company-Office_Inner_Bg_Down {
+    margin: -20px auto 0;
+    max-width: 800px;
+    padding-bottom: 60px;
+
+    .company-Office_Inner_Bg_Down_Inner {
+      width: 100%;
+      padding: 0 20px;
+      // height: 500px;
+    }
+  }
+
+  .company-Office_Dep_Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+
+    .company-Office_Dep_Column_Wrapper {
+      padding-right: 0px;
+      margin: 0 1%;
+
+      .company-Office_Dep_Group_Wrapper {
+
+        .title {
+          color: #ffffff;
+          font-size: 13px;
+          padding: 11px 0;
+          text-align: center;
+        }
+
+        .place-Wrapper {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        .place {
+          border-bottom: 1px solid #e0e3e6;
+          padding: 20px 0;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-right: 1%;
+          margin-left: 1%;
+
+          .number {
+            position: relative;
+
+            background-color: #ffffff;
+            border-radius: 30px;
+            font-size: 12px;
+            height: 30px;
+            width: 30px;
+
+            p {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+
+              transform: translate(-50%, -50%);
+            }
+          }
+
+          .name {
+            color: $Navy;
+            font-size: 14px;
+            font-weight: 600;
+            padding-left: 10px;
+          }
+        }
+        &.head-Office {
+          .title {
+            background-color: #425cb4;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #425cb4;
+            }
+          }
+        }
+        &.various {
+          .title {
+            background-color: #44a3df;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #44a3df;
+            }
+          }
+        }
+        &.maintenance {
+          .title {
+            background-color: #9a66a9;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #9a66a9;
+            }
+          }
+        }
+        &.lease {
+          .title {
+            background-color: #e9ae52;
+          }
+          .place {
+            width: 48%;
+            .number {
+              color: #e9ae52;
+            }
+          }
+        }
+        &.training {
+          .title {
+            background-color: #27af61;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #27af61;
+            }
+          }
+        }
+        &.honda {
+          .title {
+            background-color: #e63c50;
+          }
+          .place {
+            width: 48%;
+            .number {
+              color: #e63c50;
+            }
+            &:last-child {
+              width: 50%;
+            }
+          }
+        }
+      }
+
+      &.pc-1-sp-half {
+        width: 48%;
+      }
+      &.pc-3-sp-1 {
+        width: 100%;
+      }
+      &.pc-1-sp-1 {
+        width: 100%;
+      }
+      &.pc-4-sp-1 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .company-Office_Wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .company-Office {
+      border-radius: 0px;
+      overflow: hidden;
+
+      .company-Office_Inner {
+        background-color: $Bg_Off_White;
+      }
+    }
+  }
+
+  .company-Office_Inner_Bg_Up {
+    background: url("../img/company/business/office-bg_sp.png")bottom 0 right 0px /cover no-repeat;
+    height: 370px;
+
+    .company-Office_Inner_Bg_Up_Title {
+      position: relative;
+      top: 6%;
+      left: 2%;
+      h3 {
+        color: $Blue;
+        font-size: 30px;
+      }
+      p {
+        color: $Navy;
+        font-size: 13px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .company-Office_Inner_Bg_Down {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 25px;
+
+    .company-Office_Inner_Bg_Down_Inner {
+      width: 100%;
+      padding: 23px 20px 0;
+      // height: 500px;
+    }
+  }
+
+  .company-Office_Dep_Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+
+    .company-Office_Dep_Column_Wrapper {
+      padding-right: 0px;
+      padding-bottom: 15px;
+      margin: 0 1%;
+
+      .company-Office_Dep_Group_Wrapper {
+
+        .title {
+          color: #ffffff;
+          font-size: 12px;
+          padding: 5px 0;
+          text-align: center;
+        }
+
+        .place-Wrapper {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        .place {
+          border-bottom: 1px solid #e0e3e6;
+          padding: 10px 0;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-right: 1%;
+          margin-left: 1%;
+
+          .number {
+            position: relative;
+
+            background-color: #ffffff;
+            border-radius: 30px;
+            font-size: 12px;
+            height: 30px;
+            width: 30px;
+            font-weight: 600;
+
+            p {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+
+              transform: translate(-50%, -50%);
+            }
+          }
+
+          .name {
+            color: $Navy;
+            font-size: 12px;
+            font-weight: 600;
+            padding-left: 10px;
+          }
+        }
+        &.head-Office {
+          .title {
+            background-color: #425cb4;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #425cb4;
+            }
+          }
+        }
+        &.various {
+          .title {
+            background-color: #44a3df;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #44a3df;
+            }
+          }
+        }
+        &.maintenance {
+          .title {
+            background-color: #9a66a9;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #9a66a9;
+            }
+          }
+        }
+        &.lease {
+          .title {
+            background-color: #e9ae52;
+          }
+          .place {
+            width: 48%;
+            .number {
+              color: #e9ae52;
+            }
+          }
+        }
+        &.training {
+          .title {
+            background-color: #27af61;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #27af61;
+            }
+          }
+        }
+        &.honda {
+          .title {
+            background-color: #e63c50;
+          }
+          .place {
+            width: 48%;
+            .number {
+              color: #e63c50;
+            }
+            &:last-child {
+              width: 55%;
+            }
+          }
+        }
+      }
+
+      &.pc-1-sp-half {
+        width: 48%;
+      }
+      &.pc-3-sp-1 {
+        width: 100%;
+      }
+      &.pc-1-sp-1 {
+        width: 100%;
+      }
+      &.pc-4-sp-1 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@include max-screen(550px) {
+  .company-Office_Wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .company-Office {
+      border-radius: 0px;
+      overflow: hidden;
+
+      .company-Office_Inner {
+        background-color: $Bg_Off_White;
+      }
+    }
+  }
+
+  .company-Office_Inner_Bg_Up {
+    background: url("../img/company/business/office-bg_sp.png")bottom 0 right 0px /cover no-repeat;
+    height: 314px;
+
+    .company-Office_Inner_Bg_Up_Title {
+      position: relative;
+      top: 11%;
+      left: 5%;
+      h3 {
+        color: $Blue;
+        font-size: 30px;
+      }
+      p {
+        color: $Navy;
+        font-size: 13px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .company-Office_Inner_Bg_Down {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 25px;
+
+    .company-Office_Inner_Bg_Down_Inner {
+      width: 100%;
+      padding: 23px 20px 0;
+      // height: 500px;
+    }
+  }
+
+  .company-Office_Dep_Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+
+    .company-Office_Dep_Column_Wrapper {
+      padding-right: 0px;
+      padding-bottom: 15px;
+      margin: 0 1%;
+
+      .company-Office_Dep_Group_Wrapper {
+
+        .title {
+          color: #ffffff;
+          font-size: 12px;
+          padding: 5px 0;
+          text-align: center;
+        }
+
+        .place-Wrapper {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        .place {
+          border-bottom: 1px solid #e0e3e6;
+          padding: 10px 0;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-right: 1%;
+          margin-left: 1%;
+
+          .number {
+            position: relative;
+
+            background-color: #ffffff;
+            border-radius: 30px;
+            font-size: 12px;
+            height: 30px;
+            width: 30px;
+            font-weight: 600;
+
+            p {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+
+              transform: translate(-50%, -50%);
+            }
+          }
+
+          .name {
+            color: $Navy;
+            font-size: 12px;
+            font-weight: 600;
+            padding-left: 10px;
+          }
+        }
+        &.head-Office {
+          .title {
+            background-color: #425cb4;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #425cb4;
+            }
+          }
+        }
+        &.various {
+          .title {
+            background-color: #44a3df;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #44a3df;
+            }
+          }
+        }
+        &.maintenance {
+          .title {
+            background-color: #9a66a9;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #9a66a9;
+            }
+          }
+        }
+        &.lease {
+          .title {
+            background-color: #e9ae52;
+          }
+          .place {
+            width: 48%;
+            .number {
+              color: #e9ae52;
+            }
+          }
+        }
+        &.training {
+          .title {
+            background-color: #27af61;
+          }
+          .place {
+            width: 100%;
+            .number {
+              color: #27af61;
+            }
+          }
+        }
+        &.honda {
+          .title {
+            background-color: #e63c50;
+          }
+          .place {
+            width: 48%;
+            .number {
+              color: #e63c50;
+            }
+            &:last-child {
+              width: 55%;
+            }
+          }
+        }
+      }
+
+      &.pc-1-sp-half {
+        width: 48%;
+      }
+      &.pc-3-sp-1 {
+        width: 100%;
+      }
+      &.pc-1-sp-1 {
+        width: 100%;
+      }
+      &.pc-4-sp-1 {
+        width: 100%;
+      }
+    }
+  }
+}

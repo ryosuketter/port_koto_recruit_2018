@@ -1,0 +1,18 @@
+//- header
+mixin header(path)
+  header#js-Header
+    .st-Header_All_Wrapper
+      a(href=path)
+        h1
+          img.js-Nav_Img.sp-Bottom(src=path + 'assets/img/header/logo.svg', alt='ロゴ')
+          img.js-Nav_Img.sp-Top(src=path + 'assets/img/header/logo-sp_top.png', alt='ロゴ')
+      .st-Header_Entry_Nav_Wrapper
+        .st-Header_Entry_Wrapper.js-Nav_Btn
+          a.st-Header_Entry(href='#') ENTRY
+        .st-Header_Nav_Wrapper#js-Header_Nav
+          .st-Header_Nav_Btn
+            span.top
+            span.mid
+            span.btm
+
+//- /header

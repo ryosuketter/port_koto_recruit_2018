@@ -1,0 +1,46 @@
+.project-Description_Wrapper {
+  .project-Description {
+    .project-Description_Inner {
+      color: $Navy;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 2.3;
+      padding: 100px 0;
+      text-align: center;
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .project-Description_Wrapper {
+    .project-Description {
+      .project-Description_Inner {
+        color: $Navy;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 2;
+        padding: 60px 15px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .project-Description_Wrapper {
+    .project-Description {
+      margin-top: 272px;
+      .project-Description_Inner {
+        color: $Navy;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 2;
+        padding: 34px 15px;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,317 @@
+.top-Loading_Wrapper {
+  position: fixed;
+  top: 0;
+
+  animation-delay: 5.5s;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  animation-name: loading_opa_Last;
+  background-color: $Bg_Off_White;
+  height: 100vh;
+  width: 100%;
+  z-index: $Z_LOADING_BG;
+
+  font-family: "futura-pt";
+
+  .top-Loading_Circle_Wrapper {
+    position: relative;
+    top: 48%;
+    left: 0;
+
+    animation-delay: 5.3s;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-name: loading_bigger;
+    background: #ffffff;
+    border-radius: 100%;
+    height: 560px;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    width: 560px;
+
+    .top-Loading_Circle_Mask {
+      position: absolute;
+
+      animation: loading_opa 5s steps(1, end) reverse;
+      animation-fill-mode: forwards;
+      background-color: #ffffff;
+      border-radius: 100% 0 0 100% / 50% 0 0 50%;
+      height: 100%;
+      width: 50%;
+      z-index: $Z_LOADING_MASK;
+    }
+    .pie {
+      position: absolute;
+
+      border: 20px solid $Blue;
+      height: 100%;
+      transform-origin: 100% 50%;
+      width: 50%;
+
+      &.spinner {
+        animation: loading_rota 5s linear;
+        border-radius: 100% 0 0 100% / 50% 0 0 50%;
+        border-right: none;
+        z-index: $Z_LOADING_SPINNER;
+      }
+    }
+
+    .filler {
+      left: 50%;
+
+      animation: loading_opa2 5s steps(1, end);
+      border-color: $Blue;
+      border-left: none;
+      border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+      z-index: $Z_LOADING_FILTER;
+    }
+
+    .top-Loading_Txt {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      font-size: 30px;
+      font-weight: 600;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      z-index: $Z_LOADING_TXT;
+      // opacity: 0;
+
+      .blue {
+        color: #ffffff;
+        span {
+          color: $Blue;
+        }
+      }
+      .green {
+        color: #ffffff;
+        span {
+          color: $Green;
+        }
+      }
+    }
+  }
+  .top-Loading_Now_Txt {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+
+    animation: loading_flash 1.5s infinite linear;
+    color: #9d9fa5;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transform: translate(-50%, -50%);
+  }
+
+  @keyframes loading_flash {
+    0% {
+      opacity: 0.1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.1;
+    }
+  }
+
+  @keyframes loading_rota {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes loading_opa {
+    0% {
+      opacity: 0;
+    }
+    50%, 100% {
+      opacity: 1;
+    }
+  }
+  @keyframes loading_opa2 {
+    0% {
+      opacity: 0;
+    }
+    50%, 100% {
+      opacity: 1;
+    }
+  }
+  @keyframes loading_bigger {
+    0% {
+      // border-radius: 100%;
+      height: 560px;
+      width: 560px;
+    }
+    100% {
+      height: 900px;
+      width: 920px;
+      // left: -15%;
+    }
+  }
+  @keyframes loading_opa_Last {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      z-index: $Z_LOADING_MINUS;
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .top-Loading_Wrapper {
+    position: fixed;
+    top: 0;
+
+    animation-delay: 5.5s;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-name: loading_opa_Last;
+    background-color: $Bg_Off_White;
+    height: 100vh;
+    width: 100%;
+    z-index: $Z_LOADING_BG;
+
+    .top-Loading_Circle_Wrapper {
+      position: relative;
+      top: 50%;
+      left: 0;
+
+      animation-delay: 5.3s;
+      animation-duration: 0.6s;
+      animation-fill-mode: both;
+      animation-name: loading_bigger;
+      background: #ffffff;
+      border-radius: 100%;
+      height: 100px;
+      margin: 0 auto;
+      transform: translateY(-50%);
+      width: 100px;
+
+      .top-Loading_Circle_Mask {
+        position: absolute;
+
+        animation: loading_opa 5s steps(1, end) reverse;
+        animation-fill-mode: forwards;
+        background-color: #ffffff;
+        border-radius: 100% 0 0 100% / 50% 0 0 50%;
+        height: 100%;
+        width: 50%;
+        z-index: $Z_LOADING_MASK;
+      }
+      .pie {
+        position: absolute;
+
+        border: 10px solid $Blue;
+        height: 100%;
+        transform-origin: 100% 50%;
+        width: 50%;
+
+        &.spinner {
+          animation: loading_rota 5s linear;
+          border-radius: 100% 0 0 100% / 50% 0 0 50%;
+          border-right: none;
+          z-index: $Z_LOADING_SPINNER;
+        }
+      }
+      .filler {
+        left: 50%;
+
+        animation: loading_opa2 5s steps(1, end);
+        border-color: $Blue;
+        border-left: none;
+        border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+        z-index: $Z_LOADING_FILTER;
+      }
+
+      .top-Loading_Txt {
+        position: absolute;
+        top: 54%;
+        left: 50%;
+
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        z-index: $Z_LOADING_TXT;
+
+        .blue {
+          color: #ffffff;
+          span {
+            color: $Blue;
+          }
+        }
+        .green {
+          color: #ffffff;
+          span {
+            color: $Green;
+          }
+        }
+      }
+    }
+    .top-Loading_Now_Txt {
+      position: absolute;
+      bottom: 15%;
+      left: 50%;
+
+      animation: loading_flash 1.5s infinite linear;
+      color: #9d9fa5;
+      font-size: 16px;
+      letter-spacing: 1px;
+      transform: translate(-50%, -50%);
+    }
+
+    @keyframes loading_rota {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes loading_opa {
+      0% {
+        opacity: 0;
+      }
+      50%, 100% {
+        opacity: 1;
+      }
+    }
+    @keyframes loading_opa2 {
+      0% {
+        opacity: 0;
+      }
+      50%, 100% {
+        opacity: 1;
+      }
+    }
+    @keyframes loading_bigger {
+      0% {
+        // border-radius: 100%;
+        height: 280px;
+        width: 280px;
+      }
+      100% {
+        height: 340px;
+        width: 340px;
+        // left: -15%;
+      }
+    }
+    @keyframes loading_opa_Last {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        z-index: $Z_LOADING_MINUS;
+      }
+    }
+  }
+}

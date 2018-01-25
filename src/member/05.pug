@@ -1,0 +1,74 @@
+extend /_includes/_layout
+append variables
+  //- Required
+  - var pageTitle= member_ito + "｜光東株式会社 採用サイト";
+  - var pageDescription= "こちらは社員紹介のページです。光東株式会社の採用サイトです。社会とのつながり、社員、歴史や事業内容、求める人物象、募集要項、制度、キャリアプランなどをご紹介しています。";
+  - var pageKeywords= "光東株式会社,採用サイト," + member_ito;
+  //- Optional
+  - var pageOgpTitle= member_ito + "｜光東株式会社 採用サイト";
+  //- - var pageOgpImage= site.ogpImage
+  - var pageOgpType= "article";
+  //- Not modified
+  - var pageUrl= "member/05.html";
+
+  - var classname = "ito"
+
+block content
+  //- contents
+
+  //- mv
+  .member-Mv_Wrapper.js-Mv
+    .member-Mv
+      .member-Mv_Inner.ito
+    .member-Mv_Profile_Wrapper
+      .member-Mv_Profile
+        p.number MEMBER 05
+        h2 積極的に機械に触れてみる。<br>工場にとって「欠かせない人」になりたい。
+        .member-Mv_Profile_Detail_Wrapper
+          .member-Mv_Profile_Detail_Left
+            p.name-E #{member_ito_e}
+            p.name #{member_ito}
+          .member-Mv_Profile_Detail_Right
+            p.dep #{member_ito_dep}
+            p.join-Date #{member_ito_join}
+
+  //- contents TOP
+  .member-Contents_Wrapper
+    .member-Contents
+      .member-Contents_Inner
+
+        .member-Contents_1img_Wrapper
+          .member-Contents_1img
+            .member-Contents_1img_Inner
+              .member-Contents_1img_Img_Wrapper
+                img(src='../assets/img/member/ito/member-img01.png', alt='伊東敏和')
+              .member-Contents_1img_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') 「隔たり」がなく、<br>気さくな人が多い会社。 
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 私は文系の高校に通っていたのですが、父親が建設関係の仕事をしていたということもあり、機械に興味を持ち専門学校の自動車整備科に入学しました。そこで実技を含めて「自動車」について学び、２級ガソリン整備資格と２級ディーゼル整備資格を取得しました。専門学校卒業後は、先生からの紹介もあり「自動車ディーラー」に就職しました。そこで「サービスマン」として修理の仕事を約１０年間行なっていました。光東にはもともと知り合いがいたこともあり、その人に紹介してもらい入社したのですが、隔たりがなく、非常に気さくな人が多いように感じています。普段は仕事の話だけでなく、ゲームアプリの話など関係のない話もしますね。 
+
+        .member-Contents_2imgs_Wrapper
+          .member-Contents_2imgs
+            .member-Contents_2imgs_Inner
+              .member-Contents_2imgs_Top_Left_Wrapper
+                img.member-Contents_2img_Pc(src='../assets/img/member/ito/member-img02.png', alt='伊東敏和')
+                img.member-Contents_2img_Sp(src='../assets/img/member/ito/member-img02_sp.png', alt='伊東敏和')
+              .member-Contents_2imgs_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') 故障を防ぐために整備士がいる。<br>その「自覚」を持って働く。 
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 光東の人はマルチにいろんな分野をやる人もいますが、突き詰めて勉強するタイプの人が多いです。私も多くの機械を修理できるように積極的に触ってみるようにしています。もちろん怪我をしないように、安全に作業することが大切なので、詳しい人に「気をつけるべきこと」などの予備知識を教えてもらいながら作業をします。他にも直接メーカーの人に話を聞きながら「どういう部品でできているのか」や「配線の仕組み」を学んでいます。リース会社は機械を貸し出す仕事ですが、光東は貸出機械が故障したら、自ら工事現場にかけつけて修理作業を行います。機械が壊れてしまうと困る人がいるわけで「それを防ぐために整備士がいる」という自覚を持って働いています。そのため、なんでも修理できるようになりたいですね。 
+              .member-Contents_2imgs_Btm_Right_Wrapper
+                img(src='../assets/img/member/ito/member-img03.png', alt='伊東敏和')
+
+  //- contents MIDDLE
+  .member-Contents_Mv_Wrapper
+    .member-Contents_Mv.ito
+      .member-Contents_Mv_Inner
+        .member-Contents_Txt_Wrapper
+          h3.wow.fadeInUp(data-wow-delay='0.2s') 経験を積み重ねていく。それが整備士の仕事。 
+          p.wow.fadeInUp(data-wow-delay='0.4s') 光東は機械の種類が多いのでいろんな機械を扱うことで「整備士としてのスキルアップ」ができる会社です。また、研修センターが社内にあるだけでなく、補助金を出すなど「資格取得」にも非常に力を入れていています。私も「大型車両の運転資格」を取得したいと思っています。整備士の仕事というのは、経験を積まないとできない仕事もありますが、一つひとつの経験が「積み重なっていく仕事」でもあります。私自身も経験を重ねながら「工場に欠かせない人」になりたいと思っています。現在勤務している「岩国工場」はクレーンが多い営業所です。そのためまずは、クレーンの整備ができるように知識を身につけていければと思います。 
+
+  //- contents BOTTOM
+  include /_includes/_underlayer/_member/_link
+
+  //- /contents

@@ -1,0 +1,74 @@
+extend /_includes/_layout
+append variables
+  //- Required
+  - var pageTitle= member_kura + "｜光東株式会社 採用サイト";
+  - var pageDescription= "こちらは社員紹介のページです。光東株式会社の採用サイトです。社会とのつながり、社員、歴史や事業内容、求める人物象、募集要項、制度、キャリアプランなどをご紹介しています。";
+  - var pageKeywords= "光東株式会社,採用サイト," + member_kura;
+  //- Optional
+  - var pageOgpTitle= member_kura + "｜光東株式会社 採用サイト";
+  //- - var pageOgpImage= site.ogpImage
+  - var pageOgpType= "article";
+  //- Not modified
+  - var pageUrl= "member/06.html";
+
+  - var classname = "kura"
+
+block content
+  //- contents
+
+  //- mv
+  .member-Mv_Wrapper.js-Mv
+    .member-Mv
+      .member-Mv_Inner.kura
+    .member-Mv_Profile_Wrapper
+      .member-Mv_Profile
+        p.number MEMBER 06
+        h2 整備できる幅を広げながら、<br>「誰にも負けない分野」を作りたい。 
+        .member-Mv_Profile_Detail_Wrapper
+          .member-Mv_Profile_Detail_Left
+            p.name-E #{member_kura_e}
+            p.name #{member_kura}
+          .member-Mv_Profile_Detail_Right
+            p.dep #{member_kura_dep}
+            p.join-Date #{member_kura_join}
+
+  //- contents TOP
+  .member-Contents_Wrapper
+    .member-Contents
+      .member-Contents_Inner
+
+        .member-Contents_1img_Wrapper
+          .member-Contents_1img
+            .member-Contents_1img_Inner
+              .member-Contents_1img_Img_Wrapper
+                img(src='../assets/img/member/kurata/member-img01.png', alt='倉田忠明')
+              .member-Contents_1img_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') 「社会づくり」に貢献している<br>という実感がある。
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 自動車整備の専門学校を出た後、自動車ディーラーの整備士として社会人生活をスタートさせました。乗用車の車検整備や一般整備を行なっていましたが、整備士としての経験を積むうちに「もっと多くの機械を整備できるようになりたい」と思い、光東に中途入社しました。レンタル機の整備は、お客様が建設関係の方です。ショッピングモールやスーパーマーケット、病院や学校など「更地から建物が出来上がるまで」多くの建設現場に携わることができるので「社会とのつながり」を感じることができます。私は草野球をやっているのですが、岩国に新しくできた「絆スタジアム」という野球場の建設に携われたのは嬉しかったです。 
+
+        .member-Contents_2imgs_Wrapper
+          .member-Contents_2imgs
+            .member-Contents_2imgs_Inner
+              .member-Contents_2imgs_Top_Left_Wrapper
+                img.member-Contents_2img_Pc(src='../assets/img/member/kurata/member-img02.png', alt='倉田忠明')
+                img.member-Contents_2img_Sp(src='../assets/img/member/kurata/member-img02_sp.png', alt='倉田忠明')
+              .member-Contents_2imgs_Txt_Wrapper
+                .member-Contents_Txt_Wrapper
+                  h3.wow.fadeInUp(data-wow-delay='0.2s') 整備力を武器に、<br>対応スピードを上げていく。
+                  p.wow.fadeInUp(data-wow-delay='0.4s') 点検や整備で防げる死亡事故も多いと思っていて、そのためにも絶対にミスをしないよう確認を日々徹底しています。一方で、光東の強みは「整備力」が高いことです。大手の企業が外注してしまう整備も、光東は自分たちで行えるので「対応の早さ」では負けません。私個人も、そのスピードは上げていければと思っています。また、光東は勉強や講習のための機会を多く設けてくれるので、非常にためになっています。自社で運営する各種建設機械の運転・取扱業務に必要な資格取得が可能な教習センターで講習が受けられるだけでなく、各メーカーへの研修にも積極的に参加させてくれるので、全国から集まってくる他の会社の整備士と話をすると、非常に大きな刺激を受けることができます。 
+              .member-Contents_2imgs_Btm_Right_Wrapper
+                img(src='../assets/img/member/kurata/member-img03.png', alt='倉田忠明')
+
+  //- contents MIDDLE
+  .member-Contents_Mv_Wrapper
+    .member-Contents_Mv.kura
+      .member-Contents_Mv_Inner
+        .member-Contents_Txt_Wrapper
+          h3.wow.fadeInUp(data-wow-delay='0.2s') お客様の「助かった！」のために。 
+          p.wow.fadeInUp(data-wow-delay='0.4s') 難易度の高い修理をできた時には面白さを感じます。壊れたエンジンなどをバラバラに分解して、それらを組み立て直した時に正常に作動するととても嬉しいですね。また、お客様からの「感謝の言葉」を聞くと非常にやりがいを感じます。建設機械は数がとても多いですが、簡単に「専門外です」とは言えません。すべての機械をマスターすることは難しいですが、出来るだけ多くの機械の修理ができるようになりたいと思っています。また、その上で「これは誰にも負けない」という分野を作っていきたいですね。自動車検査員の資格も取得しましたが、これからは発電機やコンプレッサーについての専門性を高めていき、自分の独自性を高めていければと思っています。 
+
+  //- contents BOTTOM
+  include /_includes/_underlayer/_member/_link
+
+  //- /contents

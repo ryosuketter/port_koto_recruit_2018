@@ -1,0 +1,178 @@
+.recruitment-Contents_Wrapper {
+  .recruitment-Contents {
+    .recruitment-Contents_Inner {
+      width: 1200px;
+      margin: 0 auto;
+      padding: 63px 0 154px;
+    }
+  }
+}
+
+.recruitment-Table_Wrapper {
+  .recruitment-Table {
+    color: #181b36;
+
+    font-size: 15px;
+
+    border-top: 1px solid #e0e3e6;
+
+    &:last-child {
+      border-bottom: 1px solid #e0e3e6;
+    }
+
+    display: flex;
+
+    .recruitment-Table_Left {
+      font-weight: 600;
+      background-color: #f0f2f5;
+      padding: 32px 30px;
+      width: 20%;
+
+      p {
+        color: $Navy;
+      }
+    }
+
+    .recruitment-Table_Right {
+      padding: 32px 50px;
+      width: 80%;
+
+      p {
+        line-height: 2;
+        color: $Navy;
+      }
+
+      .recruitment-Table_Right_Inner {
+        display: flex;
+        margin-bottom: 14px;
+
+        .recruitment-Table_Right_Inner_Left {
+          margin-right: 34px;
+        }
+
+        .recruitment-Table_Right_Inner_Right {
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($CONTENT_WIDTH) {
+  .recruitment-Contents_Wrapper {
+    .recruitment-Contents {
+      .recruitment-Contents_Inner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 63px 30px 154px;
+      }
+    }
+  }
+
+  .recruitment-Table_Wrapper {
+    .recruitment-Table {
+      color: #181b36;
+
+      font-size: 15px;
+
+      border-top: 1px solid #e0e3e6;
+
+      &:last-child {
+        border-bottom: 1px solid #e0e3e6;
+      }
+
+      display: flex;
+
+      .recruitment-Table_Left {
+        font-weight: 600;
+        background-color: #f0f2f5;
+        padding: 32px 30px;
+        width: 20%;
+      }
+
+      .recruitment-Table_Right {
+        padding: 32px 50px;
+        width: 80%;
+
+        p {
+          line-height: 2;
+        }
+
+        .recruitment-Table_Right_Inner {
+          display: flex;
+          margin-bottom: 14px;
+
+          .recruitment-Table_Right_Inner_Left {
+            margin-right: 34px;
+          }
+
+          .recruitment-Table_Right_Inner_Right {
+          }
+        }
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .recruitment-Contents_Wrapper {
+    .recruitment-Contents {
+      .recruitment-Contents_Inner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 43px 15px;
+      }
+    }
+  }
+
+  .recruitment-Table_Wrapper {
+    .recruitment-Table {
+      color: #181b36;
+
+      font-size: 12px;
+
+      border-top: 1px solid #e0e3e6;
+
+      &:last-child {
+        border-bottom: 1px solid #e0e3e6;
+      }
+
+      display: flex;
+
+      .recruitment-Table_Left {
+        font-weight: 600;
+        background-color: #f0f2f5;
+        padding: 16px 8px;
+        width: 27%;
+      }
+
+      .recruitment-Table_Right {
+        padding: 16px 1px 16px 20px;
+        width: 73%;
+
+
+        p {
+          line-height: 1.5;
+          letter-spacing: 0px;
+
+          &.title {
+            margin-left: -1em;
+          }
+        }
+
+        .recruitment-Table_Right_Inner {
+          display: block;
+          margin-bottom: 14px;
+
+          .recruitment-Table_Right_Inner_Left {
+            margin-right: 0px;
+            width: 100%;
+          }
+
+          .recruitment-Table_Right_Inner_Right {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,526 @@
+.career-Contents_Wrapper {
+  padding-left: 60px;
+  padding-right: 60px;
+
+  .career-Contents {
+    background-color: $Bg_Off_White;
+    border-radius: 12px;
+
+    .career-Contents_Inner {
+      // a
+    }
+  }
+}
+
+.career-Contents_Detail_Wrapper {
+  padding: 100px 0;
+
+  .career-Contents_Detail {
+    position: relative;
+
+    margin: 0 auto;
+    width: 1200px;
+  }
+}
+
+.career-Contents_Title_Wrapper {
+  background-color: $Blue;
+  border-radius: 12px;
+  margin-left: auto;
+  width: 1081px;
+
+  .career-Contents_Title {
+    color: #ffffff;
+    padding: 75px 0 75px 40%;
+
+    h3 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+}
+
+.career-Contents_Table_Wrapper {
+  position: absolute;
+  top: 80px;
+  img {
+    // a
+
+    &.pc {
+      display: block;
+    }
+    &.sp {
+      display: none;
+    }
+  }
+}
+
+.career-Contents_Body_Wrapper {
+  margin-left: auto;
+  padding-bottom: 40px;
+  padding-top: 60px;
+  width: 1081px;
+
+  .career-Contents_Body {
+    padding-left: 40%;
+
+
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 2.3;
+      padding-bottom: 51px;
+    }
+  }
+}
+
+@include max-screen(1400px) {
+  .career-Contents_Wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    .career-Contents {
+      background-color: $Bg_Off_White;
+      border-radius: 12px;
+
+      .career-Contents_Inner {
+        // a
+      }
+    }
+  }
+
+  .career-Contents_Detail_Wrapper {
+    padding: 100px 0;
+
+    .career-Contents_Detail {
+      position: relative;
+
+      margin: 0 auto;
+      width: 1000px;
+    }
+  }
+
+  .career-Contents_Title_Wrapper {
+    background-color: $Blue;
+    border-radius: 12px;
+    margin-left: auto;
+    width: 800px;
+
+    .career-Contents_Title {
+      color: #ffffff;
+      padding: 75px 0 75px 35%;
+      h3 {
+        font-size: 32px;
+        font-weight: 600;
+      }
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .career-Contents_Table_Wrapper {
+    position: absolute;
+    top: 80px;
+    img {
+      width: 90%;
+    }
+  }
+
+  .career-Contents_Body_Wrapper {
+    margin-left: auto;
+    padding-bottom: 40px;
+    padding-top: 60px;
+    width: 800px;
+
+    .career-Contents_Body {
+      padding-left: 35%;
+
+
+      h4 {
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 2.3;
+        padding-bottom: 51px;
+      }
+    }
+  }
+}
+
+@include max-screen($CONTENT_WIDTH) {
+  .career-Contents_Wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    .career-Contents {
+      background-color: $Bg_Off_White;
+      border-radius: 12px;
+
+      .career-Contents_Inner {
+        // a
+      }
+    }
+  }
+
+  .career-Contents_Detail_Wrapper {
+    padding: 100px 0;
+
+    .career-Contents_Detail {
+      position: relative;
+
+      margin: 0 auto;
+      width: 800px;
+    }
+  }
+
+  .career-Contents_Title_Wrapper {
+    background-color: $Blue;
+    border-radius: 12px;
+    margin-left: auto;
+    width: 600px;
+
+    .career-Contents_Title {
+      color: #ffffff;
+      padding: 65px 0 65px 35%;
+      h3 {
+        font-size: 32px;
+        font-weight: 600;
+      }
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .career-Contents_Table_Wrapper {
+    position: absolute;
+    top: 80px;
+    img {
+      width: 80%;
+    }
+  }
+
+  .career-Contents_Body_Wrapper {
+    margin-left: auto;
+    padding-bottom: 40px;
+    padding-top: 60px;
+    width: 600px;
+
+    .career-Contents_Body {
+      padding-left: 35%;
+
+
+      h4 {
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 2.3;
+        padding-bottom: 51px;
+      }
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_TABLET) {
+  .career-Contents_Wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .career-Contents {
+      background-color: $Bg_Off_White;
+      border-radius: 12px;
+
+      .career-Contents_Inner {
+        // a
+      }
+    }
+  }
+
+  .career-Contents_Detail_Wrapper {
+    padding: 30px 30px 0;
+
+    .career-Contents_Detail {
+      position: relative;
+
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+
+  .career-Contents_Title_Wrapper {
+    background-color: $Blue;
+    border-radius: 12px;
+    margin-left: auto;
+    width: 100%;
+
+    .career-Contents_Title {
+      color: #ffffff;
+      padding: 65px 0 120px 0;
+      text-align: center;
+
+      h3 {
+        font-size: 32px;
+        font-weight: 600;
+      }
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .career-Contents_Table_Wrapper {
+    position: absolute;
+    top: 160px;
+
+    font-size: 0;
+    text-align: center;
+    width: 100%;
+    img {
+      font-size: 0;
+      text-align: center;
+      width: 60%;
+    }
+  }
+
+  .career-Contents_Body_Wrapper {
+    margin-left: auto;
+    padding-bottom: 10px;
+    padding-top: 70%;
+    width: 100%;
+
+    .career-Contents_Body {
+      padding-left: 0;
+
+
+      h4 {
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 2.3;
+        padding-bottom: 30px;
+      }
+    }
+    &.for-Adjust_murai {
+      padding-top: 41%;
+    }
+    &.for-Adjust_imamoto {
+      padding-top: 51%;
+    }
+  }
+}
+
+@include max-screen($BREAK_POINT_SP_iPhone6) {
+  .career-Contents_Wrapper {
+    padding-left: 0;
+    padding-right: 0;
+
+    .career-Contents {
+      background-color: $Bg_Off_White;
+      border-radius: 0;
+
+      .career-Contents_Inner {
+        // a
+      }
+    }
+  }
+
+  .career-Contents_Detail_Wrapper {
+    padding: 0;
+
+    .career-Contents_Detail {
+      position: relative;
+
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+
+  .career-Contents_Title_Wrapper {
+    background-color: $Blue;
+    border-radius: 0;
+    margin-left: auto;
+    width: 100%;
+
+    .career-Contents_Title {
+      color: #ffffff;
+      padding: 25px 0 117px 0;
+      text-align: center;
+
+      h3 {
+        font-size: 22px;
+        font-weight: 600;
+      }
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .career-Contents_Table_Wrapper {
+    position: absolute;
+    top: 98px;
+
+    font-size: 0;
+    padding: 0 20px;
+    text-align: center;
+    width: 100%;
+
+    img {
+      font-size: 0;
+      margin: 0 auto;
+      text-align: center;
+      width: 300px;
+
+      &.pc {
+        display: none;
+      }
+      &.sp {
+        display: block;
+      }
+    }
+  }
+
+  .career-Contents_Body_Wrapper {
+    margin-left: auto;
+    padding: 70% 20px 10px;
+    width: 100%;
+
+    .career-Contents_Body {
+      padding-left: 0;
+
+      h4 {
+        font-size: 15px;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 1.8;
+        padding-bottom: 30px;
+      }
+    }
+    &.for-Adjust_yamamoto {
+      padding-top: 333px;
+    }
+    &.for-Adjust_murai {
+      padding-top: 175px;
+    }
+    &.for-Adjust_imamoto {
+      padding-top: 234px;
+    }
+  }
+}
+
+@include max-screen(380px) {
+  .career-Contents_Wrapper {
+    padding-left: 0;
+    padding-right: 0;
+
+    .career-Contents {
+      background-color: $Bg_Off_White;
+      border-radius: 0;
+
+      .career-Contents_Inner {
+        // a
+      }
+    }
+  }
+
+  .career-Contents_Detail_Wrapper {
+    padding: 0;
+
+    .career-Contents_Detail {
+      position: relative;
+
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+
+  .career-Contents_Title_Wrapper {
+    background-color: $Blue;
+    border-radius: 0;
+    margin-left: auto;
+    width: 100%;
+
+    .career-Contents_Title {
+      color: #ffffff;
+      padding: 25px 0 117px 0;
+      text-align: center;
+
+      h3 {
+        font-size: 22px;
+        font-weight: 600;
+      }
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .career-Contents_Table_Wrapper {
+    position: absolute;
+    top: 98px;
+
+    font-size: 0;
+    padding: 0 20px;
+    text-align: center;
+    width: 100%;
+
+    img {
+      font-size: 0;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .career-Contents_Body_Wrapper {
+    margin-left: auto;
+    padding: 70% 20px 10px;
+    width: 100%;
+
+    .career-Contents_Body {
+      padding-left: 0;
+
+      h4 {
+        font-size: 15px;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 1.8;
+        padding-bottom: 30px;
+      }
+    }
+    &.for-Adjust_yamamoto {
+      padding-top: 95%;
+    }
+    &.for-Adjust_murai {
+      padding-top: 51%;
+    }
+    &.for-Adjust_imamoto {
+      padding-top: 64%;
+    }
+  }
+}
