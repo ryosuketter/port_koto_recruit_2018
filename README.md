@@ -2,7 +2,7 @@
 
 <img src="http://www.koto-corp.co.jp/recruit/assets/img/ogp.png" height="300">
 
-URL:http://www.koto-corp.co.jp/recruit.html
+URL:http://www.koto-corp.co.jp/recruit/recruit.html
 
 ## 期間
 
