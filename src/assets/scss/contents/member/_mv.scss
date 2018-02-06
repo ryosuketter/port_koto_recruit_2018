@@ -13,6 +13,9 @@
     .member-Mv_Inner {
       height: 70vh;
 
+      animation: "underlayer_Mv_Scale" 1.2s 0.2s;
+      animation-fill-mode: both;
+
       &.oga {
         background: url("../img/member/ogawa/member-mv.png")top 0 center /cover no-repeat;
       }
@@ -60,9 +63,10 @@
       animation: "underlayer_Mv_Fade_In" 1s 0.9s;
       animation-fill-mode: both;
       font-size: 30px;
-      font-weight: 600;
+      font-weight: 900;
       line-height: 1.5;
       padding-top: 20px;
+      letter-spacing: 1px;
     }
 
     .member-Mv_Profile_Detail_Wrapper {
@@ -79,7 +83,7 @@
         }
         .name {
           font-size: 22px;
-          font-weight: 600;
+          font-weight: 700;
         }
       }
 
@@ -130,7 +134,7 @@
     bottom: auto;
     left: 50%;
 
-    animation: "underlayer_Mv_Fade_In_Member_Sp" 1s 0.6s;
+    animation: "underlayer_Mv_Fade_In_Member_Sp" 1s 0.5s;
     animation-fill-mode: both;
     background-color: $Green;
     border-radius: 8px;
@@ -142,24 +146,24 @@
       padding: 65px 50px 60px;
 
       .number {
-        animation: "underlayer_Mv_Fade_In" 1s 0.8s;
+        animation: "underlayer_Mv_Fade_In" 1s 0.7s;
         animation-fill-mode: both;
         font-size: 14px;
         letter-spacing: 2px;
       }
 
       h2 {
-        animation: "underlayer_Mv_Fade_In" 1s 1.0s;
+        animation: "underlayer_Mv_Fade_In" 1s 0.9s;
         animation-fill-mode: both;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 900;
         line-height: 1.5;
         padding-top: 10px;
       }
 
       .member-Mv_Profile_Detail_Wrapper {
         align-items: center;
-        animation: "underlayer_Mv_Fade_In" 1s 1.2s;
+        animation: "underlayer_Mv_Fade_In" 1s 1.1s;
         animation-fill-mode: both;
         display: flex;
         padding-top: 30px;
@@ -171,7 +175,7 @@
           }
           .name {
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 700;
           }
         }
 
@@ -256,7 +260,7 @@
 
       h2 {
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 900;
         line-height: 1.6;
         padding-top: 10px;
       }
@@ -273,7 +277,7 @@
           }
           .name {
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 700;
           }
         }
 

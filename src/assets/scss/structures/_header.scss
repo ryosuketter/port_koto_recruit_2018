@@ -7,7 +7,7 @@ header {
   top: 0;
 
   padding: 30px 60px 0;
-  transition: 0.4s;
+  transition: 0.7s;
   width: 100%;
   z-index: 15;
 
@@ -186,6 +186,10 @@ header {
     .st-Header_All_Wrapper {
       background-color: rgba(#091029, 0);
     }
+  }
+
+  &.up {
+    top: -100px;
   }
 }
 

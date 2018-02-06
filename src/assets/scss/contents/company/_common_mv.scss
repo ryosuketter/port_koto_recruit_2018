@@ -13,6 +13,9 @@
 
       height: 580px;
 
+      animation: "underlayer_Mv_Scale" 1.2s 0.2s;
+      animation-fill-mode: both;
+
       &.company-Mv_History {
         background: url("../img/company/mv.png")top 0 center /cover no-repeat;
       }
@@ -51,10 +54,12 @@
         animation-fill-mode: both;
         font-size: 20px;
         letter-spacing: 1px;
+        font-weight: 700;
       }
 
       .company-Txt_Sub_Inner {
         padding-top: 40px;
+        font-weight: 500;
         p {
           animation: "underlayer_Mv_Fade_In" 1s 0.9s;
           animation-fill-mode: both;
@@ -116,10 +121,12 @@
         p {
           font-size: 18px;
           letter-spacing: 1px;
+          font-weight: 700;
         }
 
         .company-Txt_Sub_Inner {
           padding-top: 40px;
+          font-weight: 500;
           p {
             font-size: 16px;
             line-height: 2;
@@ -182,11 +189,13 @@
         p {
           font-size: 12px;
           letter-spacing: 1px;
+          font-weight: 700;
         }
 
         .company-Txt_Sub_Inner {
           padding-top: 20px;
           width: 100%;
+          font-weight: 500;
           p {
             font-size: 12px;
             line-height: 1.6;

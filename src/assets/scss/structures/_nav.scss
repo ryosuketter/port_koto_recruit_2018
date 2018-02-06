@@ -30,9 +30,35 @@
   width: 100%;
   z-index: $Z_NAV;
 
-  // &.clicked {
-  //   top: 0;
-  // }
+  &.clicked {
+    .st-Nav_Right_Contents {
+
+      &:nth-child(1){
+        animation: "nav_Fade_In" 1.4s 0.4s;
+        animation-fill-mode: both;
+      }
+      &:nth-child(2){
+        animation: "nav_Fade_In" 1.4s 0.5s;
+        animation-fill-mode: both;
+      }
+      &:nth-child(3){
+        animation: "nav_Fade_In" 1.4s 0.6s;
+        animation-fill-mode: both;
+      }
+      &:nth-child(4){
+        animation: "nav_Fade_In" 1.4s 0.7s;
+        animation-fill-mode: both;
+      }
+    }
+    .st-Nav_Right_Footer_Address {
+      animation: "nav_Fade_In" 1.4s 0.8s;
+      animation-fill-mode: both;
+    }
+    .st-Nav_Right_Footer_Link {
+      animation: "nav_Fade_In" 1.4s 0.9s;
+      animation-fill-mode: both;
+    }
+  }
 
   .st-Nav {
     padding: 0 60px;
@@ -144,6 +170,7 @@
       }
 
       .st-Nav_Right_Footer_Link {
+
         a {
           background-color: white;
           border: 2px solid #dddfe4;
@@ -648,7 +675,7 @@
 
             &:first-child {
               top: 48%;
-              left: 3%;
+              left: 2%;
 
               transform: rotate(-90deg);
             }

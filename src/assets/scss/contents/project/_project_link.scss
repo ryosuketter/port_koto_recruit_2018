@@ -37,8 +37,9 @@
 
         .title {
           font-size: 26px;
-          font-weight: 600;
+          font-weight: 900;
           margin-bottom: 25px;
+          letter-spacing: 1px;
         }
 
         .cross {
@@ -49,7 +50,7 @@
 
     .project-Link_Area_Left_Inner, .project-Link_Area_Right_Inner {
       height: 335px;
-      transition: 0.3s;
+      transition: 0.6s;
       width: 100%;
     }
 
@@ -63,7 +64,7 @@
 
     &:hover {
       .project-Link_Area_Left_Inner, .project-Link_Area_Right_Inner {
-        transform: scale(1.1);
+        transform: scale(1.05);
       }
     }
 
@@ -126,6 +127,7 @@
       .sub-Title {
         font-size: 17px;
         margin: 0 auto;
+        font-weight: 700;
       }
     }
 
@@ -187,7 +189,7 @@
 
           .title {
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 900;
             margin-bottom: 10px;
           }
 
@@ -269,6 +271,7 @@
 
         .sub-Title {
           font-size: 16px;
+          font-weight: 700;
         }
       }
 
@@ -331,7 +334,7 @@
 
           .title {
             font-size: 14px;
-            font-weight: 600;
+            font-weight: 900;
             margin-bottom: 5px;
           }
 
@@ -413,6 +416,7 @@
 
         .sub-Title {
           font-size: 12px;
+          font-weight: 700;
         }
       }
 

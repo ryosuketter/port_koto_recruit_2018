@@ -11,6 +11,7 @@
       p {
         color: #ffffff;
         font-size: 20px;
+        font-weight: 700;
         line-height: 2;
         margin: 0 auto;
         margin-bottom: 38px;
@@ -113,11 +114,10 @@
     .st-Footer_Link_Body_Inner {
       color: $Navy;
       display: flex;
-      padding: 83px 50px 70px 17%;
-
       @include max-screen(1350px) {
         padding: 83px 50px 70px 10%;
       }
+      padding: 83px 50px 70px 17%;
     }
   }
 }
@@ -129,12 +129,13 @@
       margin-bottom: 46px;
     }
     .st-Footer_Link_Address_Wrapper {
+      font-weight: 500;
       p {
         font-size: 13px;
         line-height: 2;
       }
       .highlight {
-        font-weight: 600;
+        font-weight: 900;
       }
     }
   }
@@ -149,7 +150,7 @@
 
       .highlight {
         font-size: 15px;
-        font-weight: 600;
+        font-weight: 700;
         padding-right: 50px;
         text-align: right;
         width: 130px;
@@ -158,6 +159,20 @@
       ul {
         display: flex;
         li {
+          @include max-screen(1510px) {
+            &:not(:first-child) {
+              border-left: 1px solid #e0e3e6;
+              margin-left: 20px;
+              padding-left: 20px;
+            }
+          }
+          @include max-screen(1250px) {
+            &:not(:first-child) {
+              border-left: 1px solid #e0e3e6;
+              margin-left: 14px;
+              padding-left: 14px;
+            }
+          }
           list-style: none;
 
           &:not(:first-child) {
@@ -166,27 +181,12 @@
             padding-left: 30px;
           }
 
-          @include max-screen(1510px) {
-            &:not(:first-child) {
-              border-left: 1px solid #e0e3e6;
-              margin-left: 20px;
-              padding-left: 20px;
-            }
-          }
-
-          @include max-screen(1250px) {
-            &:not(:first-child) {
-              border-left: 1px solid #e0e3e6;
-              margin-left: 14px;
-              padding-left: 14px;
-            }
-          }
-
           a {
             position: relative;
 
             display: inline-block;
             font-size: 14px;
+            font-weight: 500;
             text-decoration: none;
 
             &:hover {
@@ -233,6 +233,7 @@
 
             display: inline-block;
             font-size: 13px;
+            font-weight: 500;
             text-decoration: none;
 
             &:hover {
@@ -268,6 +269,7 @@
   background-color: #ffffff;
   border-top: 1px solid #e0e3e6;
   font-size: 12px;
+  font-weight: 500;
   padding: 32px 0;
   text-align: center;
 }
@@ -283,6 +285,7 @@
         p {
           color: #ffffff;
           font-size: 16px;
+          font-weight: 700;
           line-height: 2;
           margin: 0 auto;
           margin-bottom: 44px;
@@ -396,12 +399,13 @@
         margin-bottom: 48px;
       }
       .st-Footer_Link_Address_Wrapper {
+        font-weight: 500;
         p {
           font-size: 13px;
           line-height: 2;
         }
         .highlight {
-          font-weight: 600;
+          font-weight: 900;
         }
       }
     }
@@ -416,7 +420,7 @@
 
         .highlight {
           font-size: 15px;
-          font-weight: 600;
+          font-weight: 700;
           padding-right: 25px;
           text-align: right;
           width: 130px;
@@ -435,6 +439,7 @@
 
             a {
               font-size: 14px;
+              font-weight: 500;
               text-decoration: none;
             }
           }
@@ -453,9 +458,9 @@
               margin-right: 35px;
             }
 
-
             a {
               font-size: 13px;
+              font-weight: 500;
               text-decoration: none;
             }
           }
@@ -468,6 +473,7 @@
     background-color: #ffffff;
     border-top: 1px solid #e0e3e6;
     font-size: 12px;
+    font-weight: 500;
     padding: 32px 0;
     text-align: center;
   }
@@ -484,6 +490,7 @@
         p {
           color: #ffffff;
           font-size: 14px;
+          font-weight: 700;
           line-height: 2;
           margin: 0 auto;
           margin-bottom: 38px;
@@ -598,12 +605,13 @@
         margin-bottom: 48px;
       }
       .st-Footer_Link_Address_Wrapper {
+        font-weight: 500;
         p {
           font-size: 13px;
           line-height: 2;
         }
         .highlight {
-          font-weight: 600;
+          font-weight: 900;
         }
       }
     }
@@ -617,6 +625,7 @@
     background-color: #ffffff;
     border-top: 1px solid #e0e3e6;
     font-size: 12px;
+    font-weight: 500;
     padding: 32px 0;
     text-align: center;
   }
@@ -634,6 +643,7 @@
         p {
           color: #ffffff;
           font-size: 12px;
+          font-weight: 700;
           line-height: 1.6;
           margin: 0 auto;
           margin-bottom: 35px;
@@ -752,12 +762,13 @@
         }
       }
       .st-Footer_Link_Address_Wrapper {
+        font-weight: 500;
         p {
           font-size: 11px;
           line-height: 1.8;
         }
         .highlight {
-          font-weight: 600;
+          font-weight: 900;
         }
       }
     }
@@ -771,6 +782,7 @@
     background-color: #ffffff;
     border-top: 1px solid #e0e3e6;
     font-size: 9px;
+    font-weight: 500;
     padding: 14px 0 15px;
     text-align: center;
   }

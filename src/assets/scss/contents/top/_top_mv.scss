@@ -35,6 +35,7 @@
       #js-Bg_Img01, #js-Bg_Img02, #js-Bg_Img03 {
         position: absolute;
         top: 0;
+        left: 3%;
 
         height: 100%;
         // width: 100%;
@@ -77,6 +78,12 @@
       height: 28px;
       transform: translateX(-50%);
       width: 1px;
+
+      animation-name: top_mv_circle_bar;
+      animation-duration: 2.5s;
+      animation-delay: 5s;
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
     }
   }
 }
@@ -95,6 +102,12 @@
     border: 1px solid rgba(#ffffff, 0.4);
     height: 630px;
     width: 630px;
+
+    animation-name: top_mv_circle_border;
+    animation-duration: 2.5s;
+    animation-delay: 7.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
   }
 
   // 2番目に外側の緑線の通り道
@@ -197,6 +210,11 @@
         .top-Circle_ContentsTop {
           padding-top: 114px;
 
+          animation-delay: 6.4s;
+          animation-duration: 1s;
+          animation-fill-mode: both;
+          animation-name: nav_Fade_In;
+
           span {
             font-size: 16px;
             font-weight: 600;
@@ -212,20 +230,81 @@
 
         .top-Circle_ContentsHead {
           padding-top: 20px;
+
           h2 {
             color: $Navy;
             font-size: 60px;
             font-weight: 900;
-            letter-spacing: -1px;
+            letter-spacing: 1px;
             line-height: 1.2;
+
+            p {
+              overflow: hidden;
+
+              span {
+                animation-duration: 1s;
+                animation-fill-mode: both;
+                animation-name: top_mv_txt_fade_up;
+                position: relative;
+              }
+
+              &.top {
+                span {
+                  &:nth-child(1) {
+                    animation-delay: 6.5s;
+                  }
+                  &:nth-child(2) {
+                    animation-delay: 6.55s;
+                  }
+                  &:nth-child(3) {
+                    animation-delay: 6.6s;
+                  }
+                  &:nth-child(4) {
+                    animation-delay: 6.65s;
+                  }
+                  &:nth-child(5) {
+                    animation-delay: 6.7s;
+                  }
+                  &:nth-child(6) {
+                    animation-delay: 6.75s;
+                  }
+                  &:nth-child(7) {
+                    animation-delay: 6.8s;
+                  }
+                }
+              }
+
+              &.bottom {
+                span {
+                  &:nth-child(1) {
+                    animation-delay: 6.85s;
+                  }
+                  &:nth-child(2) {
+                    animation-delay: 6.9s;
+                  }
+                  &:nth-child(3) {
+                    animation-delay: 7s;
+                  }
+                  &:nth-child(4) {
+                    animation-delay: 7.05s;
+                  }
+                }
+              }
+            }
           }
         }
 
         .top-Circle_ContentsBottom {
-          padding-top: 17px;
+          padding-top: 20px;
+
+          animation-delay: 7.5s;
+          animation-duration: 1s;
+          animation-fill-mode: both;
+          animation-name: nav_Fade_In;
+
           p {
             color: $Navy;
-            font-weight: 600;
+            font-weight: 700;
             letter-spacing: 2px;
           }
         }
@@ -235,6 +314,12 @@
           justify-content: center;
           margin: 0 auto;
           padding-top: 72px;
+
+          animation-delay: 7.7s;
+          animation-duration: 1s;
+          animation-fill-mode: both;
+          animation-name: nav_Fade_In;
+
           span {
             background-color: #dddfe4;
             border-radius: 8px;
@@ -242,7 +327,7 @@
             font-size: 16px;
             height: 8px;
             margin: 4px;
-            transition: 1s;
+            transition: 0.3s;
             width: 8px;
 
             &.active {
@@ -465,7 +550,7 @@
               color: $Navy;
               font-size: 48px;
               font-weight: 900;
-              letter-spacing: -2px;
+              letter-spacing: 1px;
               line-height: 1.2;
             }
           }
@@ -474,7 +559,7 @@
             padding-top: 30px;
             p {
               color: $Navy;
-              font-weight: 600;
+              font-weight: 700;
               letter-spacing: 0;
             }
           }
@@ -491,7 +576,7 @@
               font-size: 16px;
               height: 8px;
               margin: 4px;
-              transition: 1s;
+              transition: 0.4s;
               width: 8px;
 
               &.active {
@@ -686,7 +771,7 @@
               color: $Navy;
               font-size: 48px;
               font-weight: 900;
-              letter-spacing: -2px;
+              letter-spacing: 1px;
               line-height: 1.2;
             }
           }
@@ -695,7 +780,7 @@
             padding-top: 30px;
             p {
               color: $Navy;
-              font-weight: 600;
+              font-weight: 700;
               letter-spacing: 0;
             }
           }
@@ -712,7 +797,7 @@
               font-size: 16px;
               height: 8px;
               margin: 4px;
-              transition: 1s;
+              transition: 0.4s;
               width: 8px;
 
               &.active {
@@ -747,7 +832,7 @@
         // background-size: cover;
         // background-repeat: no-repeat;
 
-        height: 306px;
+        height: 290px;
         // animation: slide 30s linear infinite;
 
         #js-Bg_Img01 {
@@ -765,14 +850,13 @@
           top: 0;
           left: 20px;
 
+          height: 100%;
           @include max-screen(600px) {
-            left: 0px;
+            left: 0;
           }
           @include max-screen(500px) {
             left: -70px;
           }
-
-          height: 100%;
           // width: 100%;
 
           &.show {
@@ -929,7 +1013,7 @@
               color: $Navy;
               font-size: 30px;
               font-weight: 900;
-              letter-spacing: -2px;
+              letter-spacing: 1px;
               line-height: 1.5;
             }
           }
@@ -939,7 +1023,7 @@
             p {
               color: $Navy;
               font-size: 10px;
-              font-weight: 600;
+              font-weight: 700;
               letter-spacing: 0;
             }
           }
@@ -957,7 +1041,7 @@
               font-size: 12px;
               height: 8px;
               margin: 4px;
-              transition: 1s;
+              transition: 0.4s;
               width: 8px;
 
               &.active {

@@ -23,10 +23,12 @@
   }
   .sub-Title {
     font-size: 20px;
+    font-weight: 700;
     margin-bottom: 37px;
   }
   .txt {
     font-size: 15px;
+    font-weight: 500;
     line-height: 2;
   }
 }
@@ -56,8 +58,23 @@
         font-size: 0;
         width: 584px;
 
+        .top-Project_Link_Box_Img_Wrapper {
+          position: relative;
+          &:after {
+            position: absolute;
+            top: 0;
+
+            background-color: rgba(#0e0f14, 0);
+            content: "";
+            display: block;
+            height: 100%;
+            transition: 0.8s;
+            width: 100%;
+          }
+        }
+
         img {
-          transition: 0.5s;
+          transition: 0.8s;
         }
 
 
@@ -88,32 +105,34 @@
           h4 {
             color: $Navy;
             font-size: 22px;
-            font-weight: 600;
+            font-weight: 900;
+            letter-spacing: 1px;
             margin-bottom: 16px;
           }
 
           p {
             color: $Navy;
             font-size: 14px;
+            font-weight: 500;
           }
         }
       }
     }
 
     &.top-Project_Coming_Soon {
-      background-color: #fff;
-      max-width: 584px;
-      width: 50%;
-      max-height: 535px;
+      background-color: #ffffff;
       border-radius: 8px;
       box-shadow: 2px 3.5px 4px rgba(15, 19, 45, 0.04);
+      max-height: 535px;
+      max-width: 584px;
+      width: 50%;
 
       .top-Project_Coming_Soon_Txt {
-        text-align: center;
         color: #8c909b;
         font-weight: 600;
         letter-spacing: 1px;
         padding: 40% 0 0;
+        text-align: center;
 
         .sub {
           font-size: 18px;
@@ -128,6 +147,19 @@
       .top-Project_Link_Box {
         box-shadow: 4px 4px 4px rgba(15, 19, 45, 0.1);
         .top-Project_Link_Box_Inner {
+          .top-Project_Link_Box_Img_Wrapper {
+            &:after {
+              position: absolute;
+              top: 0;
+
+              background-color: rgba(#0e0f14, 0.40);
+              content: "";
+              display: block;
+              height: 100%;
+              transition: 0.8s;
+              width: 100%;
+            }
+          }
           img {
             transform: scale(1.1);
           }
@@ -167,14 +199,16 @@
     h3 {
       font-size: 50px;
       letter-spacing: 1px;
-      margin-bottom: 0px;
+      margin-bottom: 0;
     }
     .sub-Title {
       font-size: 20px;
+      font-weight: 700;
       margin-bottom: 37px;
     }
     .txt {
       font-size: 15px;
+      font-weight: 500;
       line-height: 2;
     }
   }
@@ -200,16 +234,16 @@
         border-radius: 8px;
         box-shadow: 2px 3.5px 4px rgba(15, 19, 45, 0.04);
         overflow: hidden;
-        transition: 0.5s;
+        transition: 0.8s;
 
         .top-Project_Link_Box_Inner {
           font-size: 0;
-          width: auto;
           max-width: 584px;
+          width: auto;
 
           img {
-            transition: 0.5s;
             display: block;
+            transition: 0.8s;
             width: 100%;
           }
 
@@ -241,13 +275,14 @@
             h4 {
               color: $Navy;
               font-size: 18px;
-              font-weight: 600;
+              font-weight: 900;
               margin-bottom: 16px;
             }
 
             p {
               color: $Navy;
               font-size: 13px;
+              font-weight: 500;
             }
           }
         }
@@ -292,9 +327,9 @@
     color: #ffffff;
     margin: 0 auto;
     max-width: 100%;
-    width: 100%;
     padding: 41px 15px 45px;
     text-align: center;
+    width: 100%;
 
     h3 {
       font-size: 27px;
@@ -302,20 +337,21 @@
     }
     .sub-Title {
       font-size: 14px;
+      font-weight: 700;
       margin-bottom: 22px;
-      font-weight: 600;
     }
     .txt {
       font-size: 13px;
+      font-weight: 500;
       line-height: 1.6;
     }
   }
 
   .top-Project_Link_Wrapper {
     display: block;
+    margin-bottom: 15px;
     // justify-content: center;
     padding: 0 15px;
-    margin-bottom: 15px;
 
     a {
       text-decoration: none;
@@ -323,7 +359,7 @@
 
     .top-Project_Link_Inner {
       &:not(:last-child) {
-        margin-right: 0px;
+        margin-right: 0;
       }
 
       .top-Project_Link_Box {
@@ -331,19 +367,19 @@
 
         border-radius: 8px;
         box-shadow: 2px 3.5px 4px rgba(15, 19, 45, 0.04);
+        margin-bottom: 15px;
         overflow: hidden;
         transition: 0.5s;
-        margin-bottom: 15px;
 
 
         .top-Project_Link_Box_Inner {
           font-size: 0;
-          width: auto;
           max-width: 100%;
+          width: auto;
 
           img {
-            transition: 0.5s;
             display: block;
+            transition: 0.5s;
             width: 100%;
           }
 
@@ -367,44 +403,46 @@
               border-radius: 19px;
               color: #ffffff;
               font-size: 12px;
+              font-weight: 600;
+              letter-spacing: 1px;
               padding: 3px 0;
               transform: translatex(-50%);
               width: 110px;
-              letter-spacing: 1px;
-              font-weight: 600;
             }
 
             h4 {
               color: $Navy;
               font-size: 15px;
-              font-weight: 600;
+              font-weight: 900;
               margin-bottom: 9px;
             }
 
             p {
               color: $Navy;
               font-size: 11px;
+              font-weight: 500;
             }
           }
         }
       }
 
       &.top-Project_Coming_Soon {
-        background-color: #fff;
-        max-width: 100%;
-        width: 100%;
-        max-height: 484px;
+        position: relative;
+
+        background-color: #ffffff;
         border-radius: 8px;
         box-shadow: 2px 3.5px 4px rgba(15, 19, 45, 0.04);
-        position: relative;
+        max-height: 484px;
+        max-width: 100%;
+        width: 100%;
         z-index: 1;
 
         .top-Project_Coming_Soon_Txt {
-          text-align: center;
           color: #8c909b;
           font-weight: 600;
           letter-spacing: 1px;
           padding: 36% 0 36%;
+          text-align: center;
 
           .sub {
             font-size: 12px;
@@ -417,8 +455,8 @@
 
       &:hover {
         .top-Project_Link_Box {
+          border-radius: 0;
           box-shadow: 4px 4px 4px rgba(15, 19, 45, 0.1);
-          border-radius: 0px;
           .top-Project_Link_Box_Inner {
             img {
               transform: scale(1);
@@ -434,23 +472,11 @@
     .top-Project_Bg_Inner {
       background-color: $Bg_Off_White;
       height: 922px;
-      width: 100%;
-      padding-top: 83%;
-
-      @include max-screen(650px) {
-        height: 902px;
-      }
       @include max-screen(600px) {
         height: 850px;
       }
-      @include max-screen(550px) {
-        height: 800px;
-      }
-      @include max-screen(500px) {
-        height: 760px;
-      }
-      @include max-screen(450px) {
-        height: 760px;
+      @include max-screen(340px) {
+        height: 560px;
       }
       @include max-screen(525px) {
         height: 716px;
@@ -458,24 +484,35 @@
       @include max-screen(450px) {
         height: 672px;
       }
-      @include max-screen(400px) {
+      @include max-screen(650px) {
+        height: 902px;
+      }
+      @include max-screen(550px) {
+        height: 800px;
+      }
+      @include max-screen(320px) {
+        height: 540px;
+      }
+      @include max-screen(360px) {
+        height: 580px;
+      }
+      @include max-screen(500px) {
+        height: 760px;
+      }
+      @include max-screen(300px) {
+        height: 520px;
+      }
+      @include max-screen(450px) {
         height: 620px;
       }
       @include max-screen(380px) {
         height: 600px;
       }
-      @include max-screen(360px) {
-        height: 580px;
+      @include max-screen(400px) {
+        height: 620px;
       }
-      @include max-screen(340px) {
-        height: 560px;
-      }
-      @include max-screen(320px) {
-        height: 540px;
-      }
-      @include max-screen(300px) {
-        height: 520px;
-      }
+      padding-top: 83%;
+      width: 100%;
     }
   }
 }

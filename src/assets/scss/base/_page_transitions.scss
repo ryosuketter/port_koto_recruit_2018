@@ -1,0 +1,31 @@
+// プラグインなしでページ遷移時にフェードイン・アウトさせる方法
+// 参考：https://digipress.digi-state.com/tech/page-transition-effect-how-to/
+body {
+  &:after, &:before {
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f2f5;
+    z-index: $Z_PAGE_TRANSITION;  /* 一番手前に */
+    pointer-events: none;  /* 他の要素にアクセス可能にするためにポインターイベントは無効に */
+    transition: 0.6s ease;
+  }
+
+  &:after {
+    top: -100%;
+  }
+
+  &:before {
+    top: 100%;
+  }
+
+  &.fadeout {
+    &:after {
+      top: -50%;
+    }
+    &:before {
+      top: 50%;
+    }
+  }
+}

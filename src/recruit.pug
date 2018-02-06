@@ -9,7 +9,7 @@ append variables
   //- - var pageOgpImage= site.ogpImage
   - var pageOgpType= "website";
   //- Not modified
-  - var pageUrl= "index.html";
+  - var pageUrl= "recruit.html";
 
 block meta
   +meta('')
@@ -52,7 +52,20 @@ block content
               span.crpt KOTO CORPORATION
               span.rcrt RECRUITING 2019
             .top-Circle_ContentsHead
-              h2 インフラづくり<br>への貢献
+              h2
+                p.top
+                  span イ
+                  span ン
+                  span フ
+                  span ラ
+                  span づ
+                  span く
+                  span り
+                p.bottom
+                  span へ
+                  span の
+                  span 貢
+                  span 献
             .top-Circle_ContentsBottom
                p 建設産業用機械・車両<br class="show_SP">の総合レンタル・販売・整備企業
             .top-Circle_ContentsDots#js-Circle_Dots
@@ -71,24 +84,24 @@ block content
   //- About
   .top-About_Wrapper
     h2
-      span.wow.fadeInUp(data-wow-delay='0.7s') ABOUT
-      span.wow.fadeInUp(data-wow-delay='0.8s') KOTO<br class="show_SP">
-      span.wow.fadeInUp(data-wow-delay='0.9s') CORPORATION
+      span.wow.fadeInUp(data-wow-delay='0.2s') ABOUT
+      span.wow.fadeInUp(data-wow-delay='0.4s') KOTO<br class="show_SP">
+      span.wow.fadeInUp(data-wow-delay='0.6s') CORPORATION
     .top-About
       .top-About_Inner
         .top-About_Contents
           .top-About_Contents_InnerBg
           .top-About_Contents_Inner
-            h3.top.wow.fadeInUp(data-wow-delay='0.2s')
+            h3.top.wow.fadeInUp(data-wow-delay='0.6s')
               span.highlight 光東
               span と
               span.highlight 社会
               span との繋がり
-            p.top.wow.fadeInUp(data-wow-delay='0.3s') 光東株式会社は、建設産業用機械・車両の総合レンタル・販売・整備企業です。「社会のインフラを支える」そんな大きな志を持った仲間を求めています。
-            a.top.wow.fadeInUp(href='about/index.html',data-wow-delay='0.4s') READ MORE
+            p.top.wow.fadeInUp(data-wow-delay='0.7s') 光東株式会社は、建設産業用機械・車両の総合レンタル・販売・整備企業です。「社会のインフラを支える」そんな大きな志を持った仲間を求めています。
+            a.top.wow.fadeInUp(href='about/index.html',data-wow-delay='0.8s') READ MORE
 
       .top-About_Contents_Detail_All_Wrapper
-        .top-About_Contents_Detail_Wrapper.top.wow.fadeInUp(data-wow-delay='0.2s')
+        .top-About_Contents_Detail_Wrapper.top.wow.fadeInUp(data-wow-delay='0.9s')
           .top-About_Contents_Detail_Inner
             .top-About_Contents_Circle_Wrapper
               img.pc(src='./assets/img/top/top-about01.png', alt='生活インフラ')
@@ -98,7 +111,7 @@ block content
                 span.highlight 生活
                 span インフラ
               p 住まい、教育施設、商業施設、公共施設
-        .top-About_Contents_Detail_Wrapper.middle.wow.fadeInUp(data-wow-delay='0.3s')
+        .top-About_Contents_Detail_Wrapper.middle.wow.fadeInUp(data-wow-delay='0.9s')
           .top-About_Contents_Detail_Inner
             .top-About_Contents_Circle_Wrapper
               img.pc(src='./assets/img/top/top-about02.png', alt='産業インフラ')
@@ -108,7 +121,7 @@ block content
                 span.highlight 産業
                 span インフラ
               p オフィス、店舗、工場、研究所、物流倉庫
-        .top-About_Contents_Detail_Wrapper.bottom.wow.fadeInUp(data-wow-delay='0.4s')
+        .top-About_Contents_Detail_Wrapper.bottom.wow.fadeInUp(data-wow-delay='0.9s')
           .top-About_Contents_Detail_Inner
             .top-About_Contents_Circle_Wrapper
               img.pc(src='./assets/img/top/top-about03.png', alt='交通インフラ')
@@ -131,7 +144,8 @@ block content
           a.top-Project_Link_Inner.top.wow.fadeInUp(href='project/01.html', data-wow-delay='0.2s')
             .top-Project_Link_Box
               .top-Project_Link_Box_Inner
-                img(src='./assets/img/top/top-project_link01.png', alt='プロジェクト01')
+                .top-Project_Link_Box_Img_Wrapper
+                  img(src='./assets/img/top/top-project_link01.png', alt='プロジェクト01')
                 .top-Project_Link_Box_Txt
                   .top-Project_Link_Box_Label
                     span PROJECT 01
@@ -146,7 +160,8 @@ block content
           //- a.top-Project_Link_Inner.wow.fadeInUp(data-wow-delay='0.4s')(href='project/02.html')
           //-   .top-Project_Link_Box
           //-     .top-Project_Link_Box_Inner
-          //-       img(src='./assets/img/top/top-project_link01.png', alt='プロジェクト02')
+          //-       .top-Project_Link_Box_Img_Wrapper
+          //-         img(src='./assets/img/top/top-project_link01.png', alt='プロジェクト02')
           //-       .top-Project_Link_Box_Txt
           //-         .top-Project_Link_Box_Label
           //-           span PROJECT 02

@@ -30,8 +30,9 @@
     h3 {
       font-size: 36px;
       color: $Navy;
-      font-weight: 600;
+      font-weight: 900;
       padding-top: 13px;
+      letter-spacing: 1px;
     }
 
   }
@@ -42,6 +43,7 @@
       font-size: 15px;
       line-height: 2.2;
       letter-spacing: 1px;
+      font-weight: 700;
     }
   }
 }
@@ -84,7 +86,7 @@
       h3 {
         font-size: 32px;
         color: $Navy;
-        font-weight: 600;
+        font-weight: 900;
         padding-top: 10px;
       }
 
@@ -96,6 +98,7 @@
         font-size: 14px;
         line-height: 2;
         letter-spacing: 1px;
+        font-weight: 700;
       }
     }
   }
@@ -139,7 +142,7 @@
       h3 {
         font-size: 24px;
         color: $Navy;
-        font-weight: 600;
+        font-weight: 900;
         padding-top: 0;
       }
 
@@ -151,6 +154,7 @@
         font-size: 13px;
         line-height: 1.8;
         letter-spacing: 0.8px;
+        font-weight: 700;
       }
     }
   }

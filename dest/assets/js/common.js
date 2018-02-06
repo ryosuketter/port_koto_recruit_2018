@@ -150,3 +150,75 @@ $(function() {
     $(this).css('display', 'none');
   });
 });
+
+// TOPページにだけ、ローディングアニメーション後にheaderを下ろす用
+// SP（幅667以下）は実行しない
+// 参考：https://github.com/shikakun/tips/issues/61
+$(function() {
+  var header  = $("#js-Header"),
+  windowWidth = $(window).width();
+
+  if (windowWidth > 667) {
+
+    if(location.pathname == "/recruit.html") {
+      header.addClass('up');
+
+      header.delay(8000).queue(function() {
+        $(this).removeClass('up').dequeue();
+      });
+    };
+
+    if(location.pathname == "/") {
+      header.addClass('up');
+
+      header.delay(8000).queue(function() {
+        $(this).removeClass('up').dequeue();
+      });
+    };
+  }
+
+});
+
+// iOS safari の戻る/進むボタンと bfcache について
+// persisted という真偽値プロパティを使用してリロードなどの処理を入れる
+// 参考：https://qiita.com/kyaido/items/5cf9482146b945a4bf67
+window.onpageshow = function(event) {
+  if (event.persisted) {
+    window.location.reload();
+  }
+};
+
+// プラグインなしでページ遷移時にフェードイン・アウトさせる方法
+// 参考：https://digipress.digi-state.com/tech/page-transition-effect-how-to/
+$(function() {
+  // ハッシュリンク(#)と別ウィンドウでページを開く場合はスルー
+  $('a:not([href^="#"]):not([href^="/"]):not([href^="recruit.html"]):not([target])').on('click', function(e){
+    e.preventDefault(); // ナビゲートをキャンセル
+    url = $(this).attr('href'); // 遷移先のURLを取得
+    if (url !== '') {
+      $('body').addClass('fadeout');  // bodyに class="fadeout"を挿入
+      setTimeout(function(){
+        window.location = url;  // 0.8秒後に取得したURLに遷移
+      }, 600);
+    }
+    return false;
+  });
+});
+
+// プラグインなしでページ遷移時にフェードイン・アウトさせる方法
+// 参考：https://digipress.digi-state.com/tech/page-transition-effect-how-to/
+$(window).on('load', function(){
+  $('body').removeClass('fadeout');
+
+  $('body').delay(3000).queue(function() {
+    $('body').removeClass('fadeout').dequeue();
+  });
+});
+
+// プラグインなしでページ遷移時にフェードイン・アウトさせる方法
+// 参考：https://digipress.digi-state.com/tech/page-transition-effect-how-to/
+$(function() {
+  $('body').delay(3000).queue(function() {
+    $('body').removeClass('fadeout').dequeue();
+  });
+});

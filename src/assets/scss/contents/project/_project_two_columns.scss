@@ -29,7 +29,8 @@
 
       color: $Blue;
       font-size: 26px;
-      font-weight: 600;
+      font-weight: 900;
+      letter-spacing: 1px;
       z-index: 1;
     }
   }
@@ -92,11 +93,12 @@
         font-size: 14px;
         line-height: 2;
         padding-top: 40px;
+        font-weight: 500;
 
         .highlight {
           flex: 0 0 auto;
           width: 70px;
-          font-weight: 600;
+          font-weight: 900;
         }
       }
     }
@@ -127,6 +129,7 @@
           .project-Txt_Inner {
             .commnet {
               padding-top: 0;
+              font-weight: 500;
 
               &:not(:last-child) {
                 padding-bottom: 40px;
@@ -160,7 +163,7 @@
 
         color: $Blue;
         font-size: 26px;
-        font-weight: 600;
+        font-weight: 900;
         z-index: 1;
         text-align: center;
       }
@@ -208,6 +211,7 @@
           font-size: 14px;
           line-height: 2;
           padding-top: 0px;
+          font-weight: 500;
 
           &:not(:last-child) {
             padding-bottom: 40px;
@@ -216,7 +220,7 @@
           .highlight {
             flex: 0 0 auto;
             width: 70px;
-            font-weight: 600;
+            font-weight: 900;
           }
         }
       }
@@ -248,6 +252,7 @@
             .project-Txt_Inner {
               .commnet {
                 padding-top: 0;
+                font-weight: 500;
 
                 &:not(:last-child) {
                   padding-bottom: 40px;
@@ -281,7 +286,7 @@
 
         color: $Blue;
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 900;
         z-index: 1;
         text-align: center;
       }
@@ -328,6 +333,7 @@
           line-height: 1.8;
           padding-top: 0px;
           letter-spacing: 1px;
+          font-weight: 500;
 
           &:not(:last-child) {
             padding-bottom: 20px;
@@ -336,7 +342,7 @@
           .highlight {
             flex: 0 0 auto;
             width: 37px;
-            font-weight: 600;
+            font-weight: 900;
           }
         }
       }
@@ -370,6 +376,7 @@
               .commnet {
                 padding-top: 0;
                 letter-spacing: 1px;
+                font-weight: 500;
 
                 &:not(:last-child) {
                   padding-bottom: 20px;

@@ -23,7 +23,7 @@
     display: flex;
 
     .recruitment-Table_Left {
-      font-weight: 600;
+      font-weight: 700;
       background-color: #f0f2f5;
       padding: 32px 30px;
       width: 20%;
@@ -37,9 +37,50 @@
       padding: 32px 50px;
       width: 80%;
 
+      .spacing {
+        margin-left: -0.6em;
+      }
+
       p {
         line-height: 2;
         color: $Navy;
+
+        span {
+          &:nth-child(3){
+            margin-left: 1em;
+          }
+        }
+
+        &.junior-College {
+          span {
+            &:nth-child(2){
+              margin-left: 2em;
+            }
+          }
+        }
+        &.college, &.mid-Career {
+          span {
+            &:nth-child(2){
+              margin-left: 4em;
+            }
+          }
+        }
+        &.hschool-Graduate {
+          span {
+            &:nth-child(2){
+              margin-left: 7em;
+            }
+          }
+        }
+        &.grade-Two, &.grade-One {
+          padding-left: 1em;
+
+          span {
+            &:nth-child(2){
+              margin-left: 2.5em;
+            }
+          }
+        }
       }
 
       .recruitment-Table_Right_Inner {
@@ -83,7 +124,7 @@
       display: flex;
 
       .recruitment-Table_Left {
-        font-weight: 600;
+        font-weight: 700;
         background-color: #f0f2f5;
         padding: 32px 30px;
         width: 20%;
@@ -139,7 +180,7 @@
       display: flex;
 
       .recruitment-Table_Left {
-        font-weight: 600;
+        font-weight: 700;
         background-color: #f0f2f5;
         padding: 16px 8px;
         width: 27%;
@@ -156,6 +197,47 @@
 
           &.title {
             margin-left: -1em;
+          }
+
+          span {
+            &:nth-child(2){
+              display: none;
+            }
+            &:nth-child(3){
+              margin-left: 1em;
+              display: block;
+            }
+          }
+
+          &.junior-College {
+            span {
+              &:nth-child(2){
+                margin-left: 2em;
+              }
+            }
+          }
+          &.college, &.mid-Career {
+            span {
+              &:nth-child(2){
+                margin-left: 4em;
+              }
+            }
+          }
+          &.hschool-Graduate {
+            span {
+              &:nth-child(2){
+                margin-left: 7em;
+              }
+            }
+          }
+          &.grade-Two, &.grade-One {
+            padding-left: 1em;
+
+            span {
+              &:nth-child(2){
+                margin-left: 2.5em;
+              }
+            }
           }
         }
 

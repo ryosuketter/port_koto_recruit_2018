@@ -7,15 +7,28 @@
 }
 
 .top-Link_Box_Wrapper {
+  position: relative;
+
+  overflow: hidden;
   text-decoration: none;
   width: 50%;
-  overflow: hidden;
-
-  position: relative;
   .top-Link_Box {
-    transition: 0.5s;
+    position: relative;
 
     height: 514px;
+    transition: 0.9s;
+
+    &:after {
+      position: absolute;
+      top: 0;
+
+      background-color: rgba(#0e0f14, 0);
+      content: "";
+      display: block;
+      height: 100%;
+      transition: 0.9s;
+      width: 100%;
+    }
   }
   .top-Link_Box_Title {
     position: absolute;
@@ -33,22 +46,36 @@
 
     p {
       font-size: 16px;
+      font-weight: 500;
     }
 
     span {
       position: absolute;
-      right: 0;
       top: 50%;
-      transform: translateY(-50%);
+      right: 0;
+
       background-color: #ffffff;
       height: 1px;
-      width: 38px;
+      transform: translateY(-50%);
       transition: 0.3s;
+      width: 38px;
     }
   }
   &:hover {
     .top-Link_Box {
-      transform: scale(1.1);
+      transform: scale(1.08);
+
+      &:after {
+        position: absolute;
+        top: 0;
+
+        background-color: rgba(#0e0f14, 0.35);
+        content: "";
+        display: block;
+        height: 100%;
+        transition: 0.9s;
+        width: 100%;
+      }
     }
     .top-Link_Box_Title {
       span {
@@ -77,15 +104,14 @@
   }
 
   .top-Link_Box_Wrapper {
+    position: relative;
+
+    overflow: hidden;
     text-decoration: none;
     width: 50%;
-    overflow: hidden;
-
-    position: relative;
     .top-Link_Box {
-      transition: 0.5s;
-
       height: 400px;
+      transition: 0.5s;
     }
     .top-Link_Box_Title {
       position: absolute;
@@ -103,17 +129,19 @@
 
       p {
         font-size: 14px;
+        font-weight: 500;
       }
 
       span {
         position: absolute;
-        right: 0;
         top: 50%;
-        transform: translateY(-50%);
+        right: 0;
+
         background-color: #ffffff;
         height: 1px;
-        width: 38px;
+        transform: translateY(-50%);
         transition: 0.3s;
+        width: 38px;
       }
     }
     &:hover {
@@ -147,15 +175,14 @@
   }
 
   .top-Link_Box_Wrapper {
+    position: relative;
+
+    overflow: hidden;
     text-decoration: none;
     width: 50%;
-    overflow: hidden;
-
-    position: relative;
     .top-Link_Box {
-      transition: 0.5s;
-
       height: 188px;
+      transition: 0.5s;
     }
     .top-Link_Box_Title {
       position: absolute;
@@ -164,17 +191,18 @@
       background-color: rgba(#0c121a, 0.65);
       color: #ffffff;
       padding: 18px;
-      width: 100%;
       text-align: center;
+      width: 100%;
 
       h3 {
         font-size: 16px;
-        margin-bottom: 0px;
         letter-spacing: 1px;
+        margin-bottom: 0;
       }
 
       p {
         font-size: 10px;
+        font-weight: 500;
         letter-spacing: 2px;
       }
 

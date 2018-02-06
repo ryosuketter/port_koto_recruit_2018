@@ -104,7 +104,7 @@ gulp.task('browser-sync', function() {
   browserSync({
     server: {
       baseDir: 'dest/',
-      index: "/index.html"
+      index: "/recruit.html"
     }
   });
 });

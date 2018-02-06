@@ -78,17 +78,19 @@
 
     h3 {
       font-size: 44px;
-      font-weight: 600;
+      font-weight: 900;
       margin-bottom: 27px;
       min-width: 460px;
+      letter-spacing: 1px;
 
-      span.highlight {
-        font-weight: 600;
-      }
+      // span.highlight {
+      //   font-weight: 600;
+      // }
     }
 
     p {
       font-size: 15px;
+      font-weight: 500;
       line-height: 2.2;
       margin-bottom: 53px;
       min-width: 460px;
@@ -134,7 +136,6 @@
 
     .top-About_Contents_Circle_Wrapper {
       img {
-
         &.pc {
           display: block;
         }
@@ -151,7 +152,10 @@
 
       h4 {
         font-size: 28px;
+        font-weight: 900;
         margin-bottom: 12px;
+        letter-spacing: 1px;
+
         .highlight {
           color: $Blue;
         }
@@ -159,6 +163,7 @@
       p {
         color: $Navy;
         font-size: 14px;
+        font-weight: 500;
         letter-spacing: 1.5px;
       }
     }
@@ -238,17 +243,18 @@
 
       h3 {
         font-size: 30px;
-        font-weight: 100;
+        font-weight: 900;
         margin-bottom: 27px;
         min-width: 460px;
 
-        span.highlight {
-          font-weight: 600;
-        }
+        // span.highlight {
+        //   font-weight: 600;
+        // }
       }
 
       p {
         font-size: 16px;
+        font-weight: 500;
         line-height: 2.2;
         margin-bottom: 61px;
         min-width: 460px;
@@ -310,6 +316,7 @@
         width: 90%;
         h4 {
           font-size: 20px;
+          font-weight: 900;
           margin-bottom: 12px;
           .highlight {
             color: $Blue;
@@ -318,6 +325,7 @@
         p {
           color: $Navy;
           font-size: 14px;
+          font-weight: 500;
         }
       }
     }
@@ -389,17 +397,18 @@
 
       h3 {
         font-size: 27px;
-        font-weight: 100;
+        font-weight: 900;
         margin-bottom: 10px;
         min-width: 460px;
 
-        span.highlight {
-          font-weight: 600;
-        }
+        // span.highlight {
+        //   font-weight: 600;
+        // }
       }
 
       p {
         font-size: 16px;
+        font-weight: 500;
         line-height: 2;
         margin-bottom: 26px;
         min-width: 460px;
@@ -461,6 +470,7 @@
         width: 90%;
         h4 {
           font-size: 20px;
+          font-weight: 900;
           margin-bottom: 12px;
           .highlight {
             color: $Blue;
@@ -469,6 +479,7 @@
         p {
           color: $Navy;
           font-size: 14px;
+          font-weight: 500;
         }
       }
     }
@@ -543,17 +554,18 @@
 
       h3 {
         font-size: 24px;
-        font-weight: 600;
+        font-weight: 900;
         margin-bottom: 17px;
         min-width: auto;
 
-        span.highlight {
-          font-weight: 600;
-        }
+        // span.highlight {
+        //   font-weight: 600;
+        // }
       }
 
       p {
         font-size: 13px;
+        font-weight: 500;
         line-height: 1.7;
         margin-bottom: 30px;
         min-width: auto;
@@ -605,8 +617,8 @@
 
     .top-About_Contents_Detail_Inner {
       display: flex;
-      padding-top: 25px;
       padding-bottom: 25px;
+      padding-top: 25px;
 
       .top-About_Contents_Circle_Wrapper {
         padding-left: 20px;
@@ -626,6 +638,7 @@
         width: 90%;
         h4 {
           font-size: 18px;
+          font-weight: 900;
           margin-bottom: 8px;
           .highlight {
             color: $Blue;
@@ -634,6 +647,7 @@
         p {
           color: $Navy;
           font-size: 12px;
+          font-weight: 500;
           letter-spacing: 1px;
         }
       }

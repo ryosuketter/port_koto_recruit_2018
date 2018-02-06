@@ -70,6 +70,9 @@
         @include max-screen(1370px) {
           right: 8%;
         }
+        @include max-screen(1360px) {
+          right: 7%;
+        }
         width: 246px;
 
         .title {
@@ -79,11 +82,13 @@
         .sub-Title {
           font-size: 20px;
           margin-bottom: 35px;
+          font-weight: 700;
         }
 
         .description {
           font-size: 15px;
           line-height: 2;
+          font-weight: 500;
         }
       }
     }
@@ -191,10 +196,12 @@
           .position {
             font-size: 13px;
             line-height: 1.5;
+            font-weight: 500;
           }
           .year {
             font-size: 13px;
             line-height: 1.5;
+            font-weight: 500;
           }
         }
       }
@@ -284,11 +291,13 @@
           .sub-Title {
             font-size: 20px;
             margin-bottom: 37px;
+            font-weight: 700;
           }
 
           .description {
             font-size: 15px;
             line-height: 2;
+            font-weight: 500;
           }
         }
       }
@@ -385,10 +394,12 @@
             .position {
               font-size: 13px;
               line-height: 1.5;
+              font-weight: 500;
             }
             .year {
               font-size: 13px;
               line-height: 1.5;
+              font-weight: 500;
             }
           }
         }
@@ -479,11 +490,13 @@
           .sub-Title {
             font-size: 20px;
             margin-bottom: 37px;
+            font-weight: 700;
           }
 
           .description {
             font-size: 15px;
             line-height: 2;
+            font-weight: 500;
           }
         }
       }
@@ -579,10 +592,12 @@
             .position {
               font-size: 13px;
               line-height: 1.5;
+              font-weight: 500;
             }
             .year {
               font-size: 13px;
               line-height: 1.5;
+              font-weight: 500;
             }
           }
         }
@@ -694,11 +709,13 @@
           .sub-Title {
             font-size: 14px;
             margin-bottom: 22px;
+            font-weight: 700;
           }
 
           .description {
             font-size: 13px;
             line-height: 1.6;
+            font-weight: 500;
           }
         }
       }
@@ -798,11 +815,13 @@
               font-size: 11px;
               line-height: 1.5;
               color: #696e80;
+              font-weight: 500;
             }
             .year {
               font-size: 11px;
               line-height: 1.5;
               color: #696e80;
+              font-weight: 500;
             }
           }
         }

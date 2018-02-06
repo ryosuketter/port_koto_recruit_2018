@@ -9,10 +9,10 @@ mixin meta(path)
   //- OGP
   meta(property="og:title" content=pageOgpTitle)
   meta(property="og:type" content=pageOgpType)
-  meta(property="og:image" content="http://domain/assets/img/ogp.png")
+  meta(property="og:image" content="http://www.koto-corp.co.jp/recruit/assets/img/ogp.png")
   meta(property="og:description" content=pageDescription)
-  meta(property="og:url" content="http://domain/" + pageUrl)
-  meta(property="og:site_name" content="サイト名")
+  meta(property="og:url" content="http://www.koto-corp.co.jp/recruit/" + pageUrl)
+  meta(property="og:site_name" content="光東株式会社 採用サイト")
   meta(property="og:locale" content="ja")
   //- meta(property="og:image" content=pageOgpImage)個別に対応せず、全部同じでOKなので
 
@@ -25,7 +25,7 @@ mixin meta(path)
   meta(name="twitter:card" content="summary_large_image")
   meta(name="twitter:title" content=pageOgpTitle)
   meta(name="twitter:description" content=pageDescription)
-  meta(name="twitter:image" content="http://domain/assets/img/ogp.png")
+  meta(name="twitter:image" content="http://www.koto-corp.co.jp/recruit/assets/img/ogp.png")
   //- meta(name="twitter:site" content="@")これは任意
   //- /OGP Twitter Cards
 
@@ -43,5 +43,4 @@ mixin meta(path)
   block js
     script(src=path + "assets/js/jquery-3.2.1.min.js")
     script(src=path + "assets/js/typekit.js")
-    script(src=path + "assets/js/sp_header_nav.js")
     script(src=path + "assets/js/wow.js")

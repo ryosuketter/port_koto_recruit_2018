@@ -29,12 +29,15 @@
     // font-weight: 600;
     line-height: 1.54;
     padding-bottom: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
   }
 
   p {
     font-size: 14px;
     // font-weight: 600;
     line-height: 2.42;
+    font-weight: 500;
   }
 }
 
@@ -140,7 +143,7 @@
     h3 {
       color: $Green;
       font-size: 20px;
-      font-weight: 600;
+      font-weight: 900;
       line-height: 1.54;
       padding-bottom: 20px;
     }
@@ -149,6 +152,7 @@
       font-size: 13px;
       // font-weight: 600;
       line-height: 2;
+      font-weight: 500;
     }
   }
 
@@ -251,7 +255,7 @@
     h3 {
       color: $Green;
       font-size: 18px;
-      font-weight: 600;
+      font-weight: 900;
       line-height: 1.5;
       padding-bottom: 15px;
     }
@@ -260,6 +264,7 @@
       font-size: 13px;
       // font-weight: 600;
       line-height: 2;
+      font-weight: 500;
     }
   }
 
@@ -363,7 +368,7 @@
     h3 {
       color: $Green;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 900;
       line-height: 1.5;
       padding-bottom: 15px;
     }
@@ -372,6 +377,7 @@
       font-size: 12px;
       // font-weight: 600;
       line-height: 2;
+      font-weight: 500;
     }
   }
 
