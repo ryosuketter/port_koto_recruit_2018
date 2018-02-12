@@ -9,6 +9,7 @@
 海外のWebデザインアワード「CSS Winner」にて、STAR賞を受賞しました。
 
 CSS WINNER - STAR : KOTO CORPORATION RECRUITING 2019
+
 http://www.csswinner.com/details/koto-corporation-recruiting-2019/12327
 
 ## 期間
