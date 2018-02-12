@@ -4,6 +4,13 @@
 
 [demo](http://www.koto-corp.co.jp/recruit/recruit.html)
 
+## 受賞
+
+海外のWebデザインアワード「CSS Winner」にて、STAR賞を受賞しました。
+
+CSS WINNER - STAR : KOTO CORPORATION RECRUITING 2019
+http://www.csswinner.com/details/koto-corporation-recruiting-2019/12327
+
 ## 期間
 
 2018-01-09 〜 2018-01-25
