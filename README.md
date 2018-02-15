@@ -9,7 +9,7 @@
 海外のWebデザインアワード「CSS Winner」にて、STAR賞を受賞しました  
 [CSS WINNER - STAR](http://www.csswinner.com/details/koto-corporation-recruiting-2019/12327)
 
-海外のWebデザインアワード「CSS Design Awards」にて、Special kudos（特別賞にあたると言われています）を受賞しました  
+海外のWebデザインアワード「CSS Design Awards」にて、Special kudos（特別賞）を受賞しました  
 [CSS Design Awards - SPECIAL KUDOS 2018 FEB 15](https://www.cssdesignawards.com/sites/koto-corporation-recruiting-2019/32324)
 
 ## 期間
