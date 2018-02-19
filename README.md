@@ -12,6 +12,9 @@
 海外のWebデザインアワード「CSS Design Awards」にて、Special kudos（特別賞）を受賞しました  
 [CSS Design Awards - SPECIAL KUDOS 2018 FEB 15](https://www.cssdesignawards.com/sites/koto-corporation-recruiting-2019/32324)
 
+アジアのWebデザインアワード「DesignAwards.Asia」にて、Design Of The Day（DOTD）を受賞しました  
+[DesignAwards.Asia - Design Of The Day 2018 FEB 18](https://www.designawards.asia/ja/koto-corporation-recruiting-2019/)
+
 ## 期間
 
 2018-01-09 〜 2018-01-25
